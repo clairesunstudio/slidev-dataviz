@@ -21,13 +21,18 @@ Fall 2023 | Minghua Sun
 
 Hi! My name is Minghua |mɪŋ(h)wä| (she/her). 
 
-- 👩🏻‍💻 Senior UX Engineer and Design System Lead @ Massachusetts Digital Service
+- 👩🏻‍💻 Senior UX Designer and Design System Lead @ Massachusetts Digital Service
 - 📊 Previously Data Visualization Engineer
 - 🐈 Cat Mom
 - 💻 Resume: https://clairesunstudio.com/about
 - 📧 Email: clairesunstudio@gmail.com
 - <logos-github-octocat/> Github: @clairesunstudio
 
+<!-- Data visualization is a interdisciplinary field that draws upon concepts and techniques from various domains 
+- Statistics and Data Analysis: Understanding data patterns and relationships is fundamental to effective data visualization. Statisticians and data analysts play a crucial role in the interpretation and representation of data.
+- Graphic Design and User Interface (UI) Design: Visual aesthetics and the user experience are important in data visualization. Graphic designers and UI designers contribute to creating visually appealing and user-friendly visualizations.
+- Computer programming: Data visualization often involves programming and the development of software tools and libraries to create interactive and dynamic visualizations that's driven by data.
+-->
 ---
 
 # About This Class

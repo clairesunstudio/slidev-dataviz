@@ -1,5 +1,5 @@
 ---
-theme: default
+theme: apple-basic
 layout: intro
 ---
 
@@ -20,7 +20,7 @@ layout: intro
 - Create the first notebook!
 ## Working Session (1 hour)
 
-<!-- Students will learn what to expect from the class, and gain some basic understandings of what data visualization is and why it matters. Introduction to the tool we will be using to create dataviz and get ready to explore.  -->
+<!-- The first class is about answering some high level questions - what to expect from the class, what data visualization is and why it matters. We will be spending a good chunk of time setting up the tool we will be using to throughout the class.  -->
 
 
 ---
@@ -30,18 +30,49 @@ image: 'https://m.media-amazon.com/images/I/81ud7Ri9kFL._SY522_.jpg'
 
 # What Is Data Visualization
 
-<quote> The visual display of quantitative information</quote> 
-— Edward Tufte
+<quote v-click> The visual display of quantitative information — Edward Tufte</quote> 
+<br/>
+<br/>
+<div v-click>Common data visualizations include tables, charts, graphs, and dashboards.</div> 
+
+<!-- Quoting the title of ET's first book published . This is a very influential book in the field, it's regarded one of the cornerstone books on dataviz. This book studies the historic data visualizations, critiques dataviz published by the presses, and distills guidelines and principles of the good data graphics. He has been a professor in Political Science, Statistics, and Computer Science at Yale and Princeton. He has a science background, yet he devotes the majority of his book discussing graphical excellence. In this class, I will be frequently referencing theories and examples from his book. -->
 
 ---
 
 # Why Visualize Data
 
-Explore, analyze, and communicate patterns and insights 
+<v-clicks>
+
 - Analyze patterns and trends
-- Make data-drive/evidence-based decision
+- Make data-driven/evidence-based decision
 - Make complex data more accessible and digestible to their audience
--  Common data visualizations include tables, charts, graphs, and dashboards.
+- Explore, analyze, and communicate patterns and insights 
+
+</v-clicks>
+
+
+---
+layout: iframe
+
+# the web page source
+url: https://www.youtube.com/embed/jbkSRLYSojo?si=OIwbNKIzT1jLtOqg
+---
+
+<!-- Show, don't tell. A 4 minute video by BBC.  -->
+
+---
+layout: quote
+---
+
+Data is wildly more powerful when it is both easy to understand and engaging to the public.
+
+### More from Hans Rosling
+
+- [Hans Rosling famous Ted Talks](https://www.ted.com/speakers/hans_rosling)
+- [Gapminder interactive data explorer](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1)
+
+<!-- Hans Rosling in the video showed the audience how effective Data Visualization can be as a communication tool if done correctly. He was a Swedish physician, academic and public speaker. He was a professor of international healthand the co-founder and chairman of the Gapminder Foundation. Global trends in health and economics come to vivid life in his bubble charts.  -->
+
 ---
 
 #  Who Uses Data Visualization
@@ -54,7 +85,16 @@ Explore, analyze, and communicate patterns and insights
 - Educators
 - Marketers
 - Researchers - Academics, UX
+
+<v-click>
+
 - Everyone!
+
+</v-click>
+
+
+<!-- We live in a world that is inundated with data.   -->
+
 ---
 
 ##  Examples
@@ -70,13 +110,14 @@ layout: section
 
 # Types of Data
 
-
 ---
 layout: two-cols
 ---
 
-
 ## Qualitative
+
+<v-clicks>
+
 - Data that approximates or characterizes
 - Often obtained through interviews, surveys, focus groups, documents, etc.
 - Examples include:
@@ -84,9 +125,14 @@ layout: two-cols
   - sex (male, female, nonbinary)
   - observations (e.g., the food was salty)
 
+</v-clicks>
+
 ::right::
 
 ## Quantitative
+
+<v-clicks>
+
 - Data that is measurable and expressed as a number
 - Often gathered using metrics, tests, experiments, instruments with a ratings scale, etc.
 - Examples include: 
@@ -94,11 +140,16 @@ layout: two-cols
   - number of applicants
   - weight
 
+</v-clicks>
+
 ---
 layout: two-cols
 ---
 
 ## Discrete
+
+<v-clicks>
+
 - Data that can only take certain values
 
 Examples include:
@@ -106,9 +157,14 @@ Examples include:
   - your shoe size
   - number of people enrolled in this course
 
+</v-clicks>
+
 ::right::
 
 ## Continuous
+
+<v-clicks>
+
 - Data that can take any value and usually changes over time
 
 Examples include:
@@ -116,6 +172,7 @@ Examples include:
   - your weight
   - the time your cat wakes up each day
 
+</v-clicks>
 
 ---
 layout: section
