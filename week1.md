@@ -1,5 +1,5 @@
 ---
-theme: apple-basic
+theme: default
 layout: intro
 ---
 
@@ -94,7 +94,6 @@ layout: two-cols
   - number of applicants
   - weight
 
-
 ---
 layout: two-cols
 ---
@@ -175,4 +174,27 @@ layout: section
 
 ---
 
-# JSON
+# JSON (JavaScript Object Notation)
+
+JavaScript Object Notation - a subset of JavaScript object literal notation. It consists of key-value pairs, where keys are strings, and values can be strings, numbers, objects, arrays, booleans, or null.
+
+```json
+{ // JSON object
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+}
+```
+<v-click>
+```ts
+var person1 = { // javascript object
+  name: "John",
+  age: 30,
+  city: "New York"
+}
+```
+</v-click>
+
+<!-- JSON is a data interchange format often used for data transmission between systems and is based on a subset of JavaScript object notation. JSON is highly prevalent and often the default choice for data interchange, especially in web and API contexts. -->
+
+Other data formats: XML (eXtensible Markup Language), CSV (Comma-Separated Values), SQL (Structured Query Language), etc.
