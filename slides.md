@@ -40,33 +40,7 @@ Hi! My name is Minghua |mɪŋ(h)wä| (she/her).
 - **Applications**: Observable, and Illustrator or Figma (optional)
 - [Syllabus](https://docs.google.com/document/d/1wNakUIx7uloN2_17R4Xqoy196lmVDqsB2q54mnba8Og/edit)
 
----
 
 ---
 src: ./week1.md
 ---
-
----
-src: ./week2.md
----
-
----
-src: ./week3.md
----
-
----
-src: ./week4.md
----
-
----
-src: ./week5.md
----
-
----
-src: ./week6.md
----
-
----
-src: ./week7.md
----
-
