@@ -33,6 +33,13 @@ Hi! My name is Minghua |mɪŋ(h)wä| (she/her).
 - Graphic Design and User Interface (UI) Design: Visual aesthetics and the user experience are important in data visualization. Graphic designers and UI designers contribute to creating visually appealing and user-friendly visualizations.
 - Computer programming: Data visualization often involves programming and the development of software tools and libraries to create interactive and dynamic visualizations that's driven by data.
 -->
+
+
+---
+layout: iframe
+url: https://docs.google.com/forms/d/e/1FAIpQLSfBW7F1TOCdYSJxmmwkVPmRGX4A113UsaWh-CmfUbNdQDzDzQ/viewform?embedded=true
+---
+
 ---
 
 # About This Class
