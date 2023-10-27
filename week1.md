@@ -6,6 +6,8 @@ layout: intro
 # Week 1
 ## Introduction to Data Visualization
 10/31/2023
+
+<Credit />
 ---
 
 # Agenda
@@ -53,8 +55,6 @@ image: 'https://m.media-amazon.com/images/I/81ud7Ri9kFL._SY522_.jpg'
 
 ---
 layout: iframe
-
-# the web page source
 url: https://www.youtube.com/embed/jbkSRLYSojo?si=OIwbNKIzT1jLtOqg
 ---
 

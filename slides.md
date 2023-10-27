@@ -11,9 +11,9 @@ image: https://www.typeroom.eu/assets/original/2020/05/18/JoyDivision-UnknownPle
 
 # The Art of Data Visualization
 
-Fall 2023 | Minghua Sun
+<Credit />
 
-<!-- The "Unknown Pleasures" album cover has been widely imitated and referenced in popular culture. Its influence extends beyond the realm of music, making it a symbol of a design classic. It was a dataviz created by radio astronomer Harold Craft in 1970. The lines are data measures of radio waves emitted by a pulsar, a type of rotating neutron star. Graphic designer, Peter Saville, has turned it into this iconic cover artwork, which became one of the most recognizable and enduring album covers in the history of music -->
+<!-- Why I chose this to be the cover image? You might recognize this as a piece of art and design - the album cover of the "Unknown Pleasures" by Joy Division. It has been widely imitated and referenced in pop culture and fashion. But it's actually driven by scientic data. It was a dataviz created by radio astronomer Harold Craft in 1970. The lines are data measures of radio waves emitted by a pulsar, a type of rotating neutron star. Because it was popularized by the design of the albumn cover, some people call this type of chart "joyplot". Graphic designer, Peter Saville, has turned it into a pop art icon. I think this is a great symbol of Data visualization - an interdisciplinary field between art and science and a statement: data can be beautiful. -->
 
 ---
 
@@ -24,6 +24,7 @@ Hi! My name is Minghua |mɪŋ(h)wä| (she/her).
 - 👩🏻‍💻 Senior UX Designer and Design System Lead @ Massachusetts Digital Service
 - 📊 Previously Data Visualization Engineer
 - 🐈 Cat Mom
+- 🎓 Applied Math and Graphic Design & Dynamic Media @ Massart
 - 💻 Resume: https://clairesunstudio.com/about
 - 📧 Email: clairesunstudio@gmail.com
 - <logos-github-octocat/> Github: @clairesunstudio
