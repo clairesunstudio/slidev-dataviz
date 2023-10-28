@@ -31,7 +31,9 @@ Hi! My name is Minghua |mɪŋ(h)wä| (she/her).
 
 <!-- Previous title - I built several interactive data reports and data stories for the public to help present data made available by different state departments. I will draw on some examples from the dataviz that I built throughout the course. 
 
-Data visualization is a cross-disciplinary field that draws upon concepts and techniques from various domains - it combines scientific rigor, design thinking and good eye for design to create something that's efficient, accurate, impactful, visually appealing and user-friendly. Some of you might have background in statistics, design, computer programming, and this is a subject that requires us to become a little more all-rounded; and for some of you that don't have these backgrounds, hopefull this will introduce you into dataviz or the related fields. 
+Data visualization is a cross-disciplinary field that draws upon concepts and techniques from various domains - it combines scientific rigor, design thinking and good eye for design to create something that's accurate, informative, impactful, visually appealing and user-friendly. Some of you might have background in statistics, design, computer programming, and this is a subject that requires us to become a little more all-rounded; and for some of you that don't have these backgrounds, hopefull this will introduce you into dataviz or the related fields. 
+
+Quick round of introduction. I collected some information from all of you, thank you for filling it out before class. We will go back to it later.
 -->
 
 ---
