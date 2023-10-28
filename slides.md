@@ -26,15 +26,13 @@ Hi! My name is Minghua |mɪŋ(h)wä| (she/her).
 - 🐈 Cat Mom
 - 🎓 Applied Math and Graphic Design & Dynamic Media @ Massart
 - 💻 Resume: https://clairesunstudio.com/about
-- 📧 Email: clairesunstudio@gmail.com
+- 📧 Email: msun2517@massart.edu
 - <logos-github-octocat/> Github: @clairesunstudio
 
-<!-- Data visualization is a interdisciplinary field that draws upon concepts and techniques from various domains 
-- Statistics and Data Analysis: Understanding data patterns and relationships is fundamental to effective data visualization. Statisticians and data analysts play a crucial role in the interpretation and representation of data.
-- Graphic Design and User Interface (UI) Design: Visual aesthetics and the user experience are important in data visualization. Graphic designers and UI designers contribute to creating visually appealing and user-friendly visualizations.
-- Computer programming: Data visualization often involves programming and the development of software tools and libraries to create interactive and dynamic visualizations that's driven by data.
--->
+<!-- Previous title - I built several interactive data reports and data stories for the public to help present data by made available by different state departments. I will draw on some examples from the dataviz that I built throughout the course. 
 
+Data visualization is a cross-disciplinary field that draws upon concepts and techniques from various domains - it combines scientific rigor, design thinking and good eye for design to create something that's efficient, accurate, impactful, visually appealing and user-friendly. Some of you might have background in statistics, design, computer programming, and this is a subject that requires us to become a little more all-rounded; and for some of you that don't have these backgrounds, hopefull this will introduce you into this or the related field. 
+-->
 
 ---
 layout: iframe
@@ -53,6 +51,7 @@ url: https://docs.google.com/forms/d/e/1FAIpQLSfBW7F1TOCdYSJxmmwkVPmRGX4A113UsaW
 - **Applications**: Observable, and Illustrator or Figma (optional)
 - [Syllabus](https://docs.google.com/document/d/1wNakUIx7uloN2_17R4Xqoy196lmVDqsB2q54mnba8Og/edit)
 
+<!-- Please note that the syllabus is a living doc, I will make adjustments to it based on our pace and to accommodate your needs and interests. -->
 
 ---
 src: ./week1.md
