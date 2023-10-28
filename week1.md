@@ -22,7 +22,7 @@ layout: intro
 - Create the first notebook!
 ## Working Session (1 hour)
 
-<!-- The first class is about answering some high level questions - what to expect from the class, what data visualization is and why it matters. We will be spending a good chunk of time setting up the tool we will be using to throughout the class.  -->
+<!-- The first class is about answering some big picture questions - what to expect from the class, what data visualization is and why it matters. We will be spending a good chunk of time setting up the tool we will be using throughout the class.  -->
 
 
 ---
@@ -37,7 +37,7 @@ image: 'https://m.media-amazon.com/images/I/81ud7Ri9kFL._SY522_.jpg'
 <br/>
 <div v-click>Common data visualizations include tables, charts, graphs, and dashboards.</div> 
 
-<!-- Quoting the title of ET's first book published . This is a very influential book in the field, it's regarded one of the cornerstone books on dataviz. This book studies the historic data visualizations, critiques dataviz published by the presses, and distills guidelines and principles of the good data graphics. He has been a professor in Political Science, Statistics, and Computer Science at Yale and Princeton. He has a science background, yet he devotes the majority of his book discussing graphical excellence. In this class, I will be frequently referencing theories and examples from his book. -->
+<!-- Quoting the title of ET's first published book on dataviz. This is a very influential book in the field, it's regarded one of the cornerstone books on dataviz. This book studies the historic data visualizations, critiques dataviz published by the press, and distills guidelines and principles of making good data graphics. ET's background was in Political Science, Statistics, and Computer Science and he taught at Yale and Princeton. He has a science background, yet he devotes the majority of his book discussing graphical excellence. This is also why this book is so interesting, his emphasis on a high design standard on something was not a popular problem in the design community before. He said design is not about decoration, the fact that it looks good is not a luxuary it's a necessity, it helps the perception of the data. In this class, I will be frequently referencing the theories and examples from his book. -->
 
 ---
 
