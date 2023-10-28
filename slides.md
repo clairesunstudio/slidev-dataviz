@@ -51,7 +51,7 @@ url: https://docs.google.com/forms/d/e/1FAIpQLSfBW7F1TOCdYSJxmmwkVPmRGX4A113UsaW
 - **Applications**: Observable, and Illustrator or Figma (optional)
 - [Syllabus](https://docs.google.com/document/d/1wNakUIx7uloN2_17R4Xqoy196lmVDqsB2q54mnba8Og/edit)
 
-<!-- Please note that the syllabus is a living doc, I will make adjustments to it based on our pace and to accommodate your needs and interests. -->
+<!-- Please note that the syllabus is a living doc, I will make adjustments as we go based on our pace and our needs. -->
 
 ---
 src: ./week1.md
