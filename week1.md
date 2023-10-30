@@ -40,18 +40,20 @@ image: 'https://m.media-amazon.com/images/I/81ud7Ri9kFL._SY522_.jpg'
 <!-- Quoting the title of ET's first published book on dataviz. This is a very influential book in the field, it's regarded one of the cornerstone books on dataviz. This book studies the historic data visualizations, critiques dataviz published by the press, and distills guidelines and principles of making good data graphics. ET's background was in Political Science, Statistics, and Computer Science and he taught at Yale and Princeton. He has a science background, yet he devotes the majority of his book discussing graphical excellence. This is also why this book is so interesting, his emphasis on a high design standard on something was not a popular problem in the design community before. He said design is not about decoration, the fact that it looks good is not a luxuary it's a necessity, it helps the perception of the data. In this class, I will be frequently referencing the theories and examples from his book. -->
 
 ---
+layout: section
+---
 
-# Why Visualize Data
+## Why Visualize Data
 
 <v-clicks>
 
-- Discover and analyze patterns and trends
-- Make data-driven/evidence-based decision
+- Reveal patterns and trends
+- Empower data-driven/evidence-based decision
 - Make complex data more accessible and digestible to their audience
-- Explore, analyze, and communicate patterns and insights 
 
 </v-clicks>
 
+<!-- Make data more understandable to a broader audience. Empower individuals and communities with data, helping them make informed decisions and advocate for change. -->
 
 ---
 layout: iframe
@@ -64,14 +66,13 @@ url: https://www.youtube.com/embed/jbkSRLYSojo?si=OIwbNKIzT1jLtOqg
 layout: quote
 ---
 
-"Data is wildly more powerful when it is both easy to understand and engaging to the public."
 
 ### More from Hans Rosling
 
 - [Hans Rosling famous Ted Talks](https://www.ted.com/speakers/hans_rosling)
 - [Gapminder interactive data explorer](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1)
 
-<!-- Hans Rosling in the video showed the audience how effective Data Visualization can be as a communication tool if done correctly. He was a Swedish physician, academic and public speaker. He was a professor of international healthand the co-founder and chairman of the Gapminder Foundation. Global trends in health and economics come to vivid life in his bubble charts.  -->
+<!-- Data is wildly more powerful when it is both easy to understand and engaging to the public. In this video, Hans Rosling showed the audience how effective Data Visualization can be as a communication tool if done correctly. He was a Swedish physician, academic and public speaker. He's famous for his Tedtalks on global trends in health and economics and his animated bubble charts. He co-founded the Gapminder Foundation - an NGO that use data and visualizations to provide information on social-economic and environmental trends and promotes sustainable global development. -->
 
 ---
 
@@ -93,6 +94,24 @@ layout: quote
 
 </v-click>
 
+We live in a world that is inundated with data. We are data citizens. The ability to refine, process and analyze data shapes our understanding of the world. 
+
+---
+layout: fact
+---
+
+## [Visualizing the Israel-Hamas war (CNN)](https://www.cnn.com/2023/10/10/world/map-israel-hamas-war-dg/index.html)
+<small>Across the Middle East, Gaza is among the smallest and most densely-packed cities.</small>
+
+![Gaza population density](/images/week1/gaza-population-density.png)
+
+<small><a href="http://www.demographia.com/db-worldua.pdf">Source: Demographia World Urban Areas, 2023</a></small>
+
+<!-- 
+As airstrikes in Gaza have forced hundreds of thousands of people to flee their homes and overwhelm areas, including hospitals, there is little room to go.
+Visuals are more memorable than text alone. People tend to retain information presented visually for a longer time.
+Imagine you are looking at the raw data, or just a table of these data points. You are not likely to recall the numbers of people per sqare mile across these cities, but the visual will have a long-lasting effect on your brain. 
+-->
 
 ---
 layout: fact
@@ -102,10 +121,26 @@ layout: fact
 
 — W. Edwards Deming
 
-<!-- William Edwards Deming was an American business theorist, composer, economist, industrial engineer, management consultant, statistician, and writer. -->
 
 ---
 layout: fact
+---
+
+## [The Massachusetts Opioid Epidemic](https://chapter55.digital.mass.gov/)
+
+| | |
+| -------- | ------- |
+| ![Chapter55 line chart](/images/week1/chapter55-MA-vs-USA.png)  | ![Chapter55 pictogram](/images/week1/chapter55-prescription-decline.gif)    |
+
+
+<!-- 
+Chapter 55 Data Report (>100 pages, technical, scientific report)
+Chapter 55 Data Story (accessible reading level, multimedia, interactive, creative process)
+Why data story —> our goal is data to information into insights 
+-->
+
+---
+layout: center
 ---
 
 <img src="/images/week1/data-value-relationship.png"/>
@@ -113,10 +148,67 @@ layout: fact
 > Source: Dave Campbell’s model of information refinement. Infographics: The Power of Visual Storytelling by Ross Crooks, Josh Ritchie, Jason Lankow
 
 <!-- 
-
-We live in a world that is inundated with data. The ability to refine, process and analyze data shapes our understanding of the world. Data visualization is the tool that transforms data into information and insights. 
+Data visualization is the tool that transforms data into information and insights. 
 -->
 
+---
+layout: fact
+---
+
+## [Front Row to Fashion Week (NYT)](https://www.nytimes.com/newsgraphics/2014/02/14/fashion-week-editors-picks/index.html)
+
+![Frontrow Fashion](/images/week1/frontrow-fashion.gif)
+![Frontrow Fashion Fingerprints](/images/week1/frontrow-fashion-fingerprints.png)
+
+<!-- 
+Of the hundreds of fall 2014 collections shown during New York Fashion Week, here are the ones that left the biggest impressions on fashion editors as they headed off to the next round of shows, in London, Milan and Paris.
+
+Color is an important part of the ideas and trends that emerge during Fashion Week. Each look is broken into a minimal stack of color bars, then combined to abstract the collection’s hues.
+-->
+
+---
+layout: quote
+---
+
+### More from Mike Bostock
+
+- [NYT Dataviz work by Mike Bostock](https://www.nytimes.com/by/mike-bostock)
+- [Mike Bostock Generative Art on Observable](https://observablehq.com/@mbostock/altered-world)
+
+<!-- 
+Michael Bostock is an American computer scientist and data visualization specialist. He is one of the co-creators of Observable and a key developer of D3.js, a JavaScript library used to produce dynamic, interactive data visualizations for web browsers. A lot of the Javascript based dataviz libraries are based upon D3.
+-->
+
+---
+layout: iframe
+url: https://www.youtube.com/embed/ystkKXzt9Wk?si=5VtC6-GkTAUT1VyC
+---
+
+<!-- Paths of air traffic over North America visualized in color and form - Aaron Koblin - FAA data was parsed and plotted using the Processing programming. 
+
+Aaron created and led the Data Arts Team at Google from 2008-2015. Aaron has received numerous awards including the Smithsonian Cooper-Hewitt National Design Award for Interaction Design and the National Science Foundation’s award for science visualization. He received an Emmy in 2014, and two of his music video collaborations have been Grammy nominated. In 2010 Aaron was the Abramowitz Artist in Residence at MIT. He received his MFA in Design|Media Arts from UCLA. His work is part of the permanent collection of the Museum of Modern Art (MoMA) in New York, the Victoria & Albert Museum (V&A) in London, and the Centre Pompidou in Paris. His projects have been shown at international festivals including TED, Sundance, Tribeca Film Festival, Ars Electronica, SIGGRAPH, the Japan Media Arts Festival, and more.-->
+
+
+---
+layout: quote
+---
+
+### More from Aaron Koblin
+
+- [Aaron Koblin: Artfully visualizing our humanity](https://www.youtube.com/watch?v=4v4XxlfVk3o)
+- [Aaron Koblin projects](http://www.aaronkoblin.com/)
+
+<!-- Artist, designer, programmer, and entrepreneur specializing in data and digital technologies.
+He talked about the flight data art and data art he created using crowd-sourced data. Very interesting if you are into a data arts and humanizing d
+
+Aaron created and led the Data Arts Team at Google from 2008-2015. Aaron has received numerous awards including the Smithsonian Cooper-Hewitt National Design Award for Interaction Design and the National Science Foundation’s award for science visualization. He received an Emmy in 2014, and two of his music video collaborations have been Grammy nominated. In 2010 Aaron was the Abramowitz Artist in Residence at MIT. He received his MFA in Design|Media Arts from UCLA. His work is part of the permanent collection of the Museum of Modern Art (MoMA) in New York, the Victoria & Albert Museum (V&A) in London, and the Centre Pompidou in Paris. His projects have been shown at international festivals including TED, Sundance, Tribeca Film Festival, Ars Electronica, SIGGRAPH, the Japan Media Arts Festival, and more. -->
+
+
+---
+layout: quote
+---
+
+https://observablehq.com/collection/@observablehq/generative-art
 
 ---
 layout: fact
@@ -128,23 +220,16 @@ layout: fact
 
 
 ---
+layout: fact
+---
 
-##  Examples
+"We are dealing with data systems that are larger than anything that humans have ever built or experienced before."
 
-- [538 projects (ABC news)](https://projects.fivethirtyeight.com/)
-- [CNN Visualizing the Israel-Hamas war](https://www.cnn.com/2023/10/10/world/map-israel-hamas-war-dg/index.html)
-- [The opioid epidemic](https://chapter55.digital.mass.gov/) 
-- [Mike Bostock @ NYT](https://www.nytimes.com/by/mike-bostock) 
-- Barbie vs Oppenheimer
+— Jer Thorp
 
-<!-- 
-Michael Bostock is an American computer scientist and data visualization specialist. He is one of the co-creators of Observable and a key developer of D3.js, a JavaScript library used to produce dynamic, interactive data visualizations for web browsers. 
-
-Chapter 55 Data Report (>100 pages, technical, scientific, automation)
-Chapter 55 Data Story (accessible reading level, multimedia, interactive, creative process)
-Why data story —> our goal is data to information into insights -->
 
 ---
+
 
 # Data Analysis
 <br/>
