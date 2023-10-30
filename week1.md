@@ -205,31 +205,29 @@ Aaron created and led the Data Arts Team at Google from 2008-2015. Aaron has rec
 
 
 ---
-layout: quote
----
-
-https://observablehq.com/collection/@observablehq/generative-art
-
----
 layout: fact
 ---
 
-"The ability to take data—to be able to understand it, to process it, to extract value from it, to visualize it, to communicate it—that’s going to be a hugely important skill in the next decades."
-
-— Google’s Chief Economist Dr. Hal R.Varian
-
-
----
-layout: fact
----
 
 "We are dealing with data systems that are larger than anything that humans have ever built or experienced before."
 
-— Jer Thorp
+— Jer Thorp, Data Artist
 
+<v-click>
+
+"The ability to take data—to be able to understand it, to process it, to extract value from it, to visualize it, to communicate it—that’s going to be a hugely important skill in the next decades."
+
+— Dr. Hal R.Varian, Google’s Chief Economist 
+
+</v-click>
 
 ---
+layout: fact
+---
 
+## How? 
+
+---
 
 # Data Analysis
 <br/>
@@ -251,9 +249,14 @@ layout: fact
 flowchart TD
 subgraph ZA[" "]
 direction LR
+  Z0[Define Objectives and Audience] --> Z1[Data Collection] --> Z0
+end
+
+subgraph ZB[" "]
+direction LR
   B[Choose DataViz Type] --> C[Apply Design Principles] --> D[Testing] --> E[Refine and Iterate] --> D
 end
-Z0[Define Objectives and Audience] --> Z1[Data Collection] --> Z2[Data Preprocessing] --> Z3[Exploratory Analysis] --> ZA --> Z4[Create Explanatory Data Visualization]
+ ZA--> Z2[Data Preprocessing] --> Z3[Exploratory Analysis] --> ZB --> Z4[Create Explanatory Data Visualization]
 
 ```
 
@@ -479,21 +482,29 @@ layout: section
 - [Set up an account](https://observablehq.com/)
 - [My First Notebook](https://observablehq.com/d/425164bd033d021d)
 - [Markdown Cheatsheet](https://observablehq.com/d/5fad9ce5a1234c52)
+- [Javascript Data Basics](https://observablehq.com/d/2dc5f3fdd2d0c5c5)
 
 
 <!-- - All-in-one-place: code, data and visualization, running environment
 - Open-source: Leverage common coding languages and open-source libraries, most flexible, always have access to your creations, works are transparent, free
 
-- Notebook: web-based interactive canvases where you can combine data, code, and interaction
+- Notebook: web-based interactive canvases where you can remix data, code, and interaction
 - Cell: content blocks - add content in **Markdown**, **JavaScript**, SQL, or HTML. -->
 
 
 ---
 
-# Javascript
+## Mentioned Resources:
 
-- [Javascript Data Basics](https://observablehq.com/d/2dc5f3fdd2d0c5c5)
-
+- [Hans Rosling famous Ted Talks](https://www.ted.com/speakers/hans_rosling)
+- [Gapminder interactive data explorer](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1)
+- [Visualizing the Israel-Hamas war (CNN)](https://www.cnn.com/2023/10/10/world/map-israel-hamas-war-dg/index.html)
+- [The Massachusetts Opioid Epidemic](https://chapter55.digital.mass.gov/)
+- [Front Row to Fashion Week (NYT)](https://www.nytimes.com/newsgraphics/2014/02/14/fashion-week-editors-picks/index.html)
+- [NYT Dataviz work by Mike Bostock](https://www.nytimes.com/by/mike-bostock)
+- [Mike Bostock Generative Art on Observable](https://observablehq.com/@mbostock/altered-world)
+- [Aaron Koblin: Artfully visualizing our humanity](https://www.youtube.com/watch?v=4v4XxlfVk3o)
+- [Aaron Koblin projects](http://www.aaronkoblin.com/)
 
 ---
 
