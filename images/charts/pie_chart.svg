@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="130" height="130" viewBox="0 0 130 130" enable-background="new 0 0 130 130" xml:space="preserve">
+<g>
+	<circle fill="#2980DE" cx="65" cy="65" r="64"/>
+	<g>
+		<circle fill="#FFFFFF" cx="65" cy="63.804" r="37.772"/>
+		<line fill="none" stroke="#2980DE" stroke-width="4" stroke-linecap="round" x1="64.232" y1="66.1" x2="64.232" y2="21.311"/>
+		<line fill="none" stroke="#2980DE" stroke-width="4" stroke-linecap="round" x1="64.232" y1="66.1" x2="94.665" y2="96.535"/>
+		<line fill="none" stroke="#2980DE" stroke-width="4" stroke-linecap="round" x1="64.232" y1="66.1" x2="89.882" y2="32.03"/>
+	</g>
+</g>
+</svg>

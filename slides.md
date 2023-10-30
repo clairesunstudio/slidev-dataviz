@@ -1,20 +1,9 @@
 ---
 theme: apple-basic
-layout: intro-image-right
 fonts:
   sans: 'Noto Sans'
   serif: 'Roboto Slab'
   mono: 'Noto Mono'
-image: https://www.typeroom.eu/assets/original/2020/05/18/JoyDivision-UnknownPleasures-B1.jpg
----
-
-
-# The Art of Data Visualization
-
-<Credit />
-
-<!-- You might recognize this as a piece of art and design - the album cover of the "Unknown Pleasures" by Joy Division. It has been widely imitated and referenced in pop culture and fashion. But it's actually driven by scientic data. It was a dataviz created by radio astronomer Harold Craft in 1970. The lines are data measures of radio waves emitted by a pulsar, a type of rotating neutron star. Because it was popularized by the design of the albumn cover, some people call this type of chart "joyplot". Graphic designer, Peter Saville, has turned it into a pop art icon. I chose this to be the cover image for this class because I think this is a great symbol of Data visualization - an interdisciplinary field between art and science and a statement that data can be beautiful. -->
-
 ---
 
 # About Me
@@ -32,9 +21,18 @@ Hi! My name is Minghua |mɪŋ(h)wä| (she/her).
 <!-- Previous title - I built several interactive data reports and data stories for the public to help present data made available by different state departments. I will draw on some examples from the dataviz that I built throughout the course. 
 
 Data visualization is a cross-disciplinary field that draws upon concepts and techniques from various domains - it combines scientific rigor, design thinking and good eye for design to create something that's accurate, informative, impactful, visually appealing and user-friendly. Some of you might have background in statistics, design, computer programming, and this is a subject that requires us to become a little more all-rounded; and for some of you that don't have these backgrounds, hopefull this will introduce you into dataviz or the related fields. 
-
-Quick round of introduction. I collected some information from all of you, thank you for filling it out before class. We will go back to it later.
 -->
+
+---
+layout: intro-image-right
+image: https://www.typeroom.eu/assets/original/2020/05/18/JoyDivision-UnknownPleasures-B1.jpg
+---
+
+# The Art of Data Visualization
+
+<Credit />
+
+<!-- You might recognize this as a piece of art and design - the album cover of the "Unknown Pleasures" by Joy Division. It has been widely imitated and referenced in pop culture and fashion. But it's actually driven by scientic data. It was a dataviz created by radio astronomer Harold Craft in 1970. The lines are data measures of radio waves emitted by a pulsar, a type of rotating neutron star. Because it was popularized by the design of the albumn cover, some people call this type of chart "joyplot". Graphic designer, Peter Saville, has turned it into a pop art icon. I chose this to be the cover image for this class because I think this is a great symbol of Data visualization - an interdisciplinary field between art and science and that data can be beautiful. -->
 
 ---
 

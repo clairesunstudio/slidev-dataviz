@@ -58,7 +58,7 @@ layout: iframe
 url: https://www.youtube.com/embed/jbkSRLYSojo?si=OIwbNKIzT1jLtOqg
 ---
 
-<!-- Show, don't tell. A 4 minute video by BBC.  -->
+<!-- In the spirit of show, don't tell. A 4 minute video by BBC.  -->
 
 ---
 layout: quote
@@ -85,6 +85,7 @@ layout: quote
 - Educators
 - Marketers
 - Researchers - Academics, UX
+- Artists
 
 <v-click>
 
@@ -227,7 +228,7 @@ layout: two-cols
 
 <v-clicks>
 
-- Category data with no inherent order or ranking
+- Categories with no inherent order or ranking
 
 Examples include:
 - Types of fruits (e.g., apples, bananas, oranges).
@@ -241,11 +242,9 @@ Examples include:
 
 ## Ordinal
 
-- Category data with a meaningful order or ranking
-
 <v-clicks>
 
-- Data that can take any value and usually changes over time
+- Categories with a meaningful order or ranking
 
 Examples include:
 - Education levels (e.g., high school, bachelor's, master's).
@@ -269,11 +268,10 @@ layout: two-cols
 
 <v-clicks>
 
-- Data that can only take certain values
+- Distinct values or categories that can be counted and enumerated
 
 Examples include:
-  - the cost of a BMW 7-series
-  - your shoe size
+  - shoe sizes
   - number of people enrolled in this course
 
 </v-clicks>
@@ -284,14 +282,35 @@ Examples include:
 
 <v-clicks>
 
-- Data that can take any value and usually changes over time
+- Measurements that can take on any value within a given range. It can be divided into smaller and smaller units without limit
 
 Examples include:
   - the speed of a car during the morning commute
-  - your weight
-  - the time your cat wakes up each day
+  - Time intervals
+  - Temperature
+  - Weight and Height
 
 </v-clicks>
+
+
+---
+layout: fact
+---
+
+<img src="/images/week1/data-types.png" height="600"/>
+
+<!-- Data Types Recap -->
+
+
+---
+layout: fact
+---
+
+<img src="/images/week1/data-types-with-dataviz.png" height="600"/>
+
+<!-- Data Types Recap DataViz-->
+
+
 
 ---
 layout: section
@@ -304,46 +323,24 @@ Structured data is organized and formatted in a way that is easily understandabl
 ---
 layout: section
 ---
-# Exercise 
-[survey responses](https://docs.google.com/forms/d/1DPSLJ9Kq6GbVBsQkyhqxri6x0v4otgaXg1CdhFfHWL8/edit#responses)
 
-<!-- 
-Pie Charts are ideal for giving the reader a quick idea of the proportional distribution of the data.
+## Unstructured
 
-Bar Chart uses either horizontal or vertical bars (column chart) to show discrete, numerical comparisons across categories. 
- -->
+John is 30 years old and he lives in New York.
 
----
-layout: section
----
+## Structured
 
-# Demo
+```json
+{ // JSON object
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+}
+```
 
----
+<!-- JSON is a data interchange format often used for data transmission between systems and is based on a subset of JavaScript object notation. JSON is highly prevalent and often the default choice for data interchange, especially in web and API contexts. -->
 
-# Observable
-- All-in-one-place: code, data and visualization, running environment
-- Open-source: Leverage common coding languages and open-source libraries, most flexible, always have access to your creations, works are transparent, free
-
-- Notebook: web-based interactive canvases where you can combine data, code, and interaction
-- Cell: content blocks - add content in **Markdown**, **JavaScript**, SQL, or HTML.
-
-[Set up an account](https://observablehq.com/)
-
----
-
-# Markdown
-
-- [My First Notebook](https://observablehq.com/d/425164bd033d021d)
-- [Markdown Cheatsheet](https://observablehq.com/d/5fad9ce5a1234c52)
-
-
----
-
-# Javascript
-
-- [Javascript Data Basics](https://observablehq.com/d/2dc5f3fdd2d0c5c5)
-
+Other data formats: XML (eXtensible Markup Language), CSV (Comma-Separated Values), SQL (Structured Query Language), etc.
 
 ---
 
@@ -368,6 +365,50 @@ var person1 = { // javascript object
 ```
 </v-click>
 
-<!-- JSON is a data interchange format often used for data transmission between systems and is based on a subset of JavaScript object notation. JSON is highly prevalent and often the default choice for data interchange, especially in web and API contexts. -->
+<!-- JSON is based on a subset of JavaScript object notation.  -->
 
-Other data formats: XML (eXtensible Markup Language), CSV (Comma-Separated Values), SQL (Structured Query Language), etc.
+---
+layout: section
+---
+# Exercise 
+[survey responses](https://docs.google.com/forms/d/1DPSLJ9Kq6GbVBsQkyhqxri6x0v4otgaXg1CdhFfHWL8/edit#responses)
+
+<!-- 
+Pie Charts are ideal for giving the reader a quick idea of the proportional distribution of the data.
+
+Bar Chart uses either horizontal or vertical bars (column chart) to show discrete, numerical comparisons across categories. 
+ -->
+
+---
+layout: section
+---
+
+# Demo
+
+---
+layout: section
+---
+
+## Observable
+
+- [Set up an account](https://observablehq.com/)
+- [My First Notebook](https://observablehq.com/d/425164bd033d021d)
+- [Markdown Cheatsheet](https://observablehq.com/d/5fad9ce5a1234c52)
+
+
+<!-- - All-in-one-place: code, data and visualization, running environment
+- Open-source: Leverage common coding languages and open-source libraries, most flexible, always have access to your creations, works are transparent, free
+
+- Notebook: web-based interactive canvases where you can combine data, code, and interaction
+- Cell: content blocks - add content in **Markdown**, **JavaScript**, SQL, or HTML. -->
+
+
+---
+
+# Javascript
+
+- [Javascript Data Basics](https://observablehq.com/d/2dc5f3fdd2d0c5c5)
+
+
+---
+
