@@ -20,7 +20,7 @@ layout: intro
 - Observable account setup
 - Observable basics
 - Create the first notebook!
-## Working Session (45 min)
+## Working Session (30 min)
 
 <!-- Today is about answering some big picture questions - what to expect from the class, what data visualization is and why it matters. We will be spending a good chuck of time setting up the tool we will be using throughout the course. -->
 
@@ -87,13 +87,8 @@ layout: quote
 - Researchers - Academics, UX
 - Data Artists
 
-<v-click>
 
-- Everyone!
-
-</v-click>
-
-<!-- We are all data citizens - we all are actively engage with the data-driven world we live in. A good degree of data literacy can shape our understanding and help us make sense of the world. -->
+<!-- We are all data citizens - we all are actively engage with the data-driven world we live in. A good degree of data literacy can shape our understanding world and get closer to the truth. -->
 
 ---
 layout: fact
@@ -129,7 +124,25 @@ Data journalism has become increasingly important in an era of big data. It not 
 layout: fact
 ---
 
+
 ## [The Massachusetts Opioid Epidemic](https://chapter55.digital.mass.gov/)
+![Chapter55 line chart](/images/week1/chapter55-maps.gif) 
+
+<!-- 
+
+part of a multi-faceted effort to combat the epidemic, chapter 55 was signed into law that permitted the analysis of different government datasets to guide policy decisions and to better understand the opioid epidemic in MA. This groundbreaking data sharing and analysis effort involved 29 groups from government, higher education, and the private sector provided information and expertise.
+
+Chapter 55 Data Report (>100 pages, technical, scientific report)
+Chapter 55 Data Story (accessible reading level, multimedia, interactive, creative process)
+translate complex data into visuals that everyone can understand
+Why data story —> our goal is transform data to information into insights 
+You are adding power to data when it is both easy to understand and engaging to the public. 
+-->
+
+---
+layout: fact
+---
+
 
 | | |
 | -------- | ------- |
@@ -137,22 +150,13 @@ layout: fact
 
 
 <!-- 
-Chapter 55 Data Report (>100 pages, technical, scientific report)
-Chapter 55 Data Story (accessible reading level, multimedia, interactive, creative process)
+summary dataviz - simple but impactful.
+
+More than two-thirds of people who died from an opioid-related overdose had a legal opioid prescription at some point from 2011–2014. However, only about 1 in 12 of those who died had an opioid prescription in the month before their death.
+many people overdosed kept using opioids illegally after their prescriptions ran out.
+
 Why data story —> our goal is data to information into insights 
 You are adding power to data when it is both easy to understand and engaging to the public. 
--->
-
----
-layout: center
----
-
-<img src="/images/week1/data-value-relationship.png"/>
-
-> Source: Dave Campbell’s model of information refinement. Infographics: The Power of Visual Storytelling by Ross Crooks, Josh Ritchie, Jason Lankow
-
-<!-- 
-Data visualization is the tool that transforms data into information and insights. 
 -->
 
 ---
@@ -206,6 +210,18 @@ layout: quote
 <!-- 
 Aaron created and led the Data Arts Team at Google from 2008-2015. Aaron has received numerous awards including the Smithsonian Cooper-Hewitt National Design Award for Interaction Design and the National Science Foundation’s award for science visualization. He received an Emmy in 2014, and two of his music video collaborations have been Grammy nominated. In 2010 Aaron was the Abramowitz Artist in Residence at MIT. He received his MFA in Design|Media Arts from UCLA. His work is part of the permanent collection of the Museum of Modern Art (MoMA) in New York, the Victoria & Albert Museum (V&A) in London, and the Centre Pompidou in Paris. His projects have been shown at international festivals including TED, Sundance, Tribeca Film Festival, Ars Electronica, SIGGRAPH, the Japan Media Arts Festival, and more. -->
 
+
+---
+layout: center
+---
+
+<img src="/images/week1/data-value-relationship.png"/>
+
+> Source: Dave Campbell’s model of information refinement. Infographics: The Power of Visual Storytelling by Ross Crooks, Josh Ritchie, Jason Lankow
+
+<!-- 
+The goal of Data visualization to transform data into information and insights. 
+-->
 
 ---
 layout: fact
