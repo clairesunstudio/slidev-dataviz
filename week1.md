@@ -279,7 +279,7 @@ end
 
 ```
 
-<!-- Data are raw facts, objective, but the way we collect data, process data and present data can be subjective and biased. Data visualization are convincing, but they can also distort information in the attempts to do so. As consumers of data graphics, equip ourselves with data literacy skills can strenghthen our judgements of the quantitative evidence, and develop our own insights. -->
+<!-- Data are raw facts, objective, but the way we collect data, process data and present data can be subjective and biased. Data visualization are convincing, but they can also distort information in the attempts to do so. As consumers of data graphics, equipping ourselves with data literacy skills can strenghthen our judgements of the quantitative evidence; as creators of data graphics we have the responsibility to present data in an accurate way and the effectiveness of dataviz is determined along every step in the process. First let us get familiarized with the terminology used to describe data.-->
 
 
 ---
@@ -395,9 +395,9 @@ Examples include:
 
 Examples include:
   - the speed of a car during the morning commute
-  - Time intervals
-  - Temperature
-  - Weight and Height
+  - Time
+  - The stock price of an AAPL share
+
 
 </v-clicks>
 
@@ -450,7 +450,7 @@ Understanding the data types will help you select the right data visualizations,
 layout: section
 ---
 # Exercise 
-[survey responses](https://docs.google.com/forms/d/1DPSLJ9Kq6GbVBsQkyhqxri6x0v4otgaXg1CdhFfHWL8/edit#responses)
+[survey responses](https://docs.google.com/spreadsheets/d/1-fOmkHOxaaOLMIc30a9pT5PmiKvk1ZwzIP52SEjwwm8/edit?resourcekey#gid=631577729)
 
 <!-- 
 Pie Charts are ideal for giving the reader a quick idea of the proportional distribution of the data.
@@ -475,11 +475,14 @@ layout: section
 - [Set up an account](https://observablehq.com/)
 - [My First Notebook](https://observablehq.com/d/425164bd033d021d)
 - [Markdown Cheatsheet](https://observablehq.com/d/5fad9ce5a1234c52)
-- [Javascript Data Basics](https://observablehq.com/d/2dc5f3fdd2d0c5c5)
+- [My Second Notebook](https://observablehq.com/@datavizstudio/my-second-notebook)
 
 </v-clicks>
 
-<!-- - All-in-one-place: code, data and visualization, running environment
+<!-- 
+Account: use personal email - you might lose access to the massart email if this is the only class you are planning to take in a while.
+
+- All-in-one-place: code, data and visualization, running environment
 - Open-source: Leverage common coding languages and open-source libraries, most flexible, always have access to your creations, works are transparent, free
 
 - Notebook: web-based interactive canvases where you can remix data, code, and interaction
