@@ -341,6 +341,8 @@ Examples include:
 
 </v-clicks>
 
+<!-- no meaningful way to perform mathematical operations on these categories. -->
+
 ---
 layout: section
 ---
@@ -380,6 +382,8 @@ Examples include:
 
 </v-clicks>
 
+<!-- can be measured with a high degree of precision -->
+
 
 ---
 layout: fact
@@ -387,7 +391,21 @@ layout: fact
 
 <img src="/images/week1/data-types.png" height="600"/>
 
-<!-- Data Types Recap -->
+<v-click>
+<div style="width:400; position: absolute; left: 38vw; top:16vh; z:100">
+<a href="https://www.kaggle.com/code/rikdifos/rap-lyrics-text-mining"><img src="/images/week1/rap-lyrics-analysis.png" width="380"/></a>
+</div>
+</v-click>
+
+> Rap lyrics text mining
+
+<!-- Data Types Recap 
+We didn't talk about textual data, is also a common type of qualitative data.
+If your data is text-based, usually you would use text mining techniques to analyze the text and extract quantitative information. For example, This is setiment wordcloud is generated from hundreds of famous rap song lyrics through text mining (counting word use frequency) and sentiment analysis (sentiment analysis can assign numerical scores to sentiment in text data). https://github.com/fpaupier/RapLyrics-Scraper/tree/master/lyrics_US
+
+While qualitative and quantitative are mutually exclusive data types, you can provide insights into the qualitative data by conducting 
+Frequency Counts, Ordinal Encoding (assign numerical values to categories, yes/no = 1/0) so that you can provide summary statitics and percentage distribution to a qualitative dataset.
+-->
 
 
 ---
@@ -396,7 +414,17 @@ layout: fact
 
 <img src="/images/week1/data-types-with-dataviz.png" height="600"/>
 
-<!-- Data Types Recap DataViz-->
+
+<!-- Data Types Recap DataViz
+
+While qualitative and quantitative are mutually exclusive data types, you can use several methods to create summary statistics or quantitative representations that provide insights into the qualitative data. Here are some common techniques:
+Frequency Counts, Percentage Distribution, Ordinal Encoding (assign numerical values to categories, yes/no = 1/0)
+
+These are some commonly used dataviz types to present these types of data, for example.
+Understanding the data types will help you select the right data visualizations, and later map to different visual dimensions. More on the data visualization types next week. 
+-->
+
+
 
 
 ---
@@ -452,6 +480,7 @@ layout: section
 - [Mike Bostock Generative Art on Observable](https://observablehq.com/@mbostock/altered-world)
 - [Aaron Koblin: Artfully visualizing our humanity](https://www.youtube.com/watch?v=4v4XxlfVk3o)
 - [Aaron Koblin projects](http://www.aaronkoblin.com/)
+- [Rap lyrics text mining](https://www.kaggle.com/code/rikdifos/rap-lyrics-text-mining)
 
 ---
 
