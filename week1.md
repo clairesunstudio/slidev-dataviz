@@ -117,7 +117,7 @@ layout: fact
 
 
 <!-- 
-Data journalism has become increasingly important in an era of big data. It not only allows journalists to uncover interesting stories, but also provide it to the audience in a convincing and compelling way. 
+Data journalism has become increasingly important in an era of big data. It not only allows journalists to uncover interesting stories, but also an effective approach to convince and persuade the audience.
 -->
 
 ---
@@ -169,9 +169,10 @@ layout: fact
 ![Frontrow Fashion Fingerprints](/images/week1/frontrow-fashion-fingerprints.png)
 
 <!-- 
-Onto something more light-hearted - Mike Bostock took photographs from the hundreds of fall collections shown during New York Fashion Week.
+Onto something more light-hearted - Mike Bostock took the photographs taken from the hundreds of fall runway collections shown during New York Fashion Week.
 
-Color is an important part of the ideas and trends that emerge during Fashion Week. Each runway collection is broken into a minimal stack of color bars, then combined to abstract the collection’s hues. Interesting technique abtract color palettes using pixels.
+He has many very successful data visualizations, I find this one particularly interesting. Color is usually a graphic dimension, and in this dataset,
+it's also a key data dimension - color is an important part of the ideas and trends that in fashion. In the fingerprints grahics, each runway collection is broken into a minimal stack of color bars, then combined to abstract the collection’s hues. Interesting technique of abtracting color palettes using pixels.
 -->
 
 ---
@@ -503,6 +504,3 @@ Account: use personal email - you might lose access to the massart email if this
 - [Aaron Koblin: Artfully visualizing our humanity](https://www.youtube.com/watch?v=4v4XxlfVk3o)
 - [Aaron Koblin projects](http://www.aaronkoblin.com/)
 - [Rap lyrics text mining](https://www.kaggle.com/code/rikdifos/rap-lyrics-text-mining)
-
----
-

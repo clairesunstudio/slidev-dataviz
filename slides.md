@@ -32,7 +32,7 @@ image: https://www.typeroom.eu/assets/original/2020/05/18/JoyDivision-UnknownPle
 
 <Credit />
 
-<!-- Do you recognize this graphic? It's an album cover for the band Joy Division. It has been widely imitated and referenced in pop culture and fashion - you probably wonder what it means. It was a dataviz created by radio astronomer Harold Craft in his PHD dissertation in the 70s. The lines are data measures of radio waves emitted by a pulsar, a type of rotating neutron star. Because it was popularized by the design of the albumn cover, some people call this type of chart "joyplot". Graphic designer, Peter Saville, has turned it into a pop art classic. I chose this to be the cover image for this class because I think this is a great symbol of Data visualization - an interdisciplinary field between art and science and that data can look beautiful. -->
+<!-- You probably have seen this graphic on the right, and you probably recognized it as the album cover designed by British Graphic designer, Peter Saville for Joy Division. It has been widely imitated and referenced in pop art - But you probably don't know this - It was originally a dataviz created by radio astronomer Harold Craft in his PHD dissertation in the 70s. The lines are data measures of radio waves emitted by a pulsar, a type of rotating neutron star. Because it was popularized by the design of this albumn cover, some people call this type of chart "joyplot". I chose this to be the cover image for this class because I think this is a great symbol of Data visualization - an interdisciplinary field between art and science and that data can look beautiful. -->
 
 ---
 
