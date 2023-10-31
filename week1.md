@@ -34,7 +34,7 @@ image: 'https://m.media-amazon.com/images/I/81ud7Ri9kFL._SY522_.jpg'
 
 <quote v-click> The visual display of quantitative information</quote> 
 
-<!-- Quoting the title of ET's first published book on dataviz. This is a very influential book in the field, it's regarded one of the cornerstone books on dataviz. This book studies the historical data visualizations, critiques dataviz published by the press, and he's really good at distilling guidelines and principles of making good data graphics from his collection of examples. ET's background was in Political Science, Statistics, and Computer Science and he taught at Yale and Princeton. He has a science background, yet he devotes the majority of his book discussing graphical excellence. This is also why this book is so interesting, his emphasis on a high design standard on something was not a popular problem in the design community before. He said design is not about decoration, the fact that it looks good is not a luxuary it's a necessity, it helps the perception of the data. In this class, I will be frequently referencing the theories and examples from his book. -->
+<!-- Quoting the title of ET's first published book on dataviz. This is a very influential book in the field, it's regarded one of the cornerstone books on dataviz. This book studies the historical data visualizations, critiques dataviz published by the press, and he's really good at distilling guidelines and principles of making good data graphics from his collection of examples. ET's background was in Political Science, Statistics, and Computer Science and he taught at Yale and Princeton. He has a science background, yet he devotes the majority of his book discussing graphical excellence. This is also why this book is so interesting, his emphasis on a high design standard on something was not a popular problem in the design community before. He said design is not about decoration, the fact that it looks good is not a luxuary it's a necessity, it helps the perception of the data. In this class, I will be frequently referencing the theories and examples from his book, especially when we get to design principles.-->
 
 ---
 layout: section
@@ -50,7 +50,9 @@ layout: section
 
 </v-clicks>
 
-<!-- Make data more understandable to a broader audience. Empower individuals and communities with data, helping them make informed decisions and advocate for changes. Data is wildly more powerful when it is both easy to understand and engaging to the public. -->
+<!-- 
+that might otherwise be hidden in vast amounts of data
+Make data more understandable to a broader audience. Empower individuals and communities with data that's accessible will them make informed decisions and advocate for changes.-->
 
 ---
 layout: iframe
@@ -69,7 +71,7 @@ layout: quote
 - [Hans Rosling famous Ted Talks](https://www.ted.com/speakers/hans_rosling)
 - [Gapminder interactive data explorer](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1)
 
-<!-- In this video, Hans Rosling showed the audience how effective Data Visualization can be as a communication tool if done correctly. He was a Swedish physician, academic and public speaker. He's famous for his Tedtalks on global trends in health and economics and his animated bubble charts. He co-founded the Gapminder Foundation - an NGO that use data and visualizations to provide information on social-economic and environmental trends and promotes sustainable global development. -->
+<!-- Hans Rosling was a Swedish physician, academic and public speaker. In this video, he showed the audience how effective Data Visualization can be as a communication tool. He's famous for his Tedtalks on global trends in health and economics and his animated bubble charts - link to TedTalks.  He co-founded the Gapminder Foundation - an NGO that use data and visualizations to provide information on social-economic and environmental trends and promotes sustainable global development. -->
 
 ---
 
@@ -83,7 +85,7 @@ layout: quote
 - Educators
 - Marketers
 - Researchers - Academics, UX
-- Artists
+- Data Artists
 
 <v-click>
 
@@ -91,7 +93,7 @@ layout: quote
 
 </v-click>
 
-<!-- We are all data citizens - we all are actively engage with data-driven world we live in, from personal data to public information. The ability to refine, process and analyze data can shape our understanding of the world.  -->
+<!-- We are all data citizens - we all are actively engage with the data-driven world we live in. A good degree of data literacy can shape our understanding and help us make sense of the world. -->
 
 ---
 layout: fact
@@ -107,7 +109,7 @@ layout: fact
 <!-- 
 Airstrikes in Gaza have displaced hundreds of thousands of people leaving them with little room to go.
 Visuals are more memorable than text alone. People tend to retain information presented visually for a longer time.
-Imagine you are onnly looking at the raw data, or just a table of these data points - the source data are in a long tabular view. You are not likely to recall the specific numbers of people per sqare mile across these cities, but the visual will have a long-lasting effect on your brain. 
+Imagine you are onnly looking at the raw data, or just a table of these data points - the source data are in a long tabular view of the highly populous citites in the world. You are not likely to recall the specific numbers of people per sqare mile across these cities, but the visual will have a long-lasting effect on your brain. 
 -->
 
 ---
@@ -120,7 +122,7 @@ layout: fact
 
 
 <!-- 
-Data journalism has become increasingly important in an era of big data, as it allows journalists to uncover stories that might otherwise be hidden in vast amounts of information. 
+Data journalism has become increasingly important in an era of big data. It not only allows journalists to uncover interesting stories, but also provide it to the audience in a convincing and compelling way. 
 -->
 
 ---
@@ -138,6 +140,7 @@ layout: fact
 Chapter 55 Data Report (>100 pages, technical, scientific report)
 Chapter 55 Data Story (accessible reading level, multimedia, interactive, creative process)
 Why data story —> our goal is data to information into insights 
+You are adding power to data when it is both easy to understand and engaging to the public. 
 -->
 
 ---
