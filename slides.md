@@ -12,15 +12,15 @@ Hi! My name is Minghua |mɪŋ(h)wä| (she/her).
 
 - 👩🏻‍💻 Senior UX Designer and Design System Lead @ Massachusetts Digital Service
 - 📊 Previously Data Visualization Engineer
-- 🐈 Cat Mom
 - 🎓 Applied Math and Graphic Design & Dynamic Media @ Massart
+- 🐈 Cat Mom
 - 💻 Resume: https://clairesunstudio.com/about
 - 📧 Email: msun2517@massart.edu
 - <logos-github-octocat/> Github: @clairesunstudio
 
-<!-- Previous title - I built several interactive data reports and data stories for the public to help present data made available by different state departments. I will draw on some examples from the dataviz that I built throughout the course. 
+<!-- Previous title - I built several interactive data reports and data stories to help present data to the public made available by various state departments. I will draw on some examples from the dataviz that I built throughout the course. 
 
-Data visualization is a cross-disciplinary field that draws upon concepts and techniques from various domains - it combines scientific rigor, design thinking and good eye for design to create something that's accurate, informative, impactful, visually appealing and user-friendly. Some of you might have background in statistics, design, computer programming, and this is a subject that requires us to become a little more all-rounded; and for some of you that don't have these backgrounds, hopefull this will introduce you into dataviz or the related fields. 
+My academic background is in math and graphic design. Data visualization is a cross-disciplinary field - it requires scientific rigor, design thinking and a good eye for design to create something that's accurate, informative, impactful, and engaging.
 -->
 
 ---
@@ -32,7 +32,7 @@ image: https://www.typeroom.eu/assets/original/2020/05/18/JoyDivision-UnknownPle
 
 <Credit />
 
-<!-- You might recognize this as a piece of art and design - the album cover of the "Unknown Pleasures" by Joy Division. It has been widely imitated and referenced in pop culture and fashion. But it's actually driven by scientic data. It was a dataviz created by radio astronomer Harold Craft in 1970. The lines are data measures of radio waves emitted by a pulsar, a type of rotating neutron star. Because it was popularized by the design of the albumn cover, some people call this type of chart "joyplot". Graphic designer, Peter Saville, has turned it into a pop art icon. I chose this to be the cover image for this class because I think this is a great symbol of Data visualization - an interdisciplinary field between art and science and that data can be beautiful. -->
+<!-- Do you recognize this graphic? It's an album cover for the band Joy Division. It has been widely imitated and referenced in pop culture and fashion - you probably wonder what it means. It was a dataviz created by radio astronomer Harold Craft in his PHD dissertation in the 70s. The lines are data measures of radio waves emitted by a pulsar, a type of rotating neutron star. Because it was popularized by the design of the albumn cover, some people call this type of chart "joyplot". Graphic designer, Peter Saville, has turned it into a pop art classic. I chose this to be the cover image for this class because I think this is a great symbol of Data visualization - an interdisciplinary field between art and science and that data can look beautiful. -->
 
 ---
 
@@ -48,7 +48,7 @@ image: https://www.typeroom.eu/assets/original/2020/05/18/JoyDivision-UnknownPle
 
 <!-- This is an introductory class and hopefully a gateway for you to practice and learn more on your own.
 
-We are going to learn some necessary Javascript. The reason why I chose to teach this class using Javascript and Observable (more on the tool later) - I'm a big proponent for open source projects. If you are in the field, you are likely be using some expensive BI tools from big corps - Tableau, Power BI, Looker to name a few - they are expensive and inflexible. You lose access to your work when you are no longer paying for them. Learning Javascript will make your skills more transferable, adaptable, there's no limit what you can create. 
+We are going to learn some necessary Javascript. The reason why I chose to teach this class using Javascript and Observable (more on the tool later) - I'm a big proponent for open source projects. If you are in the field, you are likely be using some expensive BI tools Tableau, Power BI, Looker to name a few - they can be expensive and inflexible. Learning Javascript will make your skills more transferable, adaptable, there's no limit what you can create once you master it. In this class, we are just going to dabble into it and learn enough be dangerous so that you can start hacking some examples and visualize your own data.
 
 Please note that the syllabus is a living doc, I will make adjustments as we go based on our pace and our needs. -->
 
