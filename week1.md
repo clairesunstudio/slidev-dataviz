@@ -130,13 +130,11 @@ layout: fact
 
 <!-- 
 
-part of a multi-faceted effort to combat the epidemic, chapter 55 was signed into law that permitted the analysis of different government datasets to guide policy decisions and to better understand the opioid epidemic in MA. This groundbreaking data sharing and analysis effort involved 29 groups from government, higher education, and the private sector provided information and expertise.
-
+part of a multi-faceted state effort to combat the opioid crisis, a legislation was created to permit the data sharing and analysis across multiple datasets to better understand the crisis and to guide policy decisions in MA. The data was a joint effort of 29 groups from government, higher education, and the private sector - and the outcome was:
 Chapter 55 Data Report (>100 pages, technical, scientific report)
-Chapter 55 Data Story (accessible reading level, multimedia, interactive, creative process)
-translate complex data into visuals that everyone can understand
+My team's job was to turn that into a Data Story (accessible reading level, multimedia, interactive, creative process). I worked with data analysts from DPH, a content writer and another developer to translate complex data into visuals that everyone can understand. 
 Why data story —> our goal is transform data to information into insights 
-You are adding power to data when it is both easy to understand and engaging to the public. 
+You are adding power to the data when it is both easy to understand and engaging to the public. 
 -->
 
 ---
@@ -150,10 +148,9 @@ layout: fact
 
 
 <!-- 
-summary dataviz - simple but impactful.
-
 More than two-thirds of people who died from an opioid-related overdose had a legal opioid prescription at some point from 2011–2014. However, only about 1 in 12 of those who died had an opioid prescription in the month before their death.
 many people overdosed kept using opioids illegally after their prescriptions ran out.
+summary data callout using an interactive pictogram - simple but impactful, more relatable, not just a number.
 
 Why data story —> our goal is data to information into insights 
 You are adding power to data when it is both easy to understand and engaging to the public. 
