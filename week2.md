@@ -9,6 +9,22 @@ layout: intro
 
 <Credit />
 
+---
+
+# Agenda
+
+## Lecture (40 min)
+- Familiarize with basic chart types
+- Structured Data
+- Data sourcing and collection from the web
+## Demo (50 min)
+- Javascript basics
+- Data preprocessing
+- Plot - grammar of graphics
+- Write the first chart!
+## Working Session (50 min)
+- Find your own data
+- Exercises
 
 
 ---
