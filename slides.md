@@ -7,13 +7,5 @@ fonts:
 ---
 
 ---
-src: ./intro.md
----
-
----
-src: ./week1.md
----
-
----
 src: ./week2.md
 ---
