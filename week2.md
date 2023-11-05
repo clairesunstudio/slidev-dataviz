@@ -1,5 +1,4 @@
 ---
-theme: apple-basic
 layout: intro
 ---
 
@@ -81,3 +80,7 @@ var person1 = { // javascript object
 </v-click>
 
 <!-- JSON is based on a subset of JavaScript object notation.  -->
+
+---
+src: ./week2-dataviz.md
+---
