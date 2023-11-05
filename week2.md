@@ -81,6 +81,13 @@ var person1 = { // javascript object
 
 <!-- JSON is based on a subset of JavaScript object notation.  -->
 
+
+<style>
+.image-dataviz {
+  max-height: 100%;
+}
+</style>
+
 ---
 src: ./week2-dataviz.md
 ---
