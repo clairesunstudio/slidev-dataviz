@@ -43,6 +43,23 @@ Today we are going to dive into some common chart types, and maybe some of theme
 
 
 ---
+layout: section
+---
+
+## Qualitative
+
+---
+src: ./week2-dataviz-qual.md
+---
+
+---
+layout: section
+---
+
+## Qualitative
+
+
+---
 src: ./week2-dataviz.md
 ---
 
