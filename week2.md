@@ -19,11 +19,32 @@ layout: intro
 ## Demo (50 min)
 - Javascript basics
 - Data preprocessing
-- Plot - grammar of graphics
 - Write the first chart!
 ## Working Session (50 min)
 - Find your own data
 - Exercises
+
+
+
+---
+layout: fact
+---
+
+<img src="/images/week1/data-types-with-dataviz.png" height="600"/>
+
+
+<!-- Recap from last week
+
+We talked about Data Types - what they mean, examples, and potentially how they can help you narrow down the options of dataviz types and select the right data visualization for the dataset.
+
+Today we are going to dive into some common chart types, and maybe some of theme you might not have encountered before, and understand how they work. Knowing these common dataviz are handy, because they can become your swissknife kit when comes to exploratory analysis, and also these chart types have gone through lots user testing to become the convention, they are the basis of all creative, explanatory and bespoke dataviz. 
+
+-->
+
+
+---
+src: ./week2-dataviz.md
+---
 
 
 ---
@@ -82,12 +103,22 @@ var person1 = { // javascript object
 <!-- JSON is based on a subset of JavaScript object notation.  -->
 
 
-<style>
-.image-dataviz {
-  max-height: 100%;
-}
-</style>
+---
+layout: section
+---
+
+# Demo
+
+- Javascript basics
+- Data transformation and preprocessing
+
 
 ---
-src: ./week2-dataviz.md
+layout: section
 ---
+
+# Exercises
+
+- Visualize your own data using Plot code snippets
+   - Transform coding skills dataset
+   - Import downloaded MA municipalities data
