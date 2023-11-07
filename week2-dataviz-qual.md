@@ -11,7 +11,7 @@ layout: full
 - Related Dataviz: 
 
 <!--
- Also known as a Set Diagram.A Venn Diagram is a diagram that visually displays all the possible logical relationships between a collection of sets. Each set is typically represented with a circle.Contained within each set is a collection of objects or entities that all have something in common. When sets overlap, it’s known as the intersection area. This is where entities that have all the qualities of the overlapping sets.The example on this page is of a 2-set Venn Diagram. However, there are also 3, 4, 5, 6 and even 7-set Venn Diagrams that exist, which display a more complex geometry between sets.
+ A Venn Diagram is a diagram that visually displays all the possible logical relationships between a collection of sets. Each set is typically represented with a circle. Contained within each set is a collection of objects or charateristics.
 
 -->
 
@@ -21,11 +21,8 @@ layout: full
 
 <img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/venn_diagram.svg" style="max-height: 100%" />
 
-
-
 <!--
- Also known as a Set Diagram.A Venn Diagram is a diagram that visually displays all the possible logical relationships between a collection of sets. Each set is typically represented with a circle.Contained within each set is a collection of objects or entities that all have something in common. When sets overlap, it’s known as the intersection area. This is where entities that have all the qualities of the overlapping sets.The example on this page is of a 2-set Venn Diagram. However, there are also 3, 4, 5, 6 and even 7-set Venn Diagrams that exist, which display a more complex geometry between sets.
-
+When sets overlap, it’s known as the intersection area. This is where entities are in common between the overlapping sets.The example on this page is of a 2-set Venn Diagram. However, there are also 3, 4, 5, 6 sets, multi-set Venn Diagrams, which display a more complex geometry between sets.
 -->
 
 

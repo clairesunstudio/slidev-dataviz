@@ -48,6 +48,8 @@ layout: section
 
 ## Qualitative
 
+<!-- Purely qualitative datasets have only limited dimensions to map to visuals, therefore only limited dataviz options available. Usually for these data, we are interested in visualzing the relationships between categories - hierarchy, comparison, part of a whole, logical flow. Let's quickly go through some commonly seen options. -->
+
 ---
 src: ./week2-dataviz-qual.md
 ---
@@ -82,21 +84,28 @@ John is 30 years old and he lives in New York.
 
 ## Structured
 
+### JSON (JavaScript Object Notation)
 ```json
-{ // JSON object
-  "name": "John",
+{
+  "name": "John", // key-value pair
   "age": 30,
   "city": "New York"
 }
 ```
 
-<!-- JSON is a data interchange format often used for data transmission between systems and is based on a subset of JavaScript object notation. JSON is highly prevalent and often the default choice for data interchange, especially in web and API contexts. -->
+### CSV (Comma-Separated Values)
+```csv
+name, age, city
+John, 30, New York
+```
 
-Other data formats: XML (eXtensible Markup Language), CSV (Comma-Separated Values), SQL (Structured Query Language), etc.
+<small>Other data formats: XML (eXtensible Markup Language), SQL (Structured Query Language), etc.</small>
+
+<!-- JSON is a data interchange format often used for data transmission between systems and is based on a subset of JavaScript object notation. JSON is highly prevalent and often the default choice for data interchange, especially in web and API contexts. -->
 
 ---
 
-# JSON (JavaScript Object Notation)
+# JSON
 
 JavaScript Object Notation - a subset of JavaScript object literal notation. It consists of key-value pairs, where keys are strings, and values can be strings, numbers, objects, arrays, booleans, or null.
 
@@ -118,6 +127,25 @@ var person1 = { // javascript object
 </v-click>
 
 <!-- JSON is based on a subset of JavaScript object notation.  -->
+
+
+---
+layout: section
+---
+
+# Data Sourcing
+
+## Cities and Towns in MA
+
+- Search "cities and towns in massachusetts"
+- First result in Google - [List of municipalities in Massachusetts](https://en.wikipedia.org/wiki/List_of_municipalities_in_Massachusetts)
+- Copy and Paste into a spreadsheet and export as .CSV
+- Or use an API [Wikitable2json](https://www.wikitable2json.com/), e.g. [1st table](https://www.wikitable2json.com/api/List_of_municipalities_in_Massachusetts?table=0)
+- Download [JSON formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) in Chrome to preview data
+
+<!-- In this class, we are not going to delve into data collection too much - although how data is collected does impact the data accuracy. You are welcome to collect your own data. We are going to mostly use sample data, or data that's on the web of our interests for the purpose of this class. 
+-->
+
 
 
 ---
