@@ -139,14 +139,10 @@ layout: section
 
 - Search "cities and towns in massachusetts"
 - First result in Google - [List of municipalities in Massachusetts](https://en.wikipedia.org/wiki/List_of_municipalities_in_Massachusetts)
-- Copy and Paste into a spreadsheet and export as .CSV
-- Or use an API [Wikitable2json](https://www.wikitable2json.com/), e.g. [1st table](https://www.wikitable2json.com/api/List_of_municipalities_in_Massachusetts?table=0)
-- Download [JSON formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) in Chrome to preview data
+- [Follow along notebook](https://observablehq.com/@datavizstudio/ma-municipalities)
 
-<!-- In this class, we are not going to delve into data collection too much - although how data is collected does impact the data accuracy. You are welcome to collect your own data. We are going to mostly use sample data, or data that's on the web of our interests for the purpose of this class. 
+<!-- In this class, we are not going to delve into data collection too much - although how data is collected does impact data accuracy. You are welcome to collect your own data. For the purpose of this class, we are not going to start collecting data from scratch. Last time, we looked at our small dataset from all of your survey responses, we are going to go back to that; as well as exploring the sample data that's provided out-of-box by Observable. The goal of today is to walk you through how to source your own data. We just learned a lot of theorectical stuff, let's get our hands dirty by switching to Observable and starting a new notebook.
 -->
-
-
 
 ---
 layout: section
@@ -156,6 +152,7 @@ layout: section
 
 - Javascript basics
 - Data transformation and preprocessing
+- [Observable Notebook](https://observablehq.com/@datavizstudio/basic-javascript-concepts-for-data)
 
 
 ---
@@ -167,3 +164,5 @@ layout: section
 - Visualize your own data using Plot code snippets
    - Transform coding skills dataset
    - Import downloaded MA municipalities data
+- Look for your own data
+  - [Data is Plural](https://www.data-is-plural.com/)
