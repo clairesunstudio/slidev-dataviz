@@ -35,9 +35,9 @@ layout: fact
 
 <!-- Recap from last week
 
-We talked about Data Types - what they mean, examples, and potentially how they can help you narrow down the options of dataviz types and select the right data visualization for the dataset.
+We talked about Data Types - definitions, saw some examples, and potentially how they can help you narrow down the dataviz and select the right visual presentation for the dataset.
 
-Today we are going to dive into some common chart types, and maybe some of theme you might not have encountered before, and understand how they work. Knowing these common dataviz are handy, because they can become your swissknife kit when comes to exploratory analysis, and also these chart types have gone through lots user testing to become the convention, they are the basis of all creative, explanatory and bespoke dataviz. 
+Today we are going to walk through these chart types and some additional ones, breakdown how they work. Knowing these common dataviz are handy, because they can become your swissknife kit when comes to exploratory analysis, and also these chart types have gone through lots user testing to become the convention, they are the basis of creative, explanatory and bespoke dataviz. 
 
 -->
 
