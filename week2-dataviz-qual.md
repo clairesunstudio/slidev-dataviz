@@ -11,7 +11,7 @@ layout: full
 - Related Dataviz: 
 
 <!--
- A Venn Diagram is a diagram that visually displays all the possible logical relationships between a collection of sets. Each set is typically represented with a circle. Contained within each set is a collection of objects or charateristics.
+ A Venn Diagram is a diagram that visually displays the logical relationships between a collection of sets. Each set is typically represented with a circle. Contained within each set is a collection of objects or charateristics.
 
 -->
 
@@ -52,7 +52,7 @@ layout: full
 
 <!--
 
-Also known as Flow Diagram, Flow Process Chart, Process Chart, Process Map, Process Model, Work Flow Diagram.This type of diagram is used to show the sequential steps of a process.  Flow Charts map out a process using a series of connected symbols, which makes the process easy to understand and aids in its communication to other people.  Flow Charts are useful for explaining how a complex and/or abstract procedure, system, concept or algorithm work.  Drawing a Flow Chart can also help in planning and developing a process or improving an existing one.  Symbols are divided up and standardised into different types that each have their own particular shape. Labels for each step are written inside of the symbol shape. Flow Charts begin and end with a curved rectangle to signify the start and finishing of the process. Lines or arrows are used to show the direction of flow from one step in the process to another. Simple instructions or actions are represented by a rectangle. While a diamond shape is used when a decision is needed. There are also many other symbols that can be used in a Flow Chart.  Flow Charts can run horizontally or vertically. 
+This type of diagram is used to show the sequential steps of a process.  Flow Charts map out a process using a series of connected symbols, which makes the process easy to understand. Flow Charts are useful for explaining how a complex and/or abstract procedure, system, concept or algorithm work. data dimensions are encoded with Symbols/shapes, lines and arrows Lines or arrows are used to show the relations.
 -->
 
 ---
@@ -156,7 +156,7 @@ layout: full
 - Related Dataviz: Chord Diagram
 
 <!--
- A stripped-down version of a Chord Diagram, with only the nodes and connection lines showing. Non-ribbon Chord Diagrams provide more emphasis on the connections within the data.
+ A stripped-down version of a Chord Diagram, with only the nodes and connection lines showing. Non-ribbon Chord Diagrams provide more emphasis on the connections within the data, without the quantitaive dimension. 
 
 -->
 
@@ -244,7 +244,7 @@ layout: full
 <img src="http://datavizcatalogue.com/methods/images/top_images/wordcloud.png" style="max-height: 100%" />
 
 - Functions: Analysing Text,Distribution / Frequency,Proportions
-- Related Dataviz: 
+- [Word clouds considered harmful](https://www.niemanlab.org/2011/10/word-clouds-considered-harmful/)
 
 <!--
 
