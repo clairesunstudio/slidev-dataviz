@@ -1,65 +1,60 @@
-
-
 ---
 layout: full
 ---
 
-## Calendar
+## Timeline
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/calendar.png" style="max-height: 100%" />
+<img src="http://datavizcatalogue.com/methods/images/top_images/timeline.png" style="max-height: 100%" />
 
-- Functions: Data over time,Reference Tool
-- Related Dataviz: Timetable
+- Functions: Data over time,Distribution,Patterns
+- Related Dataviz: 
 
 <!--
-
-Throughout human history, various calendar systems have been developed as an organisational tool to help us plan ahead. Calendars as a visual tool are used to display periods of time and to display the organisation of events. Periods of time are often displayed and divided into units such as days, weeks, months and years. A date is the designation of a single, specific day within such a system.Today, the most common form of Calendar is the Gregorian Calendar. Typically it's displayed in separate monthly grids of seven columns (for each day of the week) and five to six rows. However, the format for any calendar is not set in stone so their design can vary, so long as they visually show the chronological sequence of dates or time units.A list of different ways Calendars can be combined with other forms of data visualisation can be found here. 
+ A Timeline is a graphical way of displaying a list of events in chronological order. Some Timelines work on a scale, while others simply display events in sequence.  The main function of Timelines is to communicate time-related information, either for analysis or to visually present a story or view of history.  If scale-based, a Timeline allows you to see when things occur or are to occur, by allowing the viewer to assess the time intervals between events. This allows the viewer to see any patterns appearing over any selected time period or how events are distributed in that time period.  Other forms of data visualisation can be combined with a Timeline to show how quantitative data changes over time. For example, the bars of a Span Chart could be used to show the duration of events. Here is a blog post showcasing a list of Timeline combinations. When scaled:
 -->
 
 ---
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/calendar.png" style="max-height: 100%" />
+<img src="http://datavizcatalogue.com/methods/images/anatomy/timeline.png" style="max-height: 100%" />
 
 
 
 <!--
-
-Throughout human history, various calendar systems have been developed as an organisational tool to help us plan ahead. Calendars as a visual tool are used to display periods of time and to display the organisation of events. Periods of time are often displayed and divided into units such as days, weeks, months and years. A date is the designation of a single, specific day within such a system.Today, the most common form of Calendar is the Gregorian Calendar. Typically it's displayed in separate monthly grids of seven columns (for each day of the week) and five to six rows. However, the format for any calendar is not set in stone so their design can vary, so long as they visually show the chronological sequence of dates or time units.A list of different ways Calendars can be combined with other forms of data visualisation can be found here. 
--->
-
-
----
-layout: full
----
-
-## Open-High-Low-Close Chart
-
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/OHLC_chart.svg" style="max-height: 100%" />
-
-- Functions: Data over time,Patterns,Ranges
-- Related Dataviz: Candlestick Chart,Kagi Chart
-
-<!--
-
-Also known as OHLC Chart, Price Chart, Bar Chart.Open-high-low-close Charts (or OHLC Charts) are used as a trading tool to visualise and analyse the price changes over time for securities, currencies, stocks, bonds, commodities, etc.  OHLC Charts are useful for interpreting the day-to-day sentiment of the market and forecasting any future price changes through the patterns produced.  The y-axis on an OHLC Chart is used for the price scale, while the x-axis is the timescale. On each single time period, an OHLC Chart plots a symbol that represents two ranges: the highest and lowest prices traded, and also the opening and closing price on that single time period (for example in a day). On the range symbol, the high and low price ranges are represented by the length of the main vertical line. The open and close prices are represented by the vertical positioning of tick-marks that appear on the left (representing the open price) and on right (representing the close price) sides of the high-low vertical line.   Colour can be assigned to each OHLC Chart symbol, to distinguish whether the market is "bullish" (the closing price is higher than it opened) or "bearish" (the closing price is lower than it opened). 
+ A Timeline is a graphical way of displaying a list of events in chronological order. Some Timelines work on a scale, while others simply display events in sequence.  The main function of Timelines is to communicate time-related information, either for analysis or to visually present a story or view of history.  If scale-based, a Timeline allows you to see when things occur or are to occur, by allowing the viewer to assess the time intervals between events. This allows the viewer to see any patterns appearing over any selected time period or how events are distributed in that time period.  Other forms of data visualisation can be combined with a Timeline to show how quantitative data changes over time. For example, the bars of a Span Chart could be used to show the duration of events. Here is a blog post showcasing a list of Timeline combinations. When scaled:
 -->
 
 ---
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/OHLC_chart.svg" style="max-height: 100%" />
+## Gantt Chart
+
+<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/gantt_chart.svg" style="max-height: 100%" />
+
+- Functions: Data over time,Processes & methods,Ranges,Reference tool
+- Related Dataviz: Span Chart
+
+<!--
+
+Commonly used as an organisational tool for project management, Gantt Charts display a list of activities (or tasks) with their duration over time, showing when each activity starts and ends. This makes Gantt Charts useful for planning and estimating how long an entire project might take. You can also see what activities are running in parallel to each other.Gantt Charts are drawn within a table: rows are used for the activities and columns are used as the timescale. The duration of each activity is represented by the length of a bar plotted along this timescale. The start of the bar is the beginning of the activity and the end of the bar is when the activity should finish. Colour-coding the bars can be used to categorise the activities into groups. To show the percentage of completion of an activity, a bar can be partially filled in, shaded differently or use a different colour, to differentiate between what is done and what is left to do.Connecting arrows can be used to show which tasks are dependent on each other. Critical paths, the key activities required to finish the project can also be displayed with a series of highlighted arrows. Symbols can also be placed within a Gantt Chart to signify milestones and a vertical line running through the chart is used to highlight the current date.
+
+-->
+
+---
+layout: full
+---
+
+<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/gantt_chart.svg" style="max-height: 100%" />
 
 
 
 <!--
 
-Also known as OHLC Chart, Price Chart, Bar Chart.Open-high-low-close Charts (or OHLC Charts) are used as a trading tool to visualise and analyse the price changes over time for securities, currencies, stocks, bonds, commodities, etc.  OHLC Charts are useful for interpreting the day-to-day sentiment of the market and forecasting any future price changes through the patterns produced.  The y-axis on an OHLC Chart is used for the price scale, while the x-axis is the timescale. On each single time period, an OHLC Chart plots a symbol that represents two ranges: the highest and lowest prices traded, and also the opening and closing price on that single time period (for example in a day). On the range symbol, the high and low price ranges are represented by the length of the main vertical line. The open and close prices are represented by the vertical positioning of tick-marks that appear on the left (representing the open price) and on right (representing the close price) sides of the high-low vertical line.   Colour can be assigned to each OHLC Chart symbol, to distinguish whether the market is "bullish" (the closing price is higher than it opened) or "bearish" (the closing price is lower than it opened). 
+Commonly used as an organisational tool for project management, Gantt Charts display a list of activities (or tasks) with their duration over time, showing when each activity starts and ends. This makes Gantt Charts useful for planning and estimating how long an entire project might take. You can also see what activities are running in parallel to each other.Gantt Charts are drawn within a table: rows are used for the activities and columns are used as the timescale. The duration of each activity is represented by the length of a bar plotted along this timescale. The start of the bar is the beginning of the activity and the end of the bar is when the activity should finish. Colour-coding the bars can be used to categorise the activities into groups. To show the percentage of completion of an activity, a bar can be partially filled in, shaded differently or use a different colour, to differentiate between what is done and what is left to do.Connecting arrows can be used to show which tasks are dependent on each other. Critical paths, the key activities required to finish the project can also be displayed with a series of highlighted arrows. Symbols can also be placed within a Gantt Chart to signify milestones and a vertical line running through the chart is used to highlight the current date.
+
 -->
-
-
 
 ---
 layout: full
@@ -93,6 +88,7 @@ Also known as a Range Bar/Column Graph, Floating Bar Graph, Difference Graph, Hi
 -->
 
 
+
 ---
 layout: full
 ---
@@ -102,7 +98,7 @@ layout: full
 <img src="http://datavizcatalogue.com/methods/images/top_images/PNG/spiral_plot.png" style="max-height: 100%" />
 
 - Functions: Data over time,Patterns
-- Related Dataviz: 
+- [Why The NYT Spiral Graph Is A Failure. And A Success.](https://www.practicalreporting.com/blog/2022/1/11/why-the-nyt-spiral-graph-is-a-failure-and-a-success)
 
 <!--
 
@@ -154,6 +150,107 @@ layout: full
 Also known as a Circular Column Graph or Star Graph.This type of graph plots bars on a polar coordinate system. Concentric circles are used for the value scale, while the radial dividers (lines spanning from the centre) are used to plot each category.Typically, the lower values on the scale start from the centre and increase with each circle outwards. The bars are plotted extending outwards from the centre based on this concentric circle value scale.Negative values can also be displayed on a Radial Column Chart, by having zero starting from any of the outer circles (from the central one) and all circles within it used for negative values.
 
 -->
+
+---
+layout: full
+---
+
+## Radar Chart
+
+<img src="http://datavizcatalogue.com/methods/images/top_images/radar_chart.png" style="max-height: 100%" />
+
+- Functions: Comparisons,Patterns,Relationships
+- Related Dataviz: Parallel Coordinates Plot
+
+<!--
+
+Also known as: Spider Chart, Web Chart, Polar Chart, Star Plots.Radar Charts are a way of comparing multiple quantitative variables. This makes them useful for seeing which variables have similar values or if there are any outliers amongst each variable. Radar Charts are also useful for seeing which variables are scoring high or low within a dataset, making them suited for displaying performance.Each variable is provided with an axis that starts from the centre. All axes are arranged radially, with equal distances between each other, while maintaining the same scale between all axes. Grid lines that connect from axis to axis are often used as a guide. Each variable value is plotted along an individual axis and all the variables in a dataset and connected to form a polygon.However, there are some major flaws with using Radar Charts:Having multiple polygons for each data series in one Radar Chart can make it hard to read, confusing and too cluttered. Especially if the polygons are filled in, as the top polygon covers all the other polygons underneath it. Transparency can remedy this problem, but having too many polygons will still produce a chart that is overcluttered.  Having too many variables creates too many axes and can also make the chart hard to read and complicated. So it's good practice to keep Radar Charts simple and limit the number of variables used.  Another flaw with Radar Charts is that they’re not so good for comparing values across each variable. Even with the aid of the spiderweb-like grid guide. Comparing values all on a single straight axis is much easier. 
+-->
+
+---
+layout: full
+---
+
+<img src="http://datavizcatalogue.com/methods/images/anatomy/radar_chart.png" style="max-height: 100%" />
+
+
+
+<!--
+
+Also known as: Spider Chart, Web Chart, Polar Chart, Star Plots.Radar Charts are a way of comparing multiple quantitative variables. This makes them useful for seeing which variables have similar values or if there are any outliers amongst each variable. Radar Charts are also useful for seeing which variables are scoring high or low within a dataset, making them suited for displaying performance.Each variable is provided with an axis that starts from the centre. All axes are arranged radially, with equal distances between each other, while maintaining the same scale between all axes. Grid lines that connect from axis to axis are often used as a guide. Each variable value is plotted along an individual axis and all the variables in a dataset and connected to form a polygon.However, there are some major flaws with using Radar Charts:Having multiple polygons for each data series in one Radar Chart can make it hard to read, confusing and too cluttered. Especially if the polygons are filled in, as the top polygon covers all the other polygons underneath it. Transparency can remedy this problem, but having too many polygons will still produce a chart that is overcluttered.  Having too many variables creates too many axes and can also make the chart hard to read and complicated. So it's good practice to keep Radar Charts simple and limit the number of variables used.  Another flaw with Radar Charts is that they’re not so good for comparing values across each variable. Even with the aid of the spiderweb-like grid guide. Comparing values all on a single straight axis is much easier. 
+-->
+
+---
+layout: full
+---
+
+## Nightingale Rose Chart
+
+<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/nightingale_rose_chart.svg" style="max-height: 100%" />
+
+- Functions: Comparisons,Data over time,Proportions
+- Related Dataviz: Pie Chart,Radial Column Chart
+- [How Florence Nightingale Changed Data Visualization Forever](https://www.scientificamerican.com/article/how-florence-nightingale-changed-data-visualization-forever/)
+
+<!--
+
+Also known as a Coxcomb Chart, Polar Area Diagram.This chart was famously used by statistician and medical reformer, Florence Nightingale to communicate the avoidable deaths of soldiers during the Crimean war.Nightingale Rose Charts are drawn on a polar coordinate grid. Each category or interval in the data is divided into equal segments on this radial chart. How far each segment extends from the centre of the polar axis depends on the value it represents. So each ring from the centre of the polar grid can be used as a scale to plot the segment size and represent a higher value.The major flaw with Nightingale Rose Charts is that the outer segments are emphasised more because of their larger area size, which disproportionately represents any value increases.
+
+-->
+
+---
+layout: full
+---
+
+<img src="https://static.scientificamerican.com/sciam/assets/Image/scientificamerican0822-78-I8.jpg" />
+
+
+“Printed tables and all-in double columns, I do not think anyone will read. None but scientific men ever look in the Appendix of a Report. And this is for the vulgar* public.”
+Florence Nightingale
+
+---
+layout: full
+---
+
+<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/nightingale_rose_chart.svg" style="max-height: 100%" />
+
+
+
+<!--
+
+Also known as a Coxcomb Chart, Polar Area Diagram.This chart was famously used by statistician and medical reformer, Florence Nightingale to communicate the avoidable deaths of soldiers during the Crimean war.Nightingale Rose Charts are drawn on a polar coordinate grid. Each category or interval in the data is divided into equal segments on this radial chart. How far each segment extends from the centre of the polar axis depends on the value it represents. So each ring from the centre of the polar grid can be used as a scale to plot the segment size and represent a higher value.The major flaw with Nightingale Rose Charts is that the outer segments are emphasised more because of their larger area size, which disproportionately represents any value increases.
+
+-->
+
+---
+layout: full
+---
+
+## Open-High-Low-Close Chart
+
+<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/OHLC_chart.svg" style="max-height: 100%" />
+
+- Functions: Data over time,Patterns,Ranges
+- Related Dataviz: Candlestick Chart,Kagi Chart
+
+<!--
+
+Also known as OHLC Chart, Price Chart, Bar Chart.Open-high-low-close Charts (or OHLC Charts) are used as a trading tool to visualise and analyse the price changes over time for securities, currencies, stocks, bonds, commodities, etc.  OHLC Charts are useful for interpreting the day-to-day sentiment of the market and forecasting any future price changes through the patterns produced.  The y-axis on an OHLC Chart is used for the price scale, while the x-axis is the timescale. On each single time period, an OHLC Chart plots a symbol that represents two ranges: the highest and lowest prices traded, and also the opening and closing price on that single time period (for example in a day). On the range symbol, the high and low price ranges are represented by the length of the main vertical line. The open and close prices are represented by the vertical positioning of tick-marks that appear on the left (representing the open price) and on right (representing the close price) sides of the high-low vertical line.   Colour can be assigned to each OHLC Chart symbol, to distinguish whether the market is "bullish" (the closing price is higher than it opened) or "bearish" (the closing price is lower than it opened). 
+-->
+
+---
+layout: full
+---
+
+<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/OHLC_chart.svg" style="max-height: 100%" />
+
+
+
+<!--
+
+Also known as OHLC Chart, Price Chart, Bar Chart.Open-high-low-close Charts (or OHLC Charts) are used as a trading tool to visualise and analyse the price changes over time for securities, currencies, stocks, bonds, commodities, etc.  OHLC Charts are useful for interpreting the day-to-day sentiment of the market and forecasting any future price changes through the patterns produced.  The y-axis on an OHLC Chart is used for the price scale, while the x-axis is the timescale. On each single time period, an OHLC Chart plots a symbol that represents two ranges: the highest and lowest prices traded, and also the opening and closing price on that single time period (for example in a day). On the range symbol, the high and low price ranges are represented by the length of the main vertical line. The open and close prices are represented by the vertical positioning of tick-marks that appear on the left (representing the open price) and on right (representing the close price) sides of the high-low vertical line.   Colour can be assigned to each OHLC Chart symbol, to distinguish whether the market is "bullish" (the closing price is higher than it opened) or "bearish" (the closing price is lower than it opened). 
+-->
+
 
 ---
 layout: full
@@ -306,36 +403,6 @@ layout: full
 Although not a chart outright, Error Bars function as a graphical enhancement that visualises the variability of the plotted data on a Cartesian graph. Error Bars can be applied to graphs such as Scatterplots, Dot Plots, Bar Charts or Line Graphs, to provide an additional layer of detail on the presented data.Error Bars help to indicate estimated error or uncertainty to give a general sense of how precise a measurement is. This is done through the use of markers drawn over the original graph and its data points. Typically, Error bars are used to display either the standard deviation, standard error, confidence intervals or the minimum and maximum values in a ranged dataset.  To visualise this information, Error Bars work by drawing cap-tipped lines that extend from the centre of the plotted data point (or edge with Bar Charts). The length of an Error Bar helps reveal the uncertainty of a data point: a short Error Bar shows that values are concentrated, signalling that the plotted average value is more likely, while a long Error Bar would indicate that the values are more spread out and less reliable. Also depending on the type of data, the length of each pair of Error Bars tend to be of equal length on both sides. However, if the data is skewed, then the lengths on each side would be unbalanced.  Error Bars always run parallel to a quantitative scale axis, so they can be displayed either vertically or horizontally, depending on whether the quantitative scale is on the Y or X axis. If there are two quantitative scales, then two pairs of Error Bars can be used for both axes. 
 -->
 
----
-layout: full
----
-
-## Gantt Chart
-
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/gantt_chart.svg" style="max-height: 100%" />
-
-- Functions: Data over time,Processes & methods,Ranges,Reference tool
-- Related Dataviz: Span Chart
-
-<!--
-
-Commonly used as an organisational tool for project management, Gantt Charts display a list of activities (or tasks) with their duration over time, showing when each activity starts and ends. This makes Gantt Charts useful for planning and estimating how long an entire project might take. You can also see what activities are running in parallel to each other.Gantt Charts are drawn within a table: rows are used for the activities and columns are used as the timescale. The duration of each activity is represented by the length of a bar plotted along this timescale. The start of the bar is the beginning of the activity and the end of the bar is when the activity should finish. Colour-coding the bars can be used to categorise the activities into groups. To show the percentage of completion of an activity, a bar can be partially filled in, shaded differently or use a different colour, to differentiate between what is done and what is left to do.Connecting arrows can be used to show which tasks are dependent on each other. Critical paths, the key activities required to finish the project can also be displayed with a series of highlighted arrows. Symbols can also be placed within a Gantt Chart to signify milestones and a vertical line running through the chart is used to highlight the current date.
-
--->
-
----
-layout: full
----
-
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/gantt_chart.svg" style="max-height: 100%" />
-
-
-
-<!--
-
-Commonly used as an organisational tool for project management, Gantt Charts display a list of activities (or tasks) with their duration over time, showing when each activity starts and ends. This makes Gantt Charts useful for planning and estimating how long an entire project might take. You can also see what activities are running in parallel to each other.Gantt Charts are drawn within a table: rows are used for the activities and columns are used as the timescale. The duration of each activity is represented by the length of a bar plotted along this timescale. The start of the bar is the beginning of the activity and the end of the bar is when the activity should finish. Colour-coding the bars can be used to categorise the activities into groups. To show the percentage of completion of an activity, a bar can be partially filled in, shaded differently or use a different colour, to differentiate between what is done and what is left to do.Connecting arrows can be used to show which tasks are dependent on each other. Critical paths, the key activities required to finish the project can also be displayed with a series of highlighted arrows. Symbols can also be placed within a Gantt Chart to signify milestones and a vertical line running through the chart is used to highlight the current date.
-
--->
 
 
 ---
@@ -369,36 +436,6 @@ Also known as a P&F Chart.This chart is used to display the relationship between
 
 
 
----
-layout: full
----
-
-## Nightingale Rose Chart
-
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/nightingale_rose_chart.svg" style="max-height: 100%" />
-
-- Functions: Comparisons,Data over time,Proportions
-- Related Dataviz: Pie Chart,Radial Column Chart
-
-<!--
-
-Also known as a Coxcomb Chart, Polar Area Diagram.This chart was famously used by statistician and medical reformer, Florence Nightingale to communicate the avoidable deaths of soldiers during the Crimean war.Nightingale Rose Charts are drawn on a polar coordinate grid. Each category or interval in the data is divided into equal segments on this radial chart. How far each segment extends from the centre of the polar axis depends on the value it represents. So each ring from the centre of the polar grid can be used as a scale to plot the segment size and represent a higher value.The major flaw with Nightingale Rose Charts is that the outer segments are emphasised more because of their larger area size, which disproportionately represents any value increases.
-
--->
-
----
-layout: full
----
-
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/nightingale_rose_chart.svg" style="max-height: 100%" />
-
-
-
-<!--
-
-Also known as a Coxcomb Chart, Polar Area Diagram.This chart was famously used by statistician and medical reformer, Florence Nightingale to communicate the avoidable deaths of soldiers during the Crimean war.Nightingale Rose Charts are drawn on a polar coordinate grid. Each category or interval in the data is divided into equal segments on this radial chart. How far each segment extends from the centre of the polar axis depends on the value it represents. So each ring from the centre of the polar grid can be used as a scale to plot the segment size and represent a higher value.The major flaw with Nightingale Rose Charts is that the outer segments are emphasised more because of their larger area size, which disproportionately represents any value increases.
-
--->
 
 ---
 layout: full
@@ -491,34 +528,7 @@ layout: full
  This chart is great for comparing values and showing proportions (in sizes, quantities, etc.) to give a quick, overall view of the relative sizes in the data, without using scales.  Proportional Area Charts usually use squares or circles. However, any shape can be used, so long as you use the shape’s area to represent the data. A common technical error with area charts is using length or height to determine the shape’s size. Instead, you need to calculate the space inside the shape (its area) to determine the size. Otherwise, you will cause exponential increases and decreases.  The downside to Proportional Area Charts is that they're difficult to accurately estimate values from. Therefore, they are typically used for presentational purposes rather than analysis.  More Proportional Area Chart variations in this blog post. 
 -->
 
----
-layout: full
----
 
-## Radar Chart
-
-<img src="http://datavizcatalogue.com/methods/images/top_images/radar_chart.png" style="max-height: 100%" />
-
-- Functions: Comparisons,Patterns,Relationships
-- Related Dataviz: Parallel Coordinates Plot
-
-<!--
-
-Also known as: Spider Chart, Web Chart, Polar Chart, Star Plots.Radar Charts are a way of comparing multiple quantitative variables. This makes them useful for seeing which variables have similar values or if there are any outliers amongst each variable. Radar Charts are also useful for seeing which variables are scoring high or low within a dataset, making them suited for displaying performance.Each variable is provided with an axis that starts from the centre. All axes are arranged radially, with equal distances between each other, while maintaining the same scale between all axes. Grid lines that connect from axis to axis are often used as a guide. Each variable value is plotted along an individual axis and all the variables in a dataset and connected to form a polygon.However, there are some major flaws with using Radar Charts:Having multiple polygons for each data series in one Radar Chart can make it hard to read, confusing and too cluttered. Especially if the polygons are filled in, as the top polygon covers all the other polygons underneath it. Transparency can remedy this problem, but having too many polygons will still produce a chart that is overcluttered.  Having too many variables creates too many axes and can also make the chart hard to read and complicated. So it's good practice to keep Radar Charts simple and limit the number of variables used.  Another flaw with Radar Charts is that they’re not so good for comparing values across each variable. Even with the aid of the spiderweb-like grid guide. Comparing values all on a single straight axis is much easier. 
--->
-
----
-layout: full
----
-
-<img src="http://datavizcatalogue.com/methods/images/anatomy/radar_chart.png" style="max-height: 100%" />
-
-
-
-<!--
-
-Also known as: Spider Chart, Web Chart, Polar Chart, Star Plots.Radar Charts are a way of comparing multiple quantitative variables. This makes them useful for seeing which variables have similar values or if there are any outliers amongst each variable. Radar Charts are also useful for seeing which variables are scoring high or low within a dataset, making them suited for displaying performance.Each variable is provided with an axis that starts from the centre. All axes are arranged radially, with equal distances between each other, while maintaining the same scale between all axes. Grid lines that connect from axis to axis are often used as a guide. Each variable value is plotted along an individual axis and all the variables in a dataset and connected to form a polygon.However, there are some major flaws with using Radar Charts:Having multiple polygons for each data series in one Radar Chart can make it hard to read, confusing and too cluttered. Especially if the polygons are filled in, as the top polygon covers all the other polygons underneath it. Transparency can remedy this problem, but having too many polygons will still produce a chart that is overcluttered.  Having too many variables creates too many axes and can also make the chart hard to read and complicated. So it's good practice to keep Radar Charts simple and limit the number of variables used.  Another flaw with Radar Charts is that they’re not so good for comparing values across each variable. Even with the aid of the spiderweb-like grid guide. Comparing values all on a single straight axis is much easier. 
--->
 
 ---
 layout: full
@@ -582,32 +592,7 @@ Timetables are used as a referencing and management tool for scheduled events, t
 
 
 
----
-layout: full
----
 
-## Timeline
-
-<img src="http://datavizcatalogue.com/methods/images/top_images/timeline.png" style="max-height: 100%" />
-
-- Functions: Data over time,Distribution,Patterns
-- Related Dataviz: 
-
-<!--
- A Timeline is a graphical way of displaying a list of events in chronological order. Some Timelines work on a scale, while others simply display events in sequence.  The main function of Timelines is to communicate time-related information, either for analysis or to visually present a story or view of history.  If scale-based, a Timeline allows you to see when things occur or are to occur, by allowing the viewer to assess the time intervals between events. This allows the viewer to see any patterns appearing over any selected time period or how events are distributed in that time period.  Other forms of data visualisation can be combined with a Timeline to show how quantitative data changes over time. For example, the bars of a Span Chart could be used to show the duration of events. Here is a blog post showcasing a list of Timeline combinations. When scaled:
--->
-
----
-layout: full
----
-
-<img src="http://datavizcatalogue.com/methods/images/anatomy/timeline.png" style="max-height: 100%" />
-
-
-
-<!--
- A Timeline is a graphical way of displaying a list of events in chronological order. Some Timelines work on a scale, while others simply display events in sequence.  The main function of Timelines is to communicate time-related information, either for analysis or to visually present a story or view of history.  If scale-based, a Timeline allows you to see when things occur or are to occur, by allowing the viewer to assess the time intervals between events. This allows the viewer to see any patterns appearing over any selected time period or how events are distributed in that time period.  Other forms of data visualisation can be combined with a Timeline to show how quantitative data changes over time. For example, the bars of a Span Chart could be used to show the duration of events. Here is a blog post showcasing a list of Timeline combinations. When scaled:
--->
 
 ---
 layout: full

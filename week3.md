@@ -11,7 +11,3 @@ layout: intro
 ---
 src: ./week3-dataviz.md
 ---
-
----
-src: ./week3-dataviz-maps.md
----
