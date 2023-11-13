@@ -202,11 +202,12 @@ Also known as a Coxcomb Chart, Polar Area Diagram.This chart was famously used b
 layout: full
 ---
 
-<img src="https://static.scientificamerican.com/sciam/assets/Image/scientificamerican0822-78-I8.jpg" />
+<img src="https://static.scientificamerican.com/sciam/cache/file/1C41076A-3C67-46C1-9E538F0483C76B01_source.jpg?w=2000&h=1123&161A4E53-2195-4C9F-A93EE9C733199713" style="max-height: 300px" />
 
 
-“Printed tables and all-in double columns, I do not think anyone will read. None but scientific men ever look in the Appendix of a Report. And this is for the vulgar* public.”
-Florence Nightingale
+“Printed tables and all-in double columns, I do not think anyone will read. None but scientific men ever look in the Appendix of a Report. And this is for the ordinary public.”
+
+-- Florence Nightingale
 
 ---
 layout: full
@@ -220,6 +221,37 @@ layout: full
 
 Also known as a Coxcomb Chart, Polar Area Diagram.This chart was famously used by statistician and medical reformer, Florence Nightingale to communicate the avoidable deaths of soldiers during the Crimean war.Nightingale Rose Charts are drawn on a polar coordinate grid. Each category or interval in the data is divided into equal segments on this radial chart. How far each segment extends from the centre of the polar axis depends on the value it represents. So each ring from the centre of the polar grid can be used as a scale to plot the segment size and represent a higher value.The major flaw with Nightingale Rose Charts is that the outer segments are emphasised more because of their larger area size, which disproportionately represents any value increases.
 
+-->
+
+
+
+---
+layout: full
+---
+
+## Candlestick Chart
+
+<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/candlestick_chart.svg" style="max-height: 100%" />
+
+- Functions: Data over time,Patterns,Ranges
+- Related Dataviz: Kagi Chart,Open-high-low-close Chart
+
+<!--
+
+As known as a Japanese Candlestick Chart.This type of chart is used as a trading tool to visualise and analyse the price movements over time for securities, derivatives, currencies, stocks, bonds, commodities, etc.  Although the symbols used in Candlestick Charts resemble a Box Plot, they function differently and therefore, are not to be confused with one another.  Candlestick Charts display multiple bits of price information such as the open price, close price, highest price and lowest price through the use of candlestick-like symbols. Each symbol represents the compressed trading activity for a single time period (a minute, hour, day, month, etc). Each Candlestick symbol is plotted along a time scale on the x-axis, to show the trading activity over time.  The main rectangle in the symbol is known as the real body, which is used to display the range between the open and close price of that time period.  While the lines extending from the bottom and top of the real body is known as the lower and upper shadows (or wick).  Each shadow represents the highest or lowest price traded during the time period represented.  When the market is Bullish (the closing price is higher than it opened), then the body is coloured typically white or green.  But when the market is Bearish (the closing price is lower than it opened), then the body is usually coloured either black or red.  Candlestick Charts are great for detecting and predicting market trends over time and are useful for interpreting the day-to-day sentiment of the market, through each candlestick symbol's colouring and shape.  For example, the longer the body is, the more intense the selling or buying pressure is.  While, a very short body, would indicate that there is very little price movement in that time period and represents consolidation.  Candlestick Charts help reveal the market psychology (the fear and greed experienced by sellers and buyers) through the various indicators, such as shape and colour, but also by the many identifiable patterns that can be found in Candlestick Charts.  In total, there are 42 recognised patterns that are divided into simple and complex patterns.  These patterns found in Candlestick Charts are useful for displaying price relationships and can be used for predicting the possible future movement of the market.  You can find a list and description of each pattern here.  Please bear in mind, that Candlestick Charts don't express the events taking place between the open and close price - only the relationship between the two prices.  So you can't tell how volatile trading was within that single time period. 
+-->
+
+---
+layout: full
+---
+
+<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/candlestick_chart.svg" style="max-height: 100%" />
+
+
+
+<!--
+
+As known as a Japanese Candlestick Chart.This type of chart is used as a trading tool to visualise and analyse the price movements over time for securities, derivatives, currencies, stocks, bonds, commodities, etc.  Although the symbols used in Candlestick Charts resemble a Box Plot, they function differently and therefore, are not to be confused with one another.  Candlestick Charts display multiple bits of price information such as the open price, close price, highest price and lowest price through the use of candlestick-like symbols. Each symbol represents the compressed trading activity for a single time period (a minute, hour, day, month, etc). Each Candlestick symbol is plotted along a time scale on the x-axis, to show the trading activity over time.  The main rectangle in the symbol is known as the real body, which is used to display the range between the open and close price of that time period.  While the lines extending from the bottom and top of the real body is known as the lower and upper shadows (or wick).  Each shadow represents the highest or lowest price traded during the time period represented.  When the market is Bullish (the closing price is higher than it opened), then the body is coloured typically white or green.  But when the market is Bearish (the closing price is lower than it opened), then the body is usually coloured either black or red.  Candlestick Charts are great for detecting and predicting market trends over time and are useful for interpreting the day-to-day sentiment of the market, through each candlestick symbol's colouring and shape.  For example, the longer the body is, the more intense the selling or buying pressure is.  While, a very short body, would indicate that there is very little price movement in that time period and represents consolidation.  Candlestick Charts help reveal the market psychology (the fear and greed experienced by sellers and buyers) through the various indicators, such as shape and colour, but also by the many identifiable patterns that can be found in Candlestick Charts.  In total, there are 42 recognised patterns that are divided into simple and complex patterns.  These patterns found in Candlestick Charts are useful for displaying price relationships and can be used for predicting the possible future movement of the market.  You can find a list and description of each pattern here.  Please bear in mind, that Candlestick Charts don't express the events taking place between the open and close price - only the relationship between the two prices.  So you can't tell how volatile trading was within that single time period. 
 -->
 
 ---
@@ -249,6 +281,35 @@ layout: full
 <!--
 
 Also known as OHLC Chart, Price Chart, Bar Chart.Open-high-low-close Charts (or OHLC Charts) are used as a trading tool to visualise and analyse the price changes over time for securities, currencies, stocks, bonds, commodities, etc.  OHLC Charts are useful for interpreting the day-to-day sentiment of the market and forecasting any future price changes through the patterns produced.  The y-axis on an OHLC Chart is used for the price scale, while the x-axis is the timescale. On each single time period, an OHLC Chart plots a symbol that represents two ranges: the highest and lowest prices traded, and also the opening and closing price on that single time period (for example in a day). On the range symbol, the high and low price ranges are represented by the length of the main vertical line. The open and close prices are represented by the vertical positioning of tick-marks that appear on the left (representing the open price) and on right (representing the close price) sides of the high-low vertical line.   Colour can be assigned to each OHLC Chart symbol, to distinguish whether the market is "bullish" (the closing price is higher than it opened) or "bearish" (the closing price is lower than it opened). 
+-->
+
+---
+layout: full
+---
+
+## Kagi Chart
+
+<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/kagi_chart.svg" style="max-height: 100%" />
+
+- Functions: Patterns,Ranges
+- Related Dataviz: Candlestick Chart,Open-high-low-close Chart
+
+<!--
+
+Used to display the general levels of supply and demand of a particular asset by visualising the price actions through a series of line patterns. Kagi Charts are time-independent and help filter out the noise that can occur on other financial charts (like on a Candlestick Chart). This is so that important price movements are displayed more clearly. Recognising the patterns that occur in Kagi Charts is key to understanding them.While Kagi Charts do display dates or time on their x-axis, these are in fact markers for the key price action dates and are not part of a timescale. The y-axis on the right-hand side is used as the value scale.  The line in a Kagi Chart initially moves vertically in the same direction of the price movement and will continue to extend, so long as the price, regardless of how small, maintains the same direction. Once the price hits a pre-determined “reversal” amount, the line makes a u-turn and goes in the opposite direction. So, each of the little horizontal lines on the chart indicates where a price reversal has taken place. When a horizontal line joins a rising line with a plunging line it’s known as a “shoulder”, while a horizontal line connecting a plunging line with a rising line is known as a “waist”.  The varying thickness or colour of the line is dependent on the price behaviour. When the price goes higher than a previous "shoulder" reversal, the line becomes thicker (and/or green) and is known as a "Yang line". This can be interpreted as an increase in demand over supply for the asset and as a bullish upward trend. Alternatively, when the price breaks below a previous "waist" reversal, the line becomes thinner (and/or red) and is known as a "Yin line".  This signifies an increase in supply over demand for the asset and as a bearish downward price trend.  Traders use the shift from thin (Yin) to thick (Yang) lines (and vice versa) as signals to buy or sell an asset. A Yin to Yang shift indicates to buy, while a Yang to Yin shift indicates to sell. 
+-->
+
+---
+layout: full
+---
+
+<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/kagi_chart.svg" style="max-height: 100%" />
+
+
+
+<!--
+
+Used to display the general levels of supply and demand of a particular asset by visualising the price actions through a series of line patterns. Kagi Charts are time-independent and help filter out the noise that can occur on other financial charts (like on a Candlestick Chart). This is so that important price movements are displayed more clearly. Recognising the patterns that occur in Kagi Charts is key to understanding them.While Kagi Charts do display dates or time on their x-axis, these are in fact markers for the key price action dates and are not part of a timescale. The y-axis on the right-hand side is used as the value scale.  The line in a Kagi Chart initially moves vertically in the same direction of the price movement and will continue to extend, so long as the price, regardless of how small, maintains the same direction. Once the price hits a pre-determined “reversal” amount, the line makes a u-turn and goes in the opposite direction. So, each of the little horizontal lines on the chart indicates where a price reversal has taken place. When a horizontal line joins a rising line with a plunging line it’s known as a “shoulder”, while a horizontal line connecting a plunging line with a rising line is known as a “waist”.  The varying thickness or colour of the line is dependent on the price behaviour. When the price goes higher than a previous "shoulder" reversal, the line becomes thicker (and/or green) and is known as a "Yang line". This can be interpreted as an increase in demand over supply for the asset and as a bullish upward trend. Alternatively, when the price breaks below a previous "waist" reversal, the line becomes thinner (and/or red) and is known as a "Yin line".  This signifies an increase in supply over demand for the asset and as a bearish downward price trend.  Traders use the shift from thin (Yin) to thick (Yang) lines (and vice versa) as signals to buy or sell an asset. A Yin to Yang shift indicates to buy, while a Yang to Yin shift indicates to sell. 
 -->
 
 
@@ -313,66 +374,6 @@ Also known as a Stemplot, Stem & Leaf Display.Stem & Leaf Plots are a way of org
 -->
 
 
-
----
-layout: full
----
-
-## Candlestick Chart
-
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/candlestick_chart.svg" style="max-height: 100%" />
-
-- Functions: Data over time,Patterns,Ranges
-- Related Dataviz: Kagi Chart,Open-high-low-close Chart
-
-<!--
-
-As known as a Japanese Candlestick Chart.This type of chart is used as a trading tool to visualise and analyse the price movements over time for securities, derivatives, currencies, stocks, bonds, commodities, etc.  Although the symbols used in Candlestick Charts resemble a Box Plot, they function differently and therefore, are not to be confused with one another.  Candlestick Charts display multiple bits of price information such as the open price, close price, highest price and lowest price through the use of candlestick-like symbols. Each symbol represents the compressed trading activity for a single time period (a minute, hour, day, month, etc). Each Candlestick symbol is plotted along a time scale on the x-axis, to show the trading activity over time.  The main rectangle in the symbol is known as the real body, which is used to display the range between the open and close price of that time period.  While the lines extending from the bottom and top of the real body is known as the lower and upper shadows (or wick).  Each shadow represents the highest or lowest price traded during the time period represented.  When the market is Bullish (the closing price is higher than it opened), then the body is coloured typically white or green.  But when the market is Bearish (the closing price is lower than it opened), then the body is usually coloured either black or red.  Candlestick Charts are great for detecting and predicting market trends over time and are useful for interpreting the day-to-day sentiment of the market, through each candlestick symbol's colouring and shape.  For example, the longer the body is, the more intense the selling or buying pressure is.  While, a very short body, would indicate that there is very little price movement in that time period and represents consolidation.  Candlestick Charts help reveal the market psychology (the fear and greed experienced by sellers and buyers) through the various indicators, such as shape and colour, but also by the many identifiable patterns that can be found in Candlestick Charts.  In total, there are 42 recognised patterns that are divided into simple and complex patterns.  These patterns found in Candlestick Charts are useful for displaying price relationships and can be used for predicting the possible future movement of the market.  You can find a list and description of each pattern here.  Please bear in mind, that Candlestick Charts don't express the events taking place between the open and close price - only the relationship between the two prices.  So you can't tell how volatile trading was within that single time period. 
--->
-
----
-layout: full
----
-
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/candlestick_chart.svg" style="max-height: 100%" />
-
-
-
-<!--
-
-As known as a Japanese Candlestick Chart.This type of chart is used as a trading tool to visualise and analyse the price movements over time for securities, derivatives, currencies, stocks, bonds, commodities, etc.  Although the symbols used in Candlestick Charts resemble a Box Plot, they function differently and therefore, are not to be confused with one another.  Candlestick Charts display multiple bits of price information such as the open price, close price, highest price and lowest price through the use of candlestick-like symbols. Each symbol represents the compressed trading activity for a single time period (a minute, hour, day, month, etc). Each Candlestick symbol is plotted along a time scale on the x-axis, to show the trading activity over time.  The main rectangle in the symbol is known as the real body, which is used to display the range between the open and close price of that time period.  While the lines extending from the bottom and top of the real body is known as the lower and upper shadows (or wick).  Each shadow represents the highest or lowest price traded during the time period represented.  When the market is Bullish (the closing price is higher than it opened), then the body is coloured typically white or green.  But when the market is Bearish (the closing price is lower than it opened), then the body is usually coloured either black or red.  Candlestick Charts are great for detecting and predicting market trends over time and are useful for interpreting the day-to-day sentiment of the market, through each candlestick symbol's colouring and shape.  For example, the longer the body is, the more intense the selling or buying pressure is.  While, a very short body, would indicate that there is very little price movement in that time period and represents consolidation.  Candlestick Charts help reveal the market psychology (the fear and greed experienced by sellers and buyers) through the various indicators, such as shape and colour, but also by the many identifiable patterns that can be found in Candlestick Charts.  In total, there are 42 recognised patterns that are divided into simple and complex patterns.  These patterns found in Candlestick Charts are useful for displaying price relationships and can be used for predicting the possible future movement of the market.  You can find a list and description of each pattern here.  Please bear in mind, that Candlestick Charts don't express the events taking place between the open and close price - only the relationship between the two prices.  So you can't tell how volatile trading was within that single time period. 
--->
-
-
-
----
-layout: full
----
-
-## Kagi Chart
-
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/kagi_chart.svg" style="max-height: 100%" />
-
-- Functions: Patterns,Ranges
-- Related Dataviz: Candlestick Chart,Open-high-low-close Chart
-
-<!--
-
-Used to display the general levels of supply and demand of a particular asset by visualising the price actions through a series of line patterns. Kagi Charts are time-independent and help filter out the noise that can occur on other financial charts (like on a Candlestick Chart). This is so that important price movements are displayed more clearly. Recognising the patterns that occur in Kagi Charts is key to understanding them.While Kagi Charts do display dates or time on their x-axis, these are in fact markers for the key price action dates and are not part of a timescale. The y-axis on the right-hand side is used as the value scale.  The line in a Kagi Chart initially moves vertically in the same direction of the price movement and will continue to extend, so long as the price, regardless of how small, maintains the same direction. Once the price hits a pre-determined “reversal” amount, the line makes a u-turn and goes in the opposite direction. So, each of the little horizontal lines on the chart indicates where a price reversal has taken place. When a horizontal line joins a rising line with a plunging line it’s known as a “shoulder”, while a horizontal line connecting a plunging line with a rising line is known as a “waist”.  The varying thickness or colour of the line is dependent on the price behaviour. When the price goes higher than a previous "shoulder" reversal, the line becomes thicker (and/or green) and is known as a "Yang line". This can be interpreted as an increase in demand over supply for the asset and as a bullish upward trend. Alternatively, when the price breaks below a previous "waist" reversal, the line becomes thinner (and/or red) and is known as a "Yin line".  This signifies an increase in supply over demand for the asset and as a bearish downward price trend.  Traders use the shift from thin (Yin) to thick (Yang) lines (and vice versa) as signals to buy or sell an asset. A Yin to Yang shift indicates to buy, while a Yang to Yin shift indicates to sell. 
--->
-
----
-layout: full
----
-
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/kagi_chart.svg" style="max-height: 100%" />
-
-
-
-<!--
-
-Used to display the general levels of supply and demand of a particular asset by visualising the price actions through a series of line patterns. Kagi Charts are time-independent and help filter out the noise that can occur on other financial charts (like on a Candlestick Chart). This is so that important price movements are displayed more clearly. Recognising the patterns that occur in Kagi Charts is key to understanding them.While Kagi Charts do display dates or time on their x-axis, these are in fact markers for the key price action dates and are not part of a timescale. The y-axis on the right-hand side is used as the value scale.  The line in a Kagi Chart initially moves vertically in the same direction of the price movement and will continue to extend, so long as the price, regardless of how small, maintains the same direction. Once the price hits a pre-determined “reversal” amount, the line makes a u-turn and goes in the opposite direction. So, each of the little horizontal lines on the chart indicates where a price reversal has taken place. When a horizontal line joins a rising line with a plunging line it’s known as a “shoulder”, while a horizontal line connecting a plunging line with a rising line is known as a “waist”.  The varying thickness or colour of the line is dependent on the price behaviour. When the price goes higher than a previous "shoulder" reversal, the line becomes thicker (and/or green) and is known as a "Yang line". This can be interpreted as an increase in demand over supply for the asset and as a bullish upward trend. Alternatively, when the price breaks below a previous "waist" reversal, the line becomes thinner (and/or red) and is known as a "Yin line".  This signifies an increase in supply over demand for the asset and as a bearish downward price trend.  Traders use the shift from thin (Yin) to thick (Yang) lines (and vice versa) as signals to buy or sell an asset. A Yin to Yang shift indicates to buy, while a Yang to Yin shift indicates to sell. 
--->
 
 ---
 layout: full
