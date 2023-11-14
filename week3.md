@@ -9,7 +9,7 @@ layout: intro
 <!-- Last week was very information-dense. We didn’t get to play a lot in Observable. This week we will be making up for that and spend most of the time in Observable doing exercises and applying what we've learned from last week.
 
 Quick recap
-We went through a lot of the basic charts and their purposes - some are common options for qualitative and quantitative data, some are accurate data representations, and are good tools for exploratory analysis - finding patterns and trends, like scatter plots, histogram, some are mostly meant for more of a visual overview like pie chart, stream graph, usually used for explanary purposes. 
+We went through a lot of the basic charts and their purposes - some are common options for qualitative and quantitative data, some are accurate data representations, and are good tools for exploratory analysis - finding patterns and trends, like scatter plots, histogram, some are mostly meant for more of a visual overview like pie chart, stream graph, dot matrix, pictogram, usually used for explanary purposes. 
 
 We talked about structured data, and how to get them from the internet into Observable, and preprocess them for data visualization. 
 
@@ -20,13 +20,13 @@ I also overwhelmed you with Javascript definitions and basic functions - mention
 
 # Agenda
 
-## Recap and Exercise (40 min)
+## Recap and Exercise (30 min)
 - Warm-up exercise - [MA municipalities](https://observablehq.com/@datavizstudio/ma-municipalities)
-- Quick break (10 min)
-## Lecture + Demo (60 min)
+## Lecture + Demo (80 min)
 - Grammar of Graphics (Mapping data dimension to graphic dimensions)
 - Demo [Histogram VS Bar Chart](https://observablehq.com/@datavizstudio/rect-vs-bar)
 - Observable gallery and documentation
+- Quick break (10 min)
 - [Dataviz Types and Their Functions](https://observablehq.com/@datavizstudio/dataviz-types-and-their-functions)
 ## Working Session (40 min)
 - Find your own data
@@ -64,7 +64,7 @@ image: https://media.springernature.com/full/springer-static/cover-hires/book/97
 <!-- 
 The Grammar of Graphics (GoG) is a language for defining statistical graphics like bar charts, scatterplots, and line graphs from composable pieces. 
 
-On the right: This idea was originally introduced by Wilkinson's Grammar of Graphics - the idea of mapping data dimensions to graphic dimensions and using a systematic approach to creating a wide range of visualizations, allowing you think think beyond an overarching “chart” abstraction in the process.
+On the right: This idea was originally introduced by Wilkinson's Grammar of Graphics - the idea of mapping data dimensions to graphic dimensions and using a systematic approach to creating a wide range of visualizations, allowing you think beyond an overarching “chart” abstraction in the process.
 
 On the left: Hadley Wickham, he's a computer scentist who created the language R - for statistical computing and graphics and an opensource dataviz framework ggplot2. Here's a link to his paper that covers his proposal and implementations in detail. -->
 
@@ -80,7 +80,7 @@ On the left: Hadley Wickham, he's a computer scentist who created the language R
 layout: section 
 ---
 
-# Observable Grammers
+# Plot Grammers
 
 ---
 layout: image
@@ -101,6 +101,8 @@ layout: section
 
 <h2>Plot doesn’t have chart types; instead, you construct charts by layering <span style="color: yellow">marks</span>.</h2>
 
+— [Observable Plot Documentation](https://observablehq.com/plot/features/marks
+)
 ---
 
 # Marks
