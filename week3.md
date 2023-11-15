@@ -6,6 +6,8 @@ layout: intro
 ## Mapping Data to Graphics
 11/14/2023
 
+<Credit />
+
 <!-- Last week was very information-dense. We didn’t get to play a lot in Observable. This week we will be making up for that and spend most of the time in Observable doing exercises and applying what we've learned from last week.
 
 Quick recap
