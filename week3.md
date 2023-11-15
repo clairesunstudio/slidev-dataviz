@@ -214,5 +214,7 @@ layout: section
     - ...
 - Next week: Create your own data-driven [pictogram/isotype](https://observablehq.com/@observablehq/plot-isotype-chart) chart
     - Prepare summary data points
-    - Find or create icons or emoji
-    - Reading: [Picture it with pictograms](https://flourish.studio/blog/pictogram-isotype)
+    - [Find or create icons or emoji for your data](https://www.vis4.net/blog/2012/10/choose-your-icons-wisely/)
+    - Recommended Readings: 
+        - [Exploring Isotype Charts](https://nightingaledvs.com/exploring-isotype-charts-our-private-lives-lessons-of-isotype-part-2/)
+        - [ISOTYPE Visualization Research](http://steveharoz.com/research/isotype/)
