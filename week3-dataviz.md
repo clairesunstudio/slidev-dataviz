@@ -4,7 +4,7 @@ layout: full
 
 ## Timeline
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/timeline.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/timeline.png" style="max-height: 100%" />
 
 - Functions: Data over time,Distribution,Patterns
 - Related Dataviz: 
@@ -17,7 +17,7 @@ layout: full
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/timeline.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/timeline.png" style="max-height: 100%" />
 
 
 
@@ -31,7 +31,7 @@ layout: full
 
 ## Gantt Chart
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/gantt_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/PNG/gantt_chart.png" style="max-height: 100%" />
 
 - Functions: Data over time,Processes & methods,Ranges,Reference tool
 - Related Dataviz: Span Chart
@@ -46,7 +46,7 @@ Commonly used as an organisational tool for project management, Gantt Charts dis
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/gantt_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/SVG/gantt_chart.svg" style="max-height: 100%" />
 
 
 
@@ -62,7 +62,7 @@ layout: full
 
 ## Span Chart
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/span_chart.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/span_chart.png" style="max-height: 100%" />
 
 - Functions: Comparisons,Ranges
 - Related Dataviz: Box & Whisker Plot,Candlestick Chart,Gantt Chart
@@ -77,7 +77,7 @@ Also known as a Range Bar/Column Graph, Floating Bar Graph, Difference Graph, Hi
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/span_chart.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/span_chart.png" style="max-height: 100%" />
 
 
 
@@ -95,7 +95,7 @@ layout: full
 
 ## Spiral Plot
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/PNG/spiral_plot.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/PNG/spiral_plot.png" style="max-height: 100%" />
 
 - Functions: Data over time,Patterns
 - [Why The NYT Spiral Graph Is A Failure. And A Success.](https://www.practicalreporting.com/blog/2022/1/11/why-the-nyt-spiral-graph-is-a-failure-and-a-success)
@@ -109,7 +109,7 @@ Also known as a Time Series Spiral.This visualisation plots time-based data alon
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/PNG/spiral_plot.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/PNG/spiral_plot.png" style="max-height: 100%" />
 
 
 
@@ -126,7 +126,7 @@ layout: full
 
 ## Radial Column Chart
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/radial_column_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/SVG/radial_column_chart.svg" style="max-height: 100%" />
 
 - Functions: Comparisons
 - Related Dataviz: Bar Chart,Radial Bar Chart
@@ -141,7 +141,7 @@ Also known as a Circular Column Graph or Star Graph.This type of graph plots bar
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/radial_column_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/SVG/radial_column_chart.svg" style="max-height: 100%" />
 
 
 
@@ -157,7 +157,7 @@ layout: full
 
 ## Radar Chart
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/radar_chart.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/radar_chart.png" style="max-height: 100%" />
 
 - Functions: Comparisons,Patterns,Relationships
 - Related Dataviz: Parallel Coordinates Plot
@@ -171,7 +171,7 @@ Also known as: Spider Chart, Web Chart, Polar Chart, Star Plots.Radar Charts are
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/radar_chart.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/radar_chart.png" style="max-height: 100%" />
 
 
 
@@ -186,7 +186,7 @@ layout: full
 
 ## Nightingale Rose Chart
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/nightingale_rose_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/SVG/nightingale_rose_chart.svg" style="max-height: 100%" />
 
 - Functions: Comparisons,Data over time,Proportions
 - Related Dataviz: Pie Chart,Radial Column Chart
@@ -213,7 +213,7 @@ layout: full
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/nightingale_rose_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/SVG/nightingale_rose_chart.svg" style="max-height: 100%" />
 
 
 
@@ -231,7 +231,7 @@ layout: full
 
 ## Candlestick Chart
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/candlestick_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/SVG/candlestick_chart.svg" style="max-height: 100%" />
 
 - Functions: Data over time,Patterns,Ranges
 - Related Dataviz: Kagi Chart,Open-high-low-close Chart
@@ -245,7 +245,7 @@ As known as a Japanese Candlestick Chart.This type of chart is used as a trading
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/candlestick_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/SVG/candlestick_chart.svg" style="max-height: 100%" />
 
 
 
@@ -260,7 +260,7 @@ layout: full
 
 ## Open-High-Low-Close Chart
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/OHLC_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/SVG/OHLC_chart.svg" style="max-height: 100%" />
 
 - Functions: Data over time,Patterns,Ranges
 - Related Dataviz: Candlestick Chart,Kagi Chart
@@ -274,7 +274,7 @@ Also known as OHLC Chart, Price Chart, Bar Chart.Open-high-low-close Charts (or 
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/OHLC_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/SVG/OHLC_chart.svg" style="max-height: 100%" />
 
 
 
@@ -289,7 +289,7 @@ layout: full
 
 ## Kagi Chart
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/kagi_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/SVG/kagi_chart.svg" style="max-height: 100%" />
 
 - Functions: Patterns,Ranges
 - Related Dataviz: Candlestick Chart,Open-high-low-close Chart
@@ -303,7 +303,7 @@ Used to display the general levels of supply and demand of a particular asset by
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/kagi_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/SVG/kagi_chart.svg" style="max-height: 100%" />
 
 
 
@@ -319,7 +319,7 @@ layout: full
 
 ## Violin Plot
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/violin_plot.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/SVG/violin_plot.svg" style="max-height: 100%" />
 
 - Functions: Distribution,Patterns,Ranges
 - Related Dataviz: Box & Whisker Plot
@@ -333,7 +333,7 @@ A Violin Plot is used to visualise the distribution of the data and its probabil
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/violin_plot.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/PNG/violin_plot.png" style="max-height: 100%" />
 
 
 
@@ -348,7 +348,7 @@ layout: full
 
 ## Stem and Leaf Plot
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/stem_and_leaf_plot.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/SVG/stem_and_leaf_plot.svg" style="max-height: 100%" />
 
 - Functions: Distribution,Reference Tool
 - Related Dataviz: Tally Chart
@@ -363,7 +363,7 @@ Also known as a Stemplot, Stem & Leaf Display.Stem & Leaf Plots are a way of org
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/stem_and_leaf_plot.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/PNG/stem_and_leaf_plot.png" style="max-height: 100%" />
 
 
 
@@ -381,7 +381,7 @@ layout: full
 
 ## Error Bars
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/error_bars.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/SVG/error_bars.svg" style="max-height: 100%" />
 
 - Functions: Ranges
 - Related Dataviz: Area Graph,Bar Chart,Histogram,Line Graph,Multi-set Bar Chart,Scatterplot,Span Chart
@@ -395,7 +395,7 @@ Although not a chart outright, Error Bars function as a graphical enhancement th
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/error_bars.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/SVG/error_bars.svg" style="max-height: 100%" />
 
 
 
@@ -412,7 +412,7 @@ layout: full
 
 ## Point & Figure Chart
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/point_and_figure_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/SVG/point_and_figure_chart.svg" style="max-height: 100%" />
 
 - Functions: Patterns
 - Related Dataviz: Kagi Chart
@@ -426,7 +426,7 @@ Also known as a P&F Chart.This chart is used to display the relationship between
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/point_and_figure_chart.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/SVG/point_and_figure_chart.svg" style="max-height: 100%" />
 
 
 
@@ -444,7 +444,7 @@ layout: full
 
 ## Parallel Sets
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/parallel_sets.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/parallel_sets.png" style="max-height: 100%" />
 
 - Functions: Comparisons,Distribution,Flow,Processes & Methods,Proportions
 - Related Dataviz: Sankey Diagram,Parallel Coordinates Plot
@@ -458,7 +458,7 @@ Parallel Sets are similar to  Sankey Diagrams in the way they show flow and prop
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/parallel_sets.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/parallel_sets.png" style="max-height: 100%" />
 
 
 
@@ -475,7 +475,7 @@ layout: full
 
 ## Radial Bar Chart
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/radial_bar_chart.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/radial_bar_chart.png" style="max-height: 100%" />
 
 - Functions: Comparisons
 - Related Dataviz: Bar Chart,Radial Column Chart
@@ -490,7 +490,7 @@ A Radial Bar Chart is essentially a Bar Chart plotted on a polar coordinates sys
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/radial_bar_chart.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/radial_bar_chart.png" style="max-height: 100%" />
 
 
 
@@ -508,7 +508,7 @@ layout: full
 
 ## Proportional Area Chart
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/area_chart.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/area_chart.png" style="max-height: 100%" />
 
 - Functions: Comparisons,Proportions
 - Related Dataviz: Bubble Chart
@@ -521,7 +521,7 @@ layout: full
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/area_chart.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/area_chart.png" style="max-height: 100%" />
 
 
 
@@ -537,7 +537,7 @@ layout: full
 
 ## Bullet Graph
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/bullet_graph.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/SVG/bullet_graph.svg" style="max-height: 100%" />
 
 - Functions: Comparisons,Ranges
 - Related Dataviz: Bar Chart
@@ -551,7 +551,7 @@ Used typically to display performance data, a Bullet Graph functions like a Bar 
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/bullet_graph.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/SVG/bullet_graph.svg" style="max-height: 100%" />
 
 
 
@@ -566,7 +566,7 @@ layout: full
 
 ## Timetable
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/timetable.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/timetable.png" style="max-height: 100%" />
 
 - Functions: Data over time,Reference Tool
 - Related Dataviz: Calendar
@@ -581,7 +581,7 @@ Timetables are used as a referencing and management tool for scheduled events, t
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/timetable.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/timetable.png" style="max-height: 100%" />
 
 
 
@@ -601,7 +601,7 @@ layout: full
 
 ## Box and Whisker Plot
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/box_plot.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/box_plot.png" style="max-height: 100%" />
 
 - Functions: Distribution,Range,Comparisons,Patterns
 - Related Dataviz: Span Chart,Violin Plot
@@ -617,7 +617,7 @@ Two of the most commonly used variation of Box Plot are: variable-width Box Plot
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/box_plot.png" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/box_plot.png" style="max-height: 100%" />
 
 
 
@@ -635,7 +635,7 @@ layout: full
 
 ## Parallel Coordinates Plot
 
-<img src="http://datavizcatalogue.com/methods/images/top_images/SVG/parallel_coordinates.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/top_images/SVG/parallel_coordinates.svg" style="max-height: 100%" />
 
 - Functions: Comparisons,Relationships,Patterns
 - Related Dataviz: Parallel Sets,Radar Chart
@@ -649,7 +649,7 @@ This type of visualisation is used for plotting multivariate, numerical data. Pa
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/parallel_coordinates.svg" style="max-height: 100%" />
+<img src="https://datavizcatalogue.com/methods/images/anatomy/SVG/parallel_coordinates.svg" style="max-height: 100%" />
 
 
 
