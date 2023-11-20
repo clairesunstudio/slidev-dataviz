@@ -1,5 +1,4 @@
 ---
-theme: apple-basic
 layout: intro
 ---
 
