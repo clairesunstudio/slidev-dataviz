@@ -19,13 +19,13 @@ image: ./images/week3/observable-layers.png
 
 # Agenda
 
-## Recap and Lecture (30 min)
+### Recap and Lecture (30 min)
 - Principles and theories of data visualization
-## Demo (60 min)
+### Demo (60 min)
 - How to create a [data-driven isotype/pictogram](https://observablehq.com/d/929667581b308364)
     - using emoji
     - using custom icons and with coordinates
-## Working Session (60 min)
+### Working Session (60 min)
 - Create your own data-driven pictogram/isotype chart
 
 <!-- Today we are going to talk about the principles of data visualization. We will revisit some of the rule of thumb and concepts we came across earlier. 
@@ -138,7 +138,7 @@ Correlation is not causation. -->
 
 
 ---
-layout: statment
+layout: statement
 ---
 
 "In good information visualization, there are no rules, no guidelines, no templates, no standard technologies, no stylebooks… You must simply do whatever it takes."
