@@ -114,7 +114,7 @@ Chartjunk VS the real 3rd dimension
 
 <!-- p67
  “Chart junk” is a term coined by Edward Tufte to refer to elements of a chart or graph that do not add value to the data being presented, but rather serve only to distract or confuse the viewer. 
-Leaving behind the distortion in the chartjunk heap at the left yields a calmer view. 
+Leaving behind the distortion in the chartjunk heap at the left yields a cleaner view. 
 
 A 3-D View of a Chart That Predicts The Economic Future: The Yield Curve (NYT)
 -->
@@ -122,38 +122,48 @@ A 3-D View of a Chart That Predicts The Economic Future: The Yield Curve (NYT)
 --- 
 
 ## 2. Statiscal Bias
-<br>
 
-Some variables change over time:
-1. Population Growth  --> Per capita
-2. Monetary Inflation --> In constant dollars
-
-
-<div class="grid grid-cols-2 gap-10">
-    <v-clicks>
-    <p>In time-series displays of money, defalted and standardized units of monetary meansurement are nearly always better than nominal units.</p>
-    <img src="/images/week4/oil-price-adjusted2.png" />
-    </v-clicks>
+<div class="grid grid-cols-2 gap-5 pt-4">
+    <div>
+        <div>
+            Some variables change over time.
+            <ol>
+                <li> 1. Population Growth  --> per capita </li>
+                <li> 2. Monetary Inflation --> constant dollars</li>
+            </ol>
+        </div>
+        <v-click>
+            <p>In time-series displays of money, defalted and standardized units of monetary meansurement are nearly always better than nominal units.</p>
+        </v-click>
+    </div>
+    <v-click>
+     <img src="/images/week4/oil-price-adjusted.png" style="height: 400px" />
+    </v-click>
 </div>
 
 <!-- p63
 1. the state's population increased by 1.7 million people (10%). Part of the buget growth simply paralleled population growth. 
 2. the period was a time of substanitial inflation; goods and services cost state and local governments $1 in 1967 cost $2.03 in 1977. Buying power cut int half. 
 
-The second error that the budget chart made - 
+The second error that the budget chart made - showing price of oil in inflated (current) dollars. The 1972 dollar was worth much more than the 1979 dikkar,
 -->
 
 ---
 
 ## Show data variation, not design variation
 
-Representation of numbers should proportional to the actual numbers.
+Representation of numbers should be proportional to the actual numbers.
 
 <img src="/images/week4/design-variation.png" />
 
 <!-- 
-Do not quote data out of context. 
-Correlation is not causation. -->
+There are considerable ambiguities in how people perceive a 2D surface and then convert that perception into 1D number. Especially with icons or images. 
+
+Sometimes decoration can hlelp editorialize about the substance of the graphic. It's better to use it as a stylistic embellishment . But it's wrong to distort the data measures - the link locating values of numbers - in order to make an editorial comment or fit a decorative scheme. Lying graphics cheapens the art. If you want to use picture or symbols
+
+Another way to use symbols and icons in a datavisualization, which we are going to do today:
+Principle rule of Isotype: greater quantities are not shown by enlarging the same picture or symbol (which is still done often enough today) but by repeating the same-sized symbol.
+ -->
 
 
 --- 
@@ -173,8 +183,9 @@ Note: by default, Observable defaults the scale r to sqrt (so it can directly be
 </small>
 
 <!-- 
-Do not quote data out of context. 
-Correlation is not causation. -->
+Visua area and numberical measure
+Another way to confuse data variation with design variation is to use areas to show one-dimentional data.
+-->
 
 ---
 
@@ -183,13 +194,53 @@ Correlation is not causation. -->
 <img src="/images/week4/lie-factor.png" />
 <img src="/images/week4/lie-factor-examples.png" />
 
-<!-- The representation of numbers, as physically measured on the surface of the graphic itself, should be directly proportional to the quantities represented. -->
+<!-- The representation of numbers, as physically measured on the surface of the graphic itself, should be directly proportional to the quantities represented. 
 
+Violations of the this principle lead to misrepresentation - the effect can be measured by the "lie factor".
+
+The shriking doctor, Lie factor of 2.8 (Los Angeles Times, 1979)
+-->
+
+
+---
+
+## Non-data Ink vs Data Ink
+
+<div class="grid grid-cols-2 gap-5 pt-4">
+<img src="/images/week4/chartjunk.png" style="height: 430px">
+<img src="/images/week4/data-rich-pulsar.png" style="height: 430px">
+</div>
+
+<small>Source: https://infovis-wiki.net/wiki/Data-Ink_Ratio</small>
 ---
 
 ## Data to Ink Ratio
 
+<img src="https://infovis-wiki.net/w/images/5/55/DIR.jpg">
 
+<!-- Maximize the share of data-ink, within reason
+erase non-data ink, within reason
+erase redundant data-ink   -->
+
+---
+
+## Data Ink vs Non-data Ink
+
+<div class="grid grid-cols-2 gap-5 pt-4">
+    <img src="/images/week4/data-ink-low.png">
+    <img src="/images/week4/data-ink-high.png">
+</div>
+
+---
+
+## Summary
+
+- Do not quote data out of context
+- The number of information-carrying dimensions depicted should not exceed the number of dimensions in the data.
+- Value of some variables can change over time (eg. money – inflation, population – increase) Make comparisons using inflation-adjusted units of money.
+- Representation of numbers should be directly proportional to the numerical quantities represented.
+- Show data variation, not design variation.
+- Don't: Too many decoration (non-data ink)
 
 
 ---
@@ -200,18 +251,33 @@ layout: statement
 
 — Edward Tufte
 
-<!-- Although we just went through a lot of principles and theories most and put forward or reinforced by Edward Tufted. I want to end with this quote of his.  Knowing you audience is important - if you are writing an academic paper, you would choose , but if it's for a more broader audience and none technical audience, creativity, good design and communication are also important for explanatory dataviz.Guidelines are meant to be followed not worshiped. Learn the rules like a pro, so you can break them like an artist. For example, the maximizing the data ink ratio. However, in any case, some principles should always be followed - a dataviz should never distort the data. -->
-
+<!-- Although we just went through a lot of principles and theories most and put forward or reinforced by Edward Tufted. I want to end with this quote of his.  Knowing you audience is important - if you are writing an academic paper, you would choose , but if it's for a more broader audience and none technical audience, creativity, good design and communication are also important for explanatory dataviz. Guidelines are meant to be followed not worshiped. Learn the rules like a pro, so you can break them like an artist. For example, the maximizing the data ink ratio. However, in any case, some principles should always be followed - a dataviz should never distort the data. -->
 
 ---
-layout: section
----
 
-## Case Studies
+## Cool Examples
 
+<div class="grid grid-cols-4 gap-1 pt-20">
+    <a href="https://pudding.cool/2017/05/song-repetition/"><img src="/images/week4/case1.png" style="height: 200px"></a>
+    <a href="https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html"><img src="/images/week4/case2.png" style="height: 200px"></a>
+    <a href="https://www.nytimes.com/interactive/2014/09/14/sports/baseball/jeter-swings.html"><img src="/images/week4/case3.png" style="height: 200px"></a>
+    <a href="https://www.nytimes.com/interactive/2016/11/29/us/trump-unauthorized-immigrants.html"><img src="/images/week4/case4.png" style="height: 200px"></a>
+</div>
 
-Gun Death Data Stories, which one is more successful?
+<!-- 
+Pudding, lempel-ziv compression: using interesting topics and easy to undertand language and interactive visualization to explan complex algorithm
+The Pudding is a journal of visual essays. It’s a new publication from Polygraph, a collective specializing in visualization.
 
+Time-based, Interative
+Parallax is a good friend
+apply game design methodology— drive engagement and opportunity for data collection
+https://fold.it/ 
+an online game in which players contribute to scientific research by solving puzzles. 
+In 2011, Foldit players identified the structure of a protein that helps HIV reproduce. This was a major accomplishment and will help researchers develop treatments for HIV.
+run from University of Washington and Northeastern University), anyone in the world can help to optimize an enzyme that we hypothesize could be capable of degrading a susceptible lactone ring in aflatoxin. 
+
+Pushing the limit 
+Use data visualization to narrate  -->
 
 ---
 layout: section
@@ -219,3 +285,5 @@ layout: section
 
 ## Demo
 
+[Isotype / Pictogram Demo](https://observablehq.com/@datavizstudio/isotype-pictogram-demo)
+- Fork this notebook and follow along
