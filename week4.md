@@ -47,9 +47,9 @@ layout: statement
 ## Principles of Graphical Excellence
 
 - well-designed presentation of interesting data - a matter of substance, of statistics, and of design
+- telling the truth about the data (graphical integrity)
 - complex ideas communicated with clairty, precision, and efficiency.
 - gives the viewer the greatest number of ideas in the shortest time with the lest ink in the smallest space (data-ink ratio)
-- telling the truth about the data (graphical integrity)
 
 <!-- Graphical displays should:
 
@@ -71,24 +71,79 @@ Correlation is not causation.
 
 <img src="/images/week4/correlation-not-causation.png" />
 
+
+<small>Source: [Spurious Correlations](https://www.tylervigen.com/spurious-correlations), Gizmodo.com</small>
+
 <!-- 
 Do not quote data out of context. 
-Correlation is not causation. -->
+Correlation is not causation. 
 
+Assuming small differences have meaning (rather than chalking them up to chance)
+Equating statistical and real-world significance
+Ignoring extremes (and the effect they can have on averages)
+Putting too much faith in coincidence (and not understanding data relationships)
+Labelling graphs deceptively (or not at all!)
+Getting causation backward
+Failing to evaluate potential third factors
+
+-->
 
 --- 
 
-## Graphic dimensions should not exceed data dimension
-
-Some variables change over time. 
+## What's wrong with this graphic?
 
 <img src="/images/week4/data-dimension.png" />
 
+<small>Left: New York Times, 1976</small>
+
 <!-- 
-Do not quote data out of context. 
-Correlation is not causation. -->
+Government spending - despite the hyperactive design, the state budget actually did not increase during the last 9 yeasrs shown in the graphic. The chart deploys several visual and statistical gimmicks - to falsely exaggerate the growth in the budget. 1970-1976 spending remained relatively constant, in fact a 5% cut in 1977. The NYT 3d barchart missed the real news story of these data.  -->
+
+---
+
+## 1. Graphic dimensions should not exceed data dimension
+
+Chartjunk VS the real 3rd dimension
+
+<div class="grid grid-cols-2 gap-2">
+    <v-clicks>
+        <img src="/images/week4/3d-chartjunk.png" />
+        <a href="https://www.nytimes.com/interactive/2015/03/19/upshot/3d-yield-curve-economic-growth.html?action=click&contentCollection=The%20Upshot&region=Footer&module=WhatsNext&version=WhatsNext&contentID=WhatsNext&moduleDetail=undefined&pgtype=Multimedia"><img src="/images/week4/3d-yield-chart.png" /></a>
+    </v-clicks>
+</div>
+
+<!-- p67
+ “Chart junk” is a term coined by Edward Tufte to refer to elements of a chart or graph that do not add value to the data being presented, but rather serve only to distract or confuse the viewer. 
+Leaving behind the distortion in the chartjunk heap at the left yields a calmer view. 
+
+A 3-D View of a Chart That Predicts The Economic Future: The Yield Curve (NYT)
+-->
 
 --- 
+
+## 2. Statiscal Bias
+<br>
+
+Some variables change over time:
+1. Population Growth  --> Per capita
+2. Monetary Inflation --> In constant dollars
+
+
+<div class="grid grid-cols-2 gap-10">
+    <v-clicks>
+    <p>In time-series displays of money, defalted and standardized units of monetary meansurement are nearly always better than nominal units.</p>
+    <img src="/images/week4/oil-price-adjusted2.png" />
+    </v-clicks>
+</div>
+
+<!-- p63
+1. the state's population increased by 1.7 million people (10%). Part of the buget growth simply paralleled population growth. 
+2. the period was a time of substanitial inflation; goods and services cost state and local governments $1 in 1967 cost $2.03 in 1977. Buying power cut int half. 
+
+The second error that the budget chart made - 
+-->
+
+---
 
 ## Show data variation, not design variation
 
