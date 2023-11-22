@@ -194,11 +194,20 @@ Another way to confuse data variation with design variation is to use areas to s
 <img src="/images/week4/lie-factor.png" />
 <img src="/images/week4/lie-factor-examples.png" />
 
-<!-- The representation of numbers, as physically measured on the surface of the graphic itself, should be directly proportional to the quantities represented. 
+<!-- 
+
+The representation of numbers, as physically measured on the surface of the graphic itself, should be directly proportional to the quantities represented. 
 
 Violations of the this principle lead to misrepresentation - the effect can be measured by the "lie factor".
 
-The shriking doctor, Lie factor of 2.8 (Los Angeles Times, 1979)
+p1: increase of 454 percent is depicted as an increase of 4,280 percent for a lie factor of 9.4 (p62)
+p2: p57 - 14.8 783/53 (53% increase in data is represented by 783% increase in graphic (5.3-0.6)/0.6)
+The shrinking doctor, Lie factor of 2.8 (Los Angeles Times, 1979)
+
+If LF = 1, graphic is doing a reasonable job of accurately representing the underlying numbers. lie factor greater than 1.05 or less than -.95 indicate substantical distortion 
+
+LF >0 overstating the diffences, LF < 0 understating. 
+
 -->
 
 
@@ -224,7 +233,7 @@ erase redundant data-ink   -->
 
 ---
 
-## Data Ink vs Non-data Ink
+## Low D-I Ratio vs High D-I Ratio
 
 <div class="grid grid-cols-2 gap-5 pt-4">
     <img src="/images/week4/data-ink-low.png">
