@@ -264,7 +264,7 @@ layout: statement
 
 ---
 
-## Cool Examples
+## Learn the rules like a pro, so you can break them like an artist
 
 <div class="grid grid-cols-4 gap-1 pt-20">
     <a href="https://pudding.cool/2017/05/song-repetition/"><img src="/images/week4/case1.png" style="height: 200px"></a>
