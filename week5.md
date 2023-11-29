@@ -20,7 +20,12 @@ layout: section
 - Show data variation, not design variation.
 - Don't: Too many decoration (non-data ink)
 
-<!-- Last week, we learned principles and theories of dataviz. -->
+<!-- Last week, we learned principles and theories of dataviz. 
+
+In time-series displays of money, defalted and standardized units of monetary meansurement are nearly always better than nominal units.
+
+2D and 3D graphics are used to represent 1D data - when you scale marks or graphics along one axis, remember that the 2D graphics are usually growing exponentially. greater quantities are not shown by enlarging the same picture or symbol (which is still done often enough today) but by repeating the same-sized symbol.
+-->
 
 
 ---
@@ -58,10 +63,11 @@ Example 1: Overview first, then details-on-demand
 
 <img src="/images/week5/prescription.gif" style="height: 360px">
 
+[The opioid epidemic data story](https://chapter55.digital.mass.gov/#addictions)
+
 <!-- Overview provides a general context for understanding the data set; it paints a "picture" of the whole data entity that the information visualization represents. Patterns and themes in the data that may be helpful can often be seen only from a vantage point that comprises the whole view. From this perspective, major components and their relationships to one another are made evident. Simply the overall shape of the data itself can provide assistance in understanding the information that is encoded. Significant features can be discerned and selected for further examination. Such features might not be readily viewable from another part of the data representation or might be obscured from certain vantage points. Revealing these features at the outset can aid the user in filtering the extraneous information so that they can complete their task more efficiently by excluding unimportant aspects of the representation.
 [Craft and Cairns, 2005] -->
 
-<small>[The opioid epidemic data story](https://chapter55.digital.mass.gov/#addictions)</small>
 
 ---
 layout: center
@@ -71,10 +77,11 @@ Example 2: Overview first, zoom and filter
 
 <img src="/images/week5/abcs.gif" style="height: 360px">
 
+[The ABCs of Success in High School and Beyond](https://abcs.sites.digital.mass.gov/)
+
+
 <!-- Overview provides a general context for understanding the data set; it paints a "picture" of the whole data entity that the information visualization represents. Patterns and themes in the data that may be helpful can often be seen only from a vantage point that comprises the whole view. From this perspective, major components and their relationships to one another are made evident. Simply the overall shape of the data itself can provide assistance in understanding the information that is encoded. Significant features can be discerned and selected for further examination. Such features might not be readily viewable from another part of the data representation or might be obscured from certain vantage points. Revealing these features at the outset can aid the user in filtering the extraneous information so that they can complete their task more efficiently by excluding unimportant aspects of the representation.
 [Craft and Cairns, 2005] -->
-
-<small>[The ABCs of Success in High School and Beyond](https://abcs.sites.digital.mass.gov/)</small>
 
 ---
 layout: center
@@ -84,11 +91,10 @@ Example 3: Overview first, zoom and filter, then details-on-demand
 
 <img src="/images/week5/rideshare.gif" style="height: 360px">
 
+[Rideshare in Massachusetts](https://tnc.sites.digital.mass.gov/)
+
 <!-- Overview provides a general context for understanding the data set; it paints a "picture" of the whole data entity that the information visualization represents. Patterns and themes in the data that may be helpful can often be seen only from a vantage point that comprises the whole view. From this perspective, major components and their relationships to one another are made evident. Simply the overall shape of the data itself can provide assistance in understanding the information that is encoded. Significant features can be discerned and selected for further examination. Such features might not be readily viewable from another part of the data representation or might be obscured from certain vantage points. Revealing these features at the outset can aid the user in filtering the extraneous information so that they can complete their task more efficiently by excluding unimportant aspects of the representation.
 [Craft and Cairns, 2005] -->
-
-<small>[Rideshare in Massachusetts](https://tnc.sites.digital.mass.gov/)</small>
-
 
 ---
 
