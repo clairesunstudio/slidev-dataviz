@@ -23,6 +23,16 @@ layout: intro
 ### Final Project (15 min)
 
 
+<!-- ### Recap and Warm-up (30 min)
+- The Visual Information-Seeking Mantra + Examples
+- How to plot a matrix using Observable Plot - [Isotype Matrix Notebook](https://observablehq.com/@datavizstudio/person-isotype-matrix)
+### Demo + Exercises (2h)
+- Quantative and Categorical Colors
+- Tips and Pointers
+- Zoom and Filter
+- User Inputs
+- Exercise: Recreate the [Gapminder visualization](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1) made famous by Hans Rosling.  -->
+
 ---
 layout: full
 --- 
@@ -67,6 +77,12 @@ layout: full
 src: ./week6-dataviz-maps.md
 ---
 
+
+---
+
+## Demo
+
+- [Follow along Notebook - Data Maps](https://observablehq.com/@datavizstudio/data-maps)
 
 ---
 
