@@ -156,7 +156,9 @@ Choropleth Maps display divided geographical areas or regions that are coloured,
 
 <img src="/images/week6/choropleth_heatmap.png" style="max-height: 100%" />
 
-<!-- When it comes to using maps for data visualization, the term heatmap is used rather loosely. (We've looked at heatmap example as a colored matrix, a grid of colored cells, that allows you to glance at and quickly tell which pairings have a high or low rate of occurrence or correlation. It's much easier to scan for dark or light patches than to assess numeric values) It also can be used to describe any map that uses colors to categorize location based data. which might sound similar to choropleth maps. However there is a distinction between geographic heatmaps and choropleth maps. Let's compare...
+<!-- 
+https://www.standardco.de/notes/heatmaps-vs-choropleths
+When it comes to using maps for data visualization, the term heatmap is used rather loosely. (We've looked at heatmap example as a colored matrix, a grid of colored cells, that allows you to glance at and quickly tell which pairings have a high or low rate of occurrence or correlation. It's much easier to scan for dark or light patches than to assess numeric values) It also can be used to describe any map that uses colors to categorize location based data. which might sound similar to choropleth maps. However there is a distinction between geographic heatmaps and choropleth maps. Let's compare...
 
 Choropleths are thematic maps where a geographic region has a uniform color based on a metric. A color scale is used to encode a range of values. These are often called heatmaps, but that isn't entirely accurate. The key difference between choropleth maps and heat maps is the shape of colored areas. In choropleths, shapes are defined by standard geographical boundaries, not by the data itself. A true geographic heatmap is an isopleth map (has data drawn shapes) that depict hotspots on a map to present concentrations of values.
 
@@ -167,8 +169,13 @@ Presenting GDP by country would be a good use case for a choropleth because the 
 
 ## Choropleth Map or Cartogram?
 
+<div class="grid grid-cols-2 gap-2">
+    <v-clicks>
+        <img src="/images/week6/choropleth-chapter55.gif" style="height: 400px" />
+        <img src="/images/week6/cartogram-chapter55.gif" />
+    </v-clicks>
+</div>
 
-image: https://daily49er.com/wp-content/uploads/2023/08/Untitled-design-1000x600.jpg
 
 ### More readings
 
@@ -185,7 +192,9 @@ Pros:
 – Helpful for finding intriguing hot spots, detecting relationships between the encoded variable and geographic location (and the many variables entangled with location), or letting people know how their area compares with others.
 
 Cons:
-– Since the choropleth map uses an average number to represent defined areas, the viewer can not gain detailed information or perspective on any area’s internal conditions. This can be solved by making the map interactive (like “The Geography of Government Benefits” from The New York Times)
-– The areas are not uniform: equating the visual importance of each county with its geographic area rather than with the number of people living in there, giving sparsely populated areas great visual emphasis. This can be solved by using the method of mesh/grid-square mapping (dividing the map into equal sized units/squares and then color each one according to the data being encoded). An example of a mesh map (the grid squares are 1km on a side)
+– Since the choropleth map uses an average number to represent defined areas, the viewer can not gain detailed information or perspective on any area’s internal conditions. This can be solved by making the map interactive
 
+– Layering data onto a geographical space that we are familiar with, a problem with that is the areas are not uniform: principle - visual importance should be directly proportionate to data values. For example, for population data, ,equating the visual importance of each county with its geographic area rather than with the number of people living in there, giving sparsely populated areas great visual emphasis. This can be solved by using the method of grid-square mapping (dividing the map into equal sized units/squares and then color each one according to the data being encoded). A grid cartogram is a representation barely similar to a map, that distorts the forms and areas, and assigns to every subdivision one and only one unit of a grid. There are other types of cartogram that basically distorts the areas based on the data values. 
+
+The Dorling Cartogram is a technique for representing data for areas that eschews geography in preference for (normally) a geometric shape that represents the unit areas.
 -->
