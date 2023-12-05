@@ -167,22 +167,40 @@ Presenting GDP by country would be a good use case for a choropleth because the 
 
 ---
 
+### Viral Choropleth Map: Barbie VS Oppenheimer 
+
+<div class="grid grid-cols-2 gap-2">
+    <v-clicks>
+        <img src="/images/week6/barbie.png" />
+        <img src="/images/week6/electoral.png" />
+    </v-clicks>
+</div>
+
+<small>image source: <a>[daily mail](https://www.dailymail.co.uk/news/article-12331625/Barbenheimer-map-reveals-Democrat-voting-states-favor-birth-bomb-movie-Trump-voters-drawn-camp-world-pink.html?ito=email_share_article-floatingBar)</a>, <a>[Read more about it here](https://scotscoop.com/opinion-barbie-and-oppenheimer-draws-a-map-of-political-values/)</a> </small>
+
+
+<!-- 
+- States' preferences for Barbie vs. Oppenheimer broke down along shockingly political lines following the blockbuster opening weekend 
+- While most southern states majorly preferred Barbie, Democratic strongholds leaned heavily toward the nuclear bomb biopic 
+- The results were so close to a real deal electoral college map that, as usual, the ultimate winner came down to key swing states like Mich., Wisc., and Penn. 
+- New Mexico, for instance, the state with the highest percentage of Oppenheimer viewers, was the location for the Manhattan Project testing. The movie is a depiction of New Mexico’s own history and global impact, which drew in many viewers.
+-->
+
+---
+
 ## Choropleth Map or Cartogram?
 
 <div class="grid grid-cols-2 gap-2">
     <v-clicks>
-        <img src="/images/week6/choropleth-chapter55.gif" style="height: 400px" />
+        <img src="/images/week6/choropleth-chapter55.gif" style="height: 300px" />
         <img src="/images/week6/cartogram-chapter55.gif" />
     </v-clicks>
 </div>
 
-
 ### More readings
+- [Grid Cartograms](https://observablehq.com/@severo/grid-cartograms)
+- [Reasons to consider a cartogram](https://medium.com/civic-tech-thoughts-from-joshdata/how-that-map-you-saw-on-538-under-represents-minorities-by-half-and-other-reasons-to-consider-a-4a98f89cbbb1)
 
-
-https://observablehq.com/@severo/grid-cartograms
-
-https://medium.com/civic-tech-thoughts-from-joshdata/how-that-map-you-saw-on-538-under-represents-minorities-by-half-and-other-reasons-to-consider-a-4a98f89cbbb1
 
 
 <!-- 
