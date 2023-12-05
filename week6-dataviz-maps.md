@@ -129,7 +129,7 @@ layout: full
 <img src="http://datavizcatalogue.com/methods/images/top_images/choropleth.png" style="max-height: 100%" />
 
 - Functions: Comparisons,Location,Patterns
-- Related Dataviz: 
+- Related Dataviz: Heatmap
 
 <!--
 
