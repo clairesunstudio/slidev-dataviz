@@ -77,7 +77,6 @@ layout: full
 src: ./week6-dataviz-maps.md
 ---
 
-
 ---
 
 ## Demo
@@ -90,4 +89,4 @@ src: ./week6-dataviz-maps.md
 
 - Visualize a dataset of your choice efficiently and expressively. Don't forget add context, labels, legends and interactivity!
 - If you can't find any interesting datasets, you can use one of the [sample data provided by Observable](https://observablehq.com/@observablehq/sample-datasets)
-- For more inspirations: vist the [The Plot Gallery](https://observablehq.com/@observablehq/plot-gallery)
+- For more inspirations: [Plot Gallery](https://observablehq.com/@observablehq/plot-gallery)

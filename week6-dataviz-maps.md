@@ -216,3 +216,33 @@ Cons:
 
 The Dorling Cartogram is a technique for representing data for areas that eschews geography in preference for (normally) a geometric shape that represents the unit areas.
 -->
+
+
+---
+
+## Understand Your Data - Distribution
+
+<div class="grid grid-cols-2 gap-2">
+    <v-clicks>
+        <img src="/images/week6/quantize_quantile.png" />
+        <img src="/images/week6/quantize-distribution.png" />
+    </v-clicks>
+</div>
+
+---
+
+
+## Understand Your Data - Time Series
+
+<div class="grid grid-cols-2 gap-2">
+    <v-clicks>
+        <img src="/images/week6/map-1year.gif" />
+        <img src="/images/week6/choropleth-chapter55.gif" />
+    </v-clicks>
+</div>
+
+---
+
+## Understand Your Data - Time Series (Small Multiples)
+
+<img src="/images/week6/map-5year.gif" />
