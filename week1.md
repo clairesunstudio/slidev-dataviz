@@ -1,27 +1,31 @@
 ---
+theme: apple-basic
 layout: intro
 ---
 
 # Week 1
-## Introduction to Data Visualization
-10/31/2023
+## Intro + Data Literacy Crash Course
+11/03/2025
 
 <Credit />
 ---
 
 # Agenda
 
-## Intro + Lecture (45 min)
-- What is data visualization?
-- Importance of data visualization
+## Concepts (30 min)
+- What is data and data visualization?
+- Why it matters
+- DataViz in the wild
 - Types of data and their visual representations
+
 ## Demo (50 min)
 - Observable account setup
 - Observable basics
-- Create the first notebook!
+- Create your first chart!
 ## Working Session (30 min)
+- Mini-exercise: "Visualize Yourself"
 
-<!-- Today is about answering some big picture questions - what to expect from the class, what data visualization is and why it matters. We will be spending a good chuck of time setting up the tool we will be using throughout the course. -->
+<!-- Today is about answering some big picture questions - what to expect from the class, what data visualization is and why it matters. We will be spending a good chuck of time learning about data and setting up the tool we will be using throughout the course. -->
 
 
 ---
@@ -31,298 +35,245 @@ image: 'https://m.media-amazon.com/images/I/81ud7Ri9kFL._SY522_.jpg'
 
 # What Is Data Visualization
 
-<quote v-click> The visual display of quantitative information</quote> 
+<br/>
+<quote v-click> The visual display of quantitative information <div>— Edward Tufte</div></quote> 
 
-<!-- Quoting the title of ET's first published book on dataviz. This is a very influential book in the field, it's regarded one of the cornerstone books on dataviz. This book studies the historical data visualizations, critiques dataviz published by the press, and he's really good at distilling guidelines and principles of making good data graphics from his collection of examples. ET's background was in Political Science, Statistics, and Computer Science and he taught at Yale and Princeton. He has a science background, yet he devotes the majority of his book discussing graphical excellence. This is also why this book is so interesting, his emphasis on a high design standard on something was not a popular problem in the design community before. He said design is not about decoration, the fact that it looks good is not a luxuary it's a necessity, it helps the perception of the data. In this class, I will be frequently referencing the theories and examples from his book, especially when we get to design principles.-->
-
----
-layout: section
----
-
-## Why Visualize Data
-
-<v-clicks>
-
-- Reveal patterns and trends
-- Make complex data more accessible and digestible to their audience
-- Empower data-driven/evidence-based decision making
-
-</v-clicks>
 
 <!-- 
-that might otherwise be hidden in vast amounts of data
-Make data more understandable to a broader audience. Empower individuals and communities with data that's accessible will them make informed decisions and advocate for changes.-->
+Turning data into visual form — 
+Quoting the title of ET's first published book on dataviz. This is a very influential book in the field, it's regarded one of the cornerstone books on dataviz. This book studies the historical data visualizations, critiques dataviz published by the press, and he's really good at distilling guidelines and principles of making good data graphics from his collection of examples. ET's background was in Political Science, Statistics, and Computer Science and he taught at Yale and Princeton. He has a science background, yet he devotes the majority of his book discussing graphical excellence. This is also why this book is so interesting, his emphasis on a high design standard on something was not a popular problem in the design community before. He said design is not about decoration, the fact that it looks good is not a luxuary it's a necessity, it helps the perception of the data. In this class, I will be frequently referencing the theories and examples from his book, especially when we get to design principles.-->
+
+
 
 ---
-layout: iframe
-url: https://www.youtube.com/embed/jbkSRLYSojo?si=OIwbNKIzT1jLtOqg
+
+# Why It Matters
+
+<br/>
+
+<quote v-click>
+“Without data, you’re just another person with an opinion.” <div>— W. Edwards Deming, statistician, educator and industrial engineer</div>
+</quote> 
+
+<br/>
+
+<quote v-click> “The greatest value of a picture is when it forces us to notice what we never expected to see.”
+<div>— John W. Tukey, statistician and data-viz pioneer</div></quote> 
+
+<br/>
+
+<quote v-click> “The world cannot be understood without numbers. But the world cannot be understood with numbers alone.”
+<div>— Hans Rosling, physician and cofounder of Gapminder</div></quote> 
+
+
+
+<!-- 
+
+I'm going to borrow two very famous quotes
+
+the world we live in is inadated with data - being able to understand data is how we understand the world today.
+
+We think visually — we process visual information thousands of times faster than text or numbers.
+Visualization leverages our innate ability to see patterns more easily and quickly.
+
+
+Data + Visuals are a power duo in communicating any types of ideas
+Data grounds us in truth; visuals reveals insights and makes data accessible.
+
+John W. Tukey coined the concept Exploratory Data Analysis (EDA).
+
+-->
+
 ---
 
-<!-- In the spirit of show, don't tell. A 5 minute video by BBC.  -->
+# Data Visualization Spectrum
+
+<img src="/images/week1/dataviz-spectrum.png" height="500"/>
+
+<!-- 
+
+Exploratory data analysis is the process of reviewing new data to discover patterns, to spot anomalies, to test hypotheses, and to check assumptions.
+
+- Analyze patterns and trends
+
+Explanatory: We also use data visualization to transform raw data into something compelling for an external audience.
+- Make data-driven/evidence-based decision
+- Make complex data more accessible and digestible to their audience
+- Explore, analyze, and communicate patterns and insights 
+
+Where dataviz is the most applicable in most use cases and most powerful to the broadest audience.
+ -->
+
+---
+fonts:
+  # basically the text
+  sans: Robot
+  # use with `font-serif` css class from UnoCSS
+  serif: Robot Slab
+  # for code blocks, inline code, etc.
+  mono: Fira Code
+---
+
+# Data Visualization Spectrum
+
+<div style="font-size:0.9rem;">
+
+| **Mode** | **Purpose** | **Context** | **Audience** | **Examples / Tools** |
+| ---------| ----------- | ----------- | ------------ | -------------------- |
+| **Scientific / Analytical** | Accuracy, objectivity, and discovery | Research papers, scientific analysis, engineering  | Scientists, researchers | Matplotlib, ggplot, NASA visualizations |
+| **Exploratory** | Finding insights and patterns through interaction | Data analysis, finance & investment, policy work | Analysts, decision-makers | Tableau, Power BI, dashboards |
+| **Explanatory / Storytelling** | Communicate a key message or narrative from data | Data journalism, education, policy communication | General public | [NYT visual stories](https://www.nytimes.com/interactive/2024/12/20/us/2024-year-in-graphics.html), [The Pudding](https://pudding.cool/), [Gapminder](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1) |
+| **Artistic / Creative** | Emotional resonance, aesthetic exploration, conceptual ideas | Museums, art installations, creative coding        | General public, art audiences  | [*Dear Data*](https://www.dear-data.com/theproject), [Refik Anadol’s data sculptures](https://refikanadol.com/)  |
+
+</div>
+
+<!-- 
+ - Minimal design; precise axes, units, and labels; strong focus on data integrity
+ - Interactive filtering, clear visual encodings, emphasizes clarity and usability
+ - Clear hierarchy, narrative flow, annotations, balance of accuracy and engagement
+ - Experimental forms, sensory/abstract, sometimes data-driven metaphors           
+ -->
+
 
 ---
 layout: quote
 ---
 
+<quote> "Data is wildly more powerful when it is both easy to understand and engaging to the public." <div>— Hans Rosling</div></quote> 
+
+<br/>
 
 ### More from Hans Rosling
 
 - [Hans Rosling famous Ted Talks](https://www.ted.com/speakers/hans_rosling)
 - [Gapminder interactive data explorer](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1)
 
-<!-- Hans Rosling was a Swedish physician, academic and public speaker. In this video, he showed the audience how effective Data Visualization can be as a communication tool. He's famous for his Tedtalks on global trends in health and economics and his animated bubble charts - link to TedTalks.  He co-founded the Gapminder Foundation - an NGO that use data and visualizations to provide information on social-economic and environmental trends and promotes sustainable global development. -->
+<!-- Hans Rosling in the video showed the audience how effective Data Visualization can be as a communication tool if done correctly. He was a Swedish physician, academic and public speaker. He was a professor of international healthand the co-founder and chairman of the Gapminder Foundation. Global trends in health and economics come to vivid life in his bubble charts.  -->
 
----
-
-#  Who are the users
-
-- Data Scientists
-- Analysts - Business, Financial, Healthcare, Sports
-- Economists
-- Government & Policy Makers
-- Journalists
-- Educators
-- Marketers
-- Researchers - Academics, UX
-- Data Artists
-
-
-<!-- We are all data citizens - we all are actively engage with the data-driven world we live in. A good degree of data literacy can shape our understanding world and get closer to the truth. -->
-
----
-layout: fact
----
-
-## [Visualizing the Israel-Hamas war (CNN)](https://www.cnn.com/2023/10/10/world/map-israel-hamas-war-dg/index.html)
-<small>Across the Middle East, Gaza is among the smallest and most densely-packed cities.</small>
-
-![Gaza population density](/images/week1/gaza-population-density.png)
-
-<small><a href="http://www.demographia.com/db-worldua.pdf">Source: Demographia World Urban Areas, 2023</a></small>
-
-<!-- 
-Airstrikes in Gaza have displaced hundreds of thousands of people leaving them with little room to go.
-Visuals are more memorable than text alone. People tend to retain information presented visually for a longer time.
-Imagine you are onnly looking at the raw data, or just a table of these data points - the source data are in a long tabular view of the highly populous citites in the world. You are not likely to recall the specific numbers of people per sqare mile across these cities, but the visual will have a long-lasting effect on your brain. 
--->
-
----
-layout: fact
----
-
-"Without data, you're just another person with an opinion."
-
-— W. Edwards Deming
-
-
-<!-- 
-Data journalism has become increasingly important in an era of big data. It not only allows journalists to uncover interesting stories, but also an effective approach to convince and persuade the audience.
--->
-
----
-layout: fact
----
-
-
-## [The Massachusetts Opioid Epidemic](https://chapter55.digital.mass.gov/)
-![Chapter55 line chart](/images/week1/chapter55-maps.gif) 
-
-<!-- 
-
-part of a multi-faceted state effort to combat the opioid crisis, a legislation was created to permit the data sharing and analysis across multiple datasets to better understand the crisis and to guide policy decisions in MA. The data was a joint effort of 29 groups from government, higher education, and the private sector - and the outcome was:
-Chapter 55 Data Report (>100 pages, technical, scientific report)
-My team's job was to turn that into a Data Story (accessible reading level, multimedia, interactive, creative process). I worked with data analysts from DPH, a content writer and another developer to translate complex data into visuals that everyone can understand. 
-Why data story —> our goal is transform data to information into insights 
-You are adding power to the data when it is both easy to understand and engaging to the public. 
--->
-
----
-layout: fact
----
-
-
-| | |
-| -------- | ------- |
-| ![Chapter55 line chart](/images/week1/chapter55-MA-vs-USA.png)  | ![Chapter55 pictogram](/images/week1/chapter55-prescription-decline.gif)    |
-
-
-<!-- 
-More than two-thirds of people who died from an opioid-related overdose had a legal opioid prescription at some point from 2011–2014. However, only about 1 in 12 of those who died had an opioid prescription in the month before their death.
-many people overdosed kept using opioids illegally after their prescriptions ran out.
-summary data callout using an interactive pictogram - simple but impactful, more relatable, not just a number.
-
-Why data story —> our goal is data to information into insights 
-You are adding power to data when it is both easy to understand and engaging to the public. 
--->
-
----
-layout: fact
----
-
-## [Front Row to Fashion Week (NYT)](https://www.nytimes.com/newsgraphics/2014/02/14/fashion-week-editors-picks/index.html)
-
-![Frontrow Fashion](/images/week1/frontrow-fashion.gif)
-![Frontrow Fashion Fingerprints](/images/week1/frontrow-fashion-fingerprints.png)
-
-<!-- 
-Onto something more light-hearted - Mike Bostock took the photographs taken from the hundreds of fall runway collections shown during New York Fashion Week.
-
-He has many very successful data visualizations, I find this one particularly interesting. Color is usually a graphic dimension, and in this dataset,
-it's also a key data dimension - color is an important part of the ideas and trends that in fashion. In the fingerprints grahics, each runway collection is broken into a minimal stack of color bars, then combined to abstract the collection’s hues. Interesting technique of abtracting color palettes using pixels.
--->
-
----
-layout: quote
----
-
-### More from Mike Bostock
-
-- [NYT Dataviz work by Mike Bostock](https://www.nytimes.com/by/mike-bostock)
-- [Mike Bostock Generative Art on Observable](https://observablehq.com/@mbostock/altered-world)
-
-<!-- 
-Michael Bostock He has been a data visualization specialist for the NYT. He is an American computer scientist - is one of the co-creators of Observable and a key developer of D3.js, a JavaScript library used to produce dynamic, interactive data visualizations for web browsers. A lot of the Javascript based dataviz libraries are based upon D3.
--->
 
 ---
 layout: iframe
-url: https://www.youtube.com/embed/ystkKXzt9Wk?si=5VtC6-GkTAUT1VyC
+url: https://www.youtube.com/embed/jbkSRLYSojo?si=OIwbNKIzT1jLtOqg
 ---
-
-<!-- Paths of air traffic over North America visualized in color and form - Aaron Koblin - FAA data was parsed and plotted using the Processing programming. 
-
-Artist, designer, programmer, and entrepreneur specializing in data and digital technologies.
-He talked about the flight data art and data art he created using crowd-sourced data. Very interesting if you are into a data arts.-->
-
 
 ---
 layout: quote
 ---
 
-### More from Aaron Koblin
+<quote> “This project is about how data can make us more human, not less.” <div>— Giorgia Lupi, Dear Data</div></quote> 
 
-- [Aaron Koblin: Artfully visualizing our humanity](https://www.youtube.com/watch?v=4v4XxlfVk3o)
-- [Aaron Koblin projects](http://www.aaronkoblin.com/)
-
-<!-- 
-Aaron created and led the Data Arts Team at Google from 2008-2015. Aaron has received numerous awards including the Smithsonian Cooper-Hewitt National Design Award for Interaction Design and the National Science Foundation’s award for science visualization. He received an Emmy in 2014, and two of his music video collaborations have been Grammy nominated. In 2010 Aaron was the Abramowitz Artist in Residence at MIT. He received his MFA in Design|Media Arts from UCLA. His work is part of the permanent collection of the Museum of Modern Art (MoMA) in New York, the Victoria & Albert Museum (V&A) in London, and the Centre Pompidou in Paris. His projects have been shown at international festivals including TED, Sundance, Tribeca Film Festival, Ars Electronica, SIGGRAPH, the Japan Media Arts Festival, and more. -->
-
-
----
-layout: center
----
-
-<img src="/images/week1/data-value-relationship.png"/>
-
-> Source: Dave Campbell’s model of information refinement. Infographics: The Power of Visual Storytelling by Ross Crooks, Josh Ritchie, Jason Lankow
-
-<!-- 
-The goal of Data visualization to transform data into information and insights. 
--->
-
----
-layout: fact
----
-
-
-"We are dealing with data systems that are larger than anything that humans have ever built or experienced before."
-
-— Jer Thorp, Data Artist
-
-<v-click>
-
-"The ability to take data—to be able to understand it, to process it, to extract value from it, to visualize it, to communicate it—that’s going to be a hugely important skill in the next decades."
-
-— Dr. Hal R.Varian, Google’s Chief Economist 
-
-</v-click>
-
----
-layout: fact
----
-
-## How? 
-
----
-
-# Data Analysis
 <br/>
 
-## Exploratory
-- Exploratory data analysis (EDA) is the process of reviewing new data to discover patterns, to spot anomalies, to test hypotheses, and to check assumptions.
+### More on Dear Data
 
+- [About the Dear Data Project by Giorgia Lupi and Stefanie Posavec](https://www.dear-data.com/theprojectg)
+- [Giorgia Lupi and Stefanie Posavec @ Eyeo Festival](https://vimeo.com/133608605?fl=pl&fe=vl)
 
-## Explanatory
-- We also use data visualization to transform raw data into something compelling for an external audience.
+<!-- Two award wining information designers embarked on a year long project is a year-long, analog data drawing project on theirs personal data -->
+
 
 ---
-layout: fact
+layout: iframe
+url: https://www.youtube.com/embed/iqaVe1MCTlA?si=6XeHzcsWbKxAcU9F
 ---
 
-## Data Visualization Process
+Data is wildly more powerful when it is both easy to understand and engaging to the public.
 
-```mermaid {theme: 'neutral', scale: 0.8}
-flowchart TD
-subgraph ZA[" "]
-direction LR
-  Z0[Define Objectives and Audience] --> Z1[Data Collection] --> Z0
-end
+---
 
-subgraph ZB[" "]
-direction LR
-  B[Choose DataViz Type] --> C[Apply Design Principles] --> D[Testing] --> E[Refine and Iterate] --> D
-end
- ZA--> Z2[Data Preprocessing] --> Z3[Exploratory Analysis] --> ZB --> Z4[Create Explanatory Data Visualization]
+## DataViz in the Wild
+Exploratory and Explanatory Dataviz
+- [Observable Plot Gallery](https://observablehq.com/@observablehq/plot-gallery)
+- [The Massachusetts Opioid Epidemic](https://chapter55.digital.mass.gov/)
+- [Hans Rosling famous Ted Talks](https://www.ted.com/speakers/hans_rosling)
+- [The Pudding Data Stories Collection](https://pudding.cool/)
+- [NYT 2024 visual stories](https://www.nytimes.com/interactive/2024/12/20/us/2024-year-in-graphics.html)
 
-```
-
-<!-- Data are raw facts, objective, but the way we collect data, process data and present data can be subjective and biased. Data visualization are convincing, but they can also distort information in the attempts to do so. As consumers of data graphics, equipping ourselves with data literacy skills can strenghthen our judgements of the quantitative evidence; as creators of data graphics we have the responsibility to present data in an accurate way and the effectiveness of dataviz is determined along every step in the process. First let us get familiarized with the terminology used to describe data.-->
+Creative and Expressive Dataviz
+- [*Dear Data*](https://www.dear-data.com/theproject)
+- [Refik Anadol’s data sculptures](https://refikanadol.com/)
+- [Front Row to Fashion Week (NYT)](https://www.nytimes.com/newsgraphics/2014/02/14/fashion-week-editors-picks/index.html)
+- [Mike Bostock Generative Art on Observable](https://observablehq.com/@mbostock/altered-world)
+- [Aaron Koblin projects](http://www.aaronkoblin.com/)
 
 
 ---
 layout: section
 ---
 
+# Understand Data
+
+<!-- Now that we understand why we visualize data, let's talk about the data itself. Because here's the thing: you can't choose the right visualization without understanding your data. -->
+
+---
+
 # Types of Data
+
+
+<img src="/images/week1/data-types.png" height="500"/>
+
 
 ---
 layout: two-cols
 ---
 
-## Qualitative
+## Categorical (Qualitative)
 
 <v-clicks>
 
-- Data that approximates or characterizes, also known as categorical or non-numeric data.
+- Data that approximates or characterizes
 - Often obtained through interviews, surveys, focus groups, documents, etc.
 - Examples include:
   - name
-  - gender (male, female, nonbinary)
+  - sex (male, female, nonbinary)
   - observations (e.g., the food was salty)
 
 </v-clicks>
 
 ::right::
 
-## Quantitative
+## Numberical (Quantitative)
 
 <v-clicks>
 
-- Data that is measurable and expressed as a number, also known as numerical data.
+- Data that is measurable and expressed as a number
 - Often gathered using metrics, tests, experiments, instruments with a ratings scale, etc.
 - Examples include: 
   - cost
-  - number of students
+  - number of applicants
   - weight
 
 </v-clicks>
+
+
+
+
+--- 
+
+## But there's important nuance...
+
+<br/>
+Not all numbers are quantitative! Can you think of any examples?
+
+<v-clicks>
+
+- ZIP codes (10001, 90210) - these are labels, not quantities
+- Phone numbers - you don't "average" them
+- Student IDs - the number doesn't mean anything
+- Jersey numbers in sports - #23 isn't "greater than" #10
+- Binary coding (0/1 for no/yes) - the numbers are just labels
+</v-clicks>
+
+<!-- Categorical data can be disguised as numbers
+
+   whether there's a meaningful way to perform mathematical operations on these categories.
+ -->
 
 ---
 layout: section
 ---
 
 ## Types of Qualitative Data
-
 
 ---
 layout: two-cols
@@ -357,7 +308,15 @@ Examples include:
 
 </v-clicks>
 
-<!-- no meaningful way to perform mathematical operations on these categories. -->
+<!-- 
+While categorical and numberical are mutually exclusive data types
+
+For ordinal data, it's possible to be converted into numerical data using quantitative representations - for example, the survey scale can be 1-5.
+
+you can use several methods to create summary statistics, such as 
+Frequency Counts, Percentage Distribution, Ordinal Encoding (assign numerical values to categories, yes/no = 1/0)
+-->
+
 
 ---
 layout: section
@@ -374,11 +333,12 @@ layout: two-cols
 
 <v-clicks>
 
-- Distinct values or categories that can be counted and enumerated
+- Data that can only take certain values
 
 Examples include:
-  - shoe sizes
+  - your shoe size
   - number of people enrolled in this course
+  - number of times your cat wakes you up
 
 </v-clicks>
 
@@ -388,66 +348,161 @@ Examples include:
 
 <v-clicks>
 
-- Measurements that can take on any value within a given range. It can be divided into smaller and smaller units without limit
+- Data that can take any value and usually changes over time
 
 Examples include:
   - the speed of a car during the morning commute
-  - Time
-  - The stock price of an AAPL share
-
+  - your weight
+  - the time your cat wakes up each day
 
 </v-clicks>
 
-<!-- can be measured with a high degree of precision -->
-
 
 ---
-layout: fact
+layout: two-cols
 ---
 
-<img src="/images/week1/data-types.png" height="600"/>
 
-<v-click>
-<div style="width:400; position: absolute; left: 38vw; top:16vh; z:100">
-<a href="https://www.kaggle.com/code/rikdifos/rap-lyrics-text-mining"><img src="/images/week1/rap-lyrics-analysis.png" width="380"/></a>
-</div>
-</v-click>
 
-> Rap lyrics text mining
+<img src="/images/week1/rap-vocab.png" height="600"/>
+
+> [The largest vocabulary in Hiptop - The Pudding](https://pudding.cool/2017/02/vocabulary/)
+
+<br/>
+
+## Texual Data
+
+::right::
+
+<img src="/images/week1/rap-treemap.png" height="600"/>
+
+> [Rap Over Time - A Textual Data Analysis](https://observablehq.com/@columbiaviz-s21/rap-over-time-april-12)
+
+
 
 <!-- Data Types Recap 
 We didn't talk about textual data, is also a common type of qualitative data.
 If your data is text-based, usually you would use text mining techniques to analyze the text and extract quantitative information. For example, This is setiment wordcloud is generated from hundreds of famous rap song lyrics through text mining (counting word use frequency) and sentiment analysis (sentiment analysis can assign numerical scores to sentiment in text data). https://github.com/fpaupier/RapLyrics-Scraper/tree/master/lyrics_US
 
-While qualitative and quantitative are mutually exclusive data types, you can provide insights into the qualitative data by conducting 
-Frequency Counts, Ordinal Encoding (assign numerical values to categories, yes/no = 1/0) so that you can provide summary statitics and percentage distribution to a qualitative dataset.
 -->
 
+
+---
+layout: two-cols
+---
+
+# Data Types Recap
+
+
+<img src="/images/week1/data-types.png" wdith="300"/>
+
+::right::
+
+<img v-click src="/images/week1/graph-decision-tree.png" width="400"/>
+
+
+<!-- These are some commonly used dataviz types to present these types of data, for example.
+Understanding the data types will help you select the right data visualizations, and later map to different visual dimensions. We will dive into this next week.  -->
+
+---
+layout: section
+---
+# Interactive Data Types Exercise 
+Let's classify some real data together...
 
 ---
 layout: fact
 ---
 
-<img src="/images/week1/data-types-with-dataviz.png" height="600"/>
+## Quick Classification Game
+
+**I'll show you some data - you tell me the type:**
+
+<v-clicks>
+
+1. **Your Instagram follower count** → ?
+2. **Your favorite color** → ?
+3. **Course rating: "Excellent, Good, Fair, Poor"** → ?
+4. **Your exact height in inches** → ?
+5. **Number of classes you're taking** → ?
+6. **Your commute time today** → ?
+
+</v-clicks>
+
+*Think about: Categorical vs Numerical? Discrete vs Continuous? Nominal vs Ordinal?*
 
 
-<!-- Data Types Recap DataViz
+---
 
-While qualitative and quantitative are mutually exclusive data types, you can use several methods to create summary statistics or quantitative representations that provide insights into the qualitative data. Here are some common techniques:
-Frequency Counts, Percentage Distribution, Ordinal Encoding (assign numerical values to categories, yes/no = 1/0)
+## Classify Our Own Survy Data
 
-These are some commonly used dataviz types to present these types of data, for example.
-Understanding the data types will help you select the right data visualizations, and later map to different visual dimensions. More on the data visualization types next week. 
--->
+| # | Field Name | Data Type | Subtype |
+|---|-------------|---------|---------|
+| 3 | What time did you go to bed last night? |
+| 4 | What time did you get up this morning? |
+| 5 | How many hours of sleep did you get? |
+| 6 | How long (in minutes) did you listen to music yesterday? |
+| 7 | Describe your mood in one word. |
+| 8 | Which one of the following best represents your current emotion? |
+| 9 | Rate your current energy level |
+| 10 | Are you a morning person or night owl? |
 
+<!-- 
+Pie Charts are ideal for giving the reader a quick idea of the proportional distribution of the data.
+
+Bar Chart uses either horizontal or vertical bars (column chart) to show discrete, numerical comparisons across categories. 
+ -->
+
+---
+
+## Classify Our Own Survy Data
+
+| # | Field Name | Data Type | Subtype |
+|---|-------------|------------|----------|
+| 3 | What time did you go to bed last night? | Numerical | Continuous |
+| 4 | What time did you get up this morning? | Numerical | Continuous |
+| 5 | How many hours of sleep did you get? | Numerical | Continuous |
+| 6 | How long (in minutes) did you listen to music yesterday? | Numerical | Discrete |
+| 7 | Describe your mood in one word. | Categorical | Nominal |
+| 8 | Which one of the following best represents your current emotion? | Categorical | Nominal |
+| 9 | Rate your current energy level | Categorical | Ordinal |
+| 10 | Are you a morning person or night owl? | Categorical | Nominal |
 
 
 
 ---
-layout: section
+
+## Classify Our Own Survy Data
+
+| # | Field Name | Data Type | Subtype |
+|---|-------------|------------|----------|
+| 11 | Are you a cat person, dog person, or neither? |
+| 12 | Favorite season(s) |
+| 13 | How many pieces of candy did you eat on Halloween? |
+| 14 | How many trick-or-treaters came to your door? |
+| 15 | Did you dress up for this Halloween? |
+| 16 | What's the strongest Halloween costume idea of the year? |
+| 17 | Do you consider yourself more analytical, artistic, or both? |
+| 18 | How comfortable are you with JavaScript? |
+| 19 | Which of the following have you used? |
+| 20 | How comfortable are you with design tools and concepts? |
+
 ---
-# Exercise 
-[survey responses](https://docs.google.com/spreadsheets/d/1-fOmkHOxaaOLMIc30a9pT5PmiKvk1ZwzIP52SEjwwm8/edit?resourcekey#gid=631577729)
+
+## Classify Our Own Survy Data
+
+| # | Field Name | Data Type | Subtype |
+|---|-------------|------------|----------|
+| 11 | Are you a cat person, dog person, or neither? | Categorical | Nominal |
+| 12 | Favorite season(s) | Categorical | Nominal |
+| 13 | How many pieces of candy did you eat on Halloween? | Numerical | Discrete |
+| 14 | How many trick-or-treaters came to your door? | Numerical | Discrete |
+| 15 | Did you dress up for this Halloween? | Categorical | Nominal |
+| 16 | What's the strongest Halloween costume idea of the year? | Categorical | Nominal |
+| 17 | Do you consider yourself more analytical, artistic, or both? | Categorical | Nominal |
+| 18 | How comfortable are you with JavaScript? | Categorical | Ordinal |
+| 19 | Which of the following have you used? | Categorical | Nominal |
+| 20 | How comfortable are you with design tools and concepts? | Categorical | Ordinal |
 
 <!-- 
 Pie Charts are ideal for giving the reader a quick idea of the proportional distribution of the data.
@@ -459,44 +514,57 @@ Bar Chart uses either horizontal or vertical bars (column chart) to show discret
 layout: section
 ---
 
-# Demo
-
----
-layout: section
----
-
-## Observable
-
-<v-clicks>
+# Demo - Observable
 
 - [Set up an account](https://observablehq.com/)
-- [My First Notebook](https://observablehq.com/d/425164bd033d021d)
-- [Markdown Cheatsheet](https://observablehq.com/d/5fad9ce5a1234c52)
-- [My Second Notebook](https://observablehq.com/@datavizstudio/my-second-notebook)
+- [My First Notebook](https://observablehq.com/d/c3c7e3693a24b22f?collection=@datavizstudio/the-art-of-data-visualization/2)
+- [Markdown Cheatsheet](https://observablehq.com/d/c3c7e3693a24b22f?collection=@datavizstudio/the-art-of-data-visualization/2)
+- [Basic JS Concepts for Data](https://observablehq.com/d/370f2218a261e58d?collection=@datavizstudio/the-art-of-data-visualization/2)
 
-</v-clicks>
 
 <!-- 
-Account: use personal email - you might lose access to the massart email if this is the only class you are planning to take in a while.
 
 - All-in-one-place: code, data and visualization, running environment
 - Open-source: Leverage common coding languages and open-source libraries, most flexible, always have access to your creations, works are transparent, free
+
+- Observable is used by journalists, researchers, and data professionals. Students learn a tool they might actually use or encounter in their careers. Rich ecosystem of examples
+Thousands of public notebooks serve as living documentation and inspiration. 
 
 - Notebook: web-based interactive canvases where you can remix data, code, and interaction
 - Cell: content blocks - add content in **Markdown**, **JavaScript**, SQL, or HTML. -->
 
 
 ---
+layout: section
+---
 
-## Mentioned Resources:
+# Working Session 
 
-- [Hans Rosling famous Ted Talks](https://www.ted.com/speakers/hans_rosling)
-- [Gapminder interactive data explorer](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1)
-- [Visualizing the Israel-Hamas war (CNN)](https://www.cnn.com/2023/10/10/world/map-israel-hamas-war-dg/index.html)
-- [The Massachusetts Opioid Epidemic](https://chapter55.digital.mass.gov/)
-- [Front Row to Fashion Week (NYT)](https://www.nytimes.com/newsgraphics/2014/02/14/fashion-week-editors-picks/index.html)
-- [NYT Dataviz work by Mike Bostock](https://www.nytimes.com/by/mike-bostock)
-- [Mike Bostock Generative Art on Observable](https://observablehq.com/@mbostock/altered-world)
-- [Aaron Koblin: Artfully visualizing our humanity](https://www.youtube.com/watch?v=4v4XxlfVk3o)
-- [Aaron Koblin projects](http://www.aaronkoblin.com/)
-- [Rap lyrics text mining](https://www.kaggle.com/code/rikdifos/rap-lyrics-text-mining)
+- Create your first chart using Plot library sample data
+- Create a plot using our own [class survey data](https://docs.google.com/spreadsheets/d/1UWg7p7rcAFwVNdc986sk5EoToaUlr2KqaYQXTk-LTLI/edit?gid=1950617488#gid=1950617488) 
+
+---
+layout: section
+---
+
+# Assignment
+
+---
+
+## Capture Your Day → Visualize Your Metric
+
+Watch [Giorgia Lupi and Stefanie Posavec @ Eyeo Festival](https://vimeo.com/133608605?fl=pl&fe=vl)
+
+Then, you will:
+
+1. Choose a metric from your daily life — something you do, track, or repeatedly experience. (Pick something you can realistically record every day for a week - things that can happen multiple times a)
+
+2. For one week, record your chosen metric daily, and keep it in a notebook, spreadsheet, or your design journal.
+
+3. At the end of the week, plot the data you collected in a new notebook. Visualize it in whatever format makes sense for your metric — line chart, bar chart, scatter, ridgeline, whatever you feel inspired by.
+
+4. Write a short reflection in the notebook answering:
+  - Why you chose this metric?
+  - What you observed from the data?
+  - Did anything surprise you?
+  - What visualization choices did you make and why?
