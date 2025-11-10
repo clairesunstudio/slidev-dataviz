@@ -3,28 +3,54 @@ layout: intro
 ---
 
 # Week 2
-## Data Exploration and Preparation
-11/07/2023
+## Mapping Data to Graphics
+11/10/2025
 
 <Credit />
+
+<!-- Last week was very information-dense. We didn’t get to play a lot in Observable. This week we will be making up for that and spend most of the time in Observable doing exercises and applying what we've learned from last week.
+
+Quick recap
+Last week, We talked about Data Types - how to recognized and categorize data and what a set of structured data look like.
+
+Today we are going to walk through how data dimensions are mapped to graphic dimensions - how these data types can help us map these chart types and some additional ones, and breakdown how they work. Knowing these common dataviz are handy, because they have gone through lots of user testing to become the convention. They are also usually the basis of bespoke dataviz. 
+
+Has anyone used AI for help in the assignment? If you haven't, I will show a live demo how to natual language programming using a tool like chatGPT. Although ChatGPT can probably help you write code - you must know the basic concepts and language to ask the right question - it will get you there 90 percent but most of the time you might need to change something to make it work.  -->
+
 
 ---
 
 # Agenda
 
-## Lecture (40 min)
-- Familiarize with basic chart types
-- Structured Data
-- Data sourcing and collection from the web
-## Demo (50 min)
-- Javascript basics
-- Data preprocessing
-- Write the first chart!
-## Working Session (50 min)
-- Find your own data
-- Exercises
+## Recap (45 min)
+- Assignment Showcase
+- Data Types
+## Concepts (45 min)
+- Chart Types
+- Grammar of Graphics (Mapping data dimension to graphic dimensions)
+- Demo [Histogram VS Bar Chart](https://observablehq.com/@datavizstudio/rect-vs-bar)
+- Observable gallery and documentation
+## Working Session (40 min)
+- [Dataviz Types and Their Functions](https://observablehq.com/@datavizstudio/dataviz-types-and-their-functions)
 
 
+<!-- Last week, We talked about Data Types - how to recognized and categorize data and what a set of structured data look like.
+
+Has anyone used AI for help in the assignment? If you haven't, I will show a live demo how to natual language programming using a tool like chatGPT. Although ChatGPT can probably help you write code - you must know the basic concepts and language to ask the right question - it will get you there 90 percent but most of the time you might need to change something to make it work.  -->
+
+
+--
+
+# Recap
+
+- Create a plot using our own [class survey data](https://docs.google.com/spreadsheets/d/1UWg7p7rcAFwVNdc986sk5EoToaUlr2KqaYQXTk-LTLI/edit?gid=1950617488#gid=1950617488) 
+- Visualize your week (Dear Data)
+
+---
+
+# Data Types
+
+<img src="/images/week1/data-types.png" height="500"/>
 
 ---
 layout: fact
@@ -32,117 +58,167 @@ layout: fact
 
 <img src="/images/week1/data-types-with-dataviz.png" height="600"/>
 
+<!-- We talked about Data Types - definitions, saw some examples, and I promised that these will be helpful in guiding us to the right visual presentation.
 
-<!-- Recap from last week
+When you think about data visualization, what comes to mind? probably chart types - when you open any data visualization tools, like tableau, excel, you are presented with a set of read-made options for you to plug in the data. 
 
-We talked about Data Types - definitions, saw some examples, and potentially how they can help you narrow down the options and select the right visual presentation for a dataset.
+Let's flip through some most common chart types that you would encounter in these tools.  -->
 
-Today we are going to walk through these chart types and some additional ones, and breakdown how they work. Knowing these common dataviz are handy, because they have gone through lots of user testing to become the convention. They are also usually the basis of bespoke dataviz. 
+---
+layout: image-right
+image: ./images/week3/d3-plot-quadrant.png
+---
 
+---
+src: ./dataviz-quan-common.md
+---
+
+
+<!-- It's useful to know these common chart types, they have gone through lots of user testing to become the convention. They are also usually the basis of bespoke dataviz. -->
+
+---
+layout: intro-image-right
+image: https://media.springernature.com/full/springer-static/cover-hires/book/978-0-387-28695-2?as=webp
+---
+
+# Grammar of Graphics
+
+"A grammar of graphics is a tool that enables us to concisely describe the components of a graphic. Such a grammar allows us to move beyond named graphics (e.g., the “scatterplot”) and gain insight into the deep structure that underlies statistical graphics"
+— [Hadley Wickham](https://vita.had.co.nz/papers/layered-grammar.html)
+
+<!-- 
+
+Statisical charts are not monolithic entities. There's an undelying language shared across them, that defines bar charts, scatterplots, and line graphs from composable pieces. 
+
+On the right: This idea was originally introduced by Wilkinson's Grammar of Graphics - the idea of mapping data dimensions to graphic dimensions and using a systematic approach to creating a wide range of visualizations, allowing you think beyond an discrete “chart” abstraction in the process.
+
+Grammar makes language expressive. A language that has words and no grammar expresses only as many ideas as there are words. --
+Leland Wilkinson
+
+On the left: Hadley Wickham, he's a computer scentist who created the language R - for statistical computing and graphics and an opensource dataviz framework ggplot2. Here's a link to his paper that covers his proposal and implementations in detail. -->
+
+---
+
+![7 layers of grammar of graphics](https://blog.gramener.com/wp-content/uploads/2018/11/7-layers-of-grammar-of-graphics-to-tell-powerful-data-stories-3.png
+)
+
+<!-- the conceptual framework that underpins tools like ggplot2, Vega-Lite, and even the way many dataviz systems (like Observable or D3) are structured. -->
+
+---
+
+# JS, D3, or Observable Plot?
+
+"a histogram in D3 might require 50 lines of code, Plot can do it in one!"
+
+— [D3 Documentation](https://d3js.org/what-is-d3)
+
+<!-- 
+We've been using Observable Plot and know how to quickly explore data using the built-in code snippets. We know how to somewhat modify the code impromptu. But we haven't yet talked about the semantics and how it works compared to the other tools out there.
+
+D3 was created by Mike Bostock in 2011. Most creative and bespoke data visualizations on the web are created using D3. You can tailor the visualization to achieve exactly what you want. D3: even a basic chart may require a few dozen lines of code.  Plot is the high-level sister library of D3. The same team of people created D3 is now also working on Observable Plot. It gets you a little closer to the final product, say a histogram.
+Most importantly, it adopts the concept of Grammar of Graphics, an effective way of undertanding and composing data visualization.  
 -->
 
 
 ---
-layout: section
+layout: section 
 ---
 
-## Qualitative
-
-<!-- Purely qualitative datasets have only limited dimensions to map to visuals, therefore only limited dataviz options available. Usually for these data, we are interested in visualzing the relationships between categories - hierarchy, comparison, part of a whole, logical flow. Let's quickly go through some commonly seen options. -->
+# Plot Grammers
 
 ---
-src: ./week2-dataviz-qual.md
+layout: image
+image: ./images/week3/observable-layers.png
 ---
 
----
-layout: section
----
+<!-- 
 
-## Qualitative
+The 7 layers of Grammar of graphics provide a standard set of guidelines on converting data into effective visualisations..
 
+Observable Plot library, inspired by Wilkinson's original work, It provides a structured and modular approach to building complex visualizations by layering different components to represent various aspects of the data. 
 
----
-src: ./week2-dataviz.md
----
+taken from official slides: https://docs.google.com/presentation/d/e/2PACX-1vQxvKDGkfiatd5fcGSIPZuEKUpRAq02UHMo6HC9_cJqKsNx5CT-6LAsWr72f5oPfq7Xi_-gJypxaggz/pub?start=false&loop=false&delayms=3000&slide=id.g24e07fe4aaa_0_88
 
-
----
-layout: section
----
-
-# Structured data
-
-Structured data is organized and formatted in a way that is easily understandable by both humans and machines. It follows a predefined structure or schema that allows for clear organization and presentation of data. 
-
----
-layout: section
----
-
-## Unstructured
-
-John is 30 years old and he lives in New York.
-
-## Structured
-
-### JSON (JavaScript Object Notation)
-```json
-{
-  "name": "John", // key-value pair
-  "age": 30,
-  "city": "New York"
-}
-```
-
-### CSV (Comma-Separated Values)
-```csv
-name, age, city
-John, 30, New York
-```
-
-<small>Other data formats: XML (eXtensible Markup Language), SQL (Structured Query Language), etc.</small>
-
-<!-- JSON is a data interchange format often used for data transmission between systems and is based on a subset of JavaScript object notation. JSON is highly prevalent and often the default choice for data interchange, especially in web and API contexts. -->
-
----
-
-# JSON
-
-JavaScript Object Notation - a subset of JavaScript object literal notation. It consists of key-value pairs, where keys are strings, and values can be strings, numbers, objects, arrays, booleans, or null.
-
-```json
-{ // JSON object
-  "name": "John",
-  "age": 30,
-  "city": "New York"
-}
-```
-<v-click>
-```ts
-var person1 = { // javascript object
-  name: "John",
-  age: 30,
-  city: "New York"
-}
-```
-</v-click>
-
-<!-- JSON is based on a subset of JavaScript object notation.  -->
-
-
----
-layout: section
----
-
-# Data Sourcing
-
-## Cities and Towns in MA
-
-- Search "cities and towns in massachusetts"
-- First result in Google - [List of municipalities in Massachusetts](https://en.wikipedia.org/wiki/List_of_municipalities_in_Massachusetts)
-- [Follow along notebook - MA Municipalities](https://observablehq.com/@datavizstudio/ma-municipalities)
-
-<!-- In this class, we are not going to delve into data collection too much - although how data is collected does impact data accuracy. You are welcome to collect your own data. For the purpose of this class, we are not going to start collecting data from scratch. Last time, we looked at our small dataset from all of your survey responses, we are going to go back to that; as well as exploring the sample data that's provided out-of-box by Observable. The goal of today is to walk you through how to source your own data. We just learned a lot of theorectical stuff, let's get our hands dirty by switching to Observable and starting a new notebook.
 -->
+
+---
+layout: section
+---
+
+<h2>Plot doesn’t have chart types; instead, you construct charts by layering <span style="background-color: yellow; color: black">marks</span>.</h2>
+
+— [Observable Plot Documentation](https://observablehq.com/plot/features/marks
+)
+---
+
+# Marks
+
+"Plot provides a variety of mark types. Think of marks as the “visual vocabulary” — the painter’s palette 🎨, but of shapes instead of colors — that you pull from when composing a chart. Each mark type produces a certain type of geometric shape."
+
+<v-clicks>
+
+- Marks are geometric shapes
+- Mark constructors take two arguments: *data* and *options*. 
+- Mark options are specification of how data variations are mapped to graphic variations (mark binds channels to scales)
+- Marks imply data types (Demo: rect vs bar)
+
+</v-clicks>
+
+---
+layout: image
+image: ./images/week3/Plot-dot-examples.png
+---
+
+---
+layout: intro
+---
+
+## [Observable Gallery](https://observablehq.com/@observablehq/plot-gallery) is organized by mark types.
+
+<!-- Official examples, organized by mark types -->
+
+---
+layout: image-right
+image: ./images/week3/Plot-mark-options.png
+---
+
+[Observable Plot Mark Types:](https://observablehq.com/plot/features/marks)
+
+Area, Arrow, Auto, Axis, Bar, Bollinger, Box, Cell, Contour, Delaunay, Density, Difference, Dot, Frame, Geo, Grid, Hexgrid, Image, Line, Linear regression, Link, Raster, Rect, Rule, Text, Tick, Tip, Tree, Vector
+
+---
+layout: fact
+---
+
+<h2>Mark Binds <span style="color: yellow">Channels</span> to <span style="color: yellow">Scales</span></h2>
+
+Mark options are specification of how data variations are mapped to graphic variations.
+
+---
+
+# [Channels](https://observablehq.com/plot/features/marks#marks-have-channels)
+
+Channels are mark options that can be used to encode data. These options allow the value to vary with the data, such as a different position or color for each dot. 
+
+![image](/images/week3/scale-channel.png)
+
+
+---
+
+# [Scales](https://observablehq.com/plot/features/scales#scale-options) 
+
+"Scales convert an abstract value such as time or temperature to a visual value such as x→ or y↑ position or color. "
+
+Each scale’s options are specified as a nested options object with the corresponding scale name within the top-level plot options:
+
+- x - horizontal position
+- y - vertical position
+- r - radius (size)
+- color - fill or stroke
+- opacity - fill or stroke opacity
+- length - linear length (for vectors)
+- symbol - categorical symbol (for dots)
+
 
 ---
 layout: section
@@ -150,20 +226,37 @@ layout: section
 
 # Demo
 
-- Javascript basics
-- Data transformation and preprocessing
-- [Javascript basic notebook](https://observablehq.com/@datavizstudio/basic-javascript-concepts-for-data)
+Marks imply data types, for example ["rect" vs "bar"](https://observablehq.com/@datavizstudio/rect-vs-bar)
 
+<!-- The bar mark is a variant of the rect mark for use when one dimension is categorical and the other is quantitative. See also the cell mark. rect mark is used when both dimensions are quantitative (A rectangle has a quantitative width and height) -->
+
+
+---
+layout: fact
+---
+
+![image](/images/week3/observable-layers2.png)
+
+<!-- Next time: more on Scale and Transform -->
 
 ---
 layout: section
 ---
 
-# Exercises
+# Exercise
 
-- Visualize your own data using Plot code snippets
-   - Transform coding skills dataset
-   - Import downloaded MA municipalities data
-   
-- Look for your own data
-  - [Data is Plural](https://www.data-is-plural.com/)
+[Dataviz Types and Their Functions](https://observablehq.com/@datavizstudio/dataviz-types-and-their-functions)
+
+---
+
+# For next week - create an exploratory analysis
+
+- Find a dataset online (with at least 100 rows and 4 quantitative attributes)
+    - [Data is Plural](https://www.data-is-plural.com/)
+    - [World Bank Data](https://data.worldbank.org/indicator/SE.PRM.CMPT.FE.ZS?locations=1W&start=1973&view=chart)
+    - [Census Data](https://data.census.gov/)
+    - [Boston City Data](https://data.boston.gov/dataset)
+    - [MA State Data](https://data.mass.gov/)
+    - or I will provide a ready-to-use dataset from Wikipedia: [MA municipalities data](https://en.wikipedia.org/wiki/List_of_municipalities_in_Massachusetts)
+- Plot it in a notebook and derive an insight 
+ 
