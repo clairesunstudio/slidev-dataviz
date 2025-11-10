@@ -46,6 +46,32 @@ Has anyone used AI for help in the assignment? If you haven't, I will show a liv
 - Create a plot using our own [class survey data](https://docs.google.com/spreadsheets/d/1UWg7p7rcAFwVNdc986sk5EoToaUlr2KqaYQXTk-LTLI/edit?gid=1950617488#gid=1950617488) 
 - Visualize your week (Dear Data)
 
+<!-- 🧹 Data Cleaning & Normalization
+Before plotting or analyzing your dataset:
+
+- Inspect your data: Look for missing values, outliers, or inconsistent formats (e.g., “Boston ” vs “boston”).
+- Normalize numeric variables (if they’re on very different scales) to make comparisons fair, especially for multivariate analysis.
+Example: use min-max scaling or z-scores so that variables like “population” (millions) and “income” (thousands) are comparable.
+- Rename columns with clear, readable labels (e.g., year instead of YR).
+- Filter or aggregate where appropriate: drop irrelevant rows, combine categories, or compute averages/ratios.
+- Document what you did — note any transformations or filtering in your notebook.
+
+⚖️ Data Ethics: Integrity & Privacy
+When working with real-world data:
+
+Integrity
+
+- Always cite the original source and date accessed.
+- Avoid altering or cherry-picking values to fit a narrative.
+- Be transparent about how you cleaned or filtered the data (show your steps).
+- Check for data accuracy and acknowledge limitations or uncertainty.
+
+Privacy
+- Use publicly available or anonymized datasets only.
+- Never publish personally identifiable information (PII) such as names, addresses, or emails.
+- If your dataset includes sensitive fields (like age, income, or location), aggregate them or blur exact details (e.g., use age ranges).
+- Respect data licenses and terms of use. -->
+
 ---
 
 # Data Types
@@ -226,7 +252,7 @@ layout: section
 
 # Demo
 
-Marks imply data types, for example ["rect" vs "bar"](https://observablehq.com/@datavizstudio/rect-vs-bar)
+Marks imply data types. Follow-along demo: ["rect" vs "bar"](https://observablehq.com/d/e0b59b590f6a05ac?collection=@datavizstudio/the-art-of-data-visualization/2)
 
 <!-- The bar mark is a variant of the rect mark for use when one dimension is categorical and the other is quantitative. See also the cell mark. rect mark is used when both dimensions are quantitative (A rectangle has a quantitative width and height) -->
 
@@ -245,7 +271,7 @@ layout: section
 
 # Exercise
 
-[Dataviz Types and Their Functions](https://observablehq.com/@datavizstudio/dataviz-types-and-their-functions)
+[Dataviz Types and Their Functions](https://observablehq.com/d/33a013dde2488ae9?collection=@datavizstudio/the-art-of-data-visualization/2)
 
 ---
 
@@ -257,6 +283,6 @@ layout: section
     - [Census Data](https://data.census.gov/)
     - [Boston City Data](https://data.boston.gov/dataset)
     - [MA State Data](https://data.mass.gov/)
-    - or I will provide a ready-to-use dataset from Wikipedia: [MA municipalities data](https://en.wikipedia.org/wiki/List_of_municipalities_in_Massachusetts)
+    - or I will provide a ready-to-use dataset downloaded from Wikipedia: [MA municipalities data](https://en.wikipedia.org/wiki/List_of_municipalities_in_Massachusetts)
 - Plot it in a notebook and derive an insight 
  
