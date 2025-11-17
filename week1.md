@@ -1,4 +1,8 @@
 ---
+src: ./intro.md
+---
+
+---
 theme: apple-basic
 layout: intro
 ---
