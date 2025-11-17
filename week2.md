@@ -8,14 +8,13 @@ layout: intro
 
 <Credit />
 
-<!-- Last week was very information-dense. We didn’t get to play a lot in Observable. This week we will be making up for that and spend most of the time in Observable doing exercises and applying what we've learned from last week.
+<!-- 
 
 Quick recap
-Last week, We talked about Data Types - how to recognized and categorize data and what a set of structured data look like.
+Last week, We talked about Data Types - how to categorize data and and a little bit of JS basics around structuring data in code.
 
-Today we are going to walk through how data dimensions are mapped to graphic dimensions - how these data types can help us map these chart types and some additional ones, and breakdown how they work. Knowing these common dataviz are handy, because they have gone through lots of user testing to become the convention. They are also usually the basis of bespoke dataviz. 
-
-Has anyone used AI for help in the assignment? If you haven't, I will show a live demo how to natual language programming using a tool like chatGPT. Although ChatGPT can probably help you write code - you must know the basic concepts and language to ask the right question - it will get you there 90 percent but most of the time you might need to change something to make it work.  -->
+Today we are going to walk through how data dimensions are mapped to graphic dimensions - use data types can guide use to the right data visualization.
+-->
 
 
 ---
@@ -31,12 +30,10 @@ Has anyone used AI for help in the assignment? If you haven't, I will show a liv
 - Demo [Histogram VS Bar Chart](https://observablehq.com/@datavizstudio/rect-vs-bar)
 - Observable gallery and documentation
 ## Working Session (40 min)
-- [Dataviz Types and Their Functions](https://observablehq.com/@datavizstudio/dataviz-types-and-their-functions)
+- [Dataviz Types and Their Functions](https://observablehq.com/d/33a013dde2488ae9?collection=@datavizstudio/the-art-of-data-visualization/2)
 
 
-<!-- Last week, We talked about Data Types - how to recognized and categorize data and what a set of structured data look like.
-
-Has anyone used AI for help in the assignment? If you haven't, I will show a live demo how to natual language programming using a tool like chatGPT. Although ChatGPT can probably help you write code - you must know the basic concepts and language to ask the right question - it will get you there 90 percent but most of the time you might need to change something to make it work.  -->
+<!-- Has anyone used AI for help in the assignment? If you haven't, I will show a live demo how to natual language programming using a tool like chatGPT. Although ChatGPT can probably help you write code - you must know the basic concepts and language to ask the right question - it will get you there 90 percent but most of the time you might need to change something to make it work.  -->
 
 
 --
@@ -84,23 +81,17 @@ layout: fact
 
 <img src="/images/week1/data-types-with-dataviz.png" height="600"/>
 
-<!-- We talked about Data Types - definitions, saw some examples, and I promised that these will be helpful in guiding us to the right visual presentation.
-
+<!-- We talked about Data Types - definitions, saw some examples, and I promised that these will be helpful in guiding us to the right visual presentation. 
 When you think about data visualization, what comes to mind? probably chart types - when you open any data visualization tools, like tableau, excel, you are presented with a set of read-made options for you to plug in the data. 
 
 Let's flip through some most common chart types that you would encounter in these tools.  -->
-
----
-layout: image-right
-image: ./images/week3/d3-plot-quadrant.png
----
 
 ---
 src: ./dataviz-quan-common.md
 ---
 
 
-<!-- It's useful to know these common chart types, they have gone through lots of user testing to become the convention. They are also usually the basis of bespoke dataviz. -->
+<!-- When you open up dataviz tool, you will almost always encounter a list of dataviz. It's useful to know these common chart types, they have gone through lots of user testing to become the convention. They are also usually the basis of bespoke dataviz. -->
 
 ---
 layout: intro-image-right
@@ -130,6 +121,10 @@ On the left: Hadley Wickham, he's a computer scentist who created the language R
 
 <!-- the conceptual framework that underpins tools like ggplot2, Vega-Lite, and even the way many dataviz systems (like Observable or D3) are structured. -->
 
+
+---
+layout: image-right
+image: ./images/week3/d3-plot-quadrant.png
 ---
 
 # JS, D3, or Observable Plot?

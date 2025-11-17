@@ -122,3 +122,8 @@ Follow-along notebook: [Colors, Labels and Interactivity](https://observablehq.c
     - "Deadly Trend: Switching from Legal to Illegal Opioids" in the [The Massachusetts Opioid Epidemic](https://chapter55.digital.mass.gov/)
     - "Explore Your District" in the [The ABCs of Success in High School and Beyond](https://abcs.sites.digital.mass.gov/)
     - Or create an interactive dataviz of your choice
+
+
+
+    <a href="https://pudding.cool/2017/05/song-repetition/"><img src="/images/week4/case1.png" style="height: 200px"></a>
+    <a href="https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html"><img src="/images/week4/case2.png" style="height: 200px"></a>

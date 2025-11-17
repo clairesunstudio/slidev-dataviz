@@ -1,10 +1,27 @@
+<style>
+  quote {
+    margin: 2rem 0;
+    padding-left: 1rem;
+    border-left: 1px solid #fff;
+    display: block;
+    line-height: 1.5;
+    max-width: 600px;
+
+    div {
+      text-align: right;
+      font-weight: 200;
+      font-size: 0.8em;
+    }
+  }
+</style>
+
 ---
 layout: intro
 ---
 
-# Week 4
+# Week 3
 ## Design Principles for Effective Visualizations
-11/21/2023
+11/17/2025
 
 <Credit />
 
@@ -19,14 +36,14 @@ image: ./images/week3/observable-layers.png
 
 # Agenda
 
-### Recap and Lecture (30 min)
+### Assignment Demo (45 min)
+- Exploratory Data Analysis
+### Concepts (45 min)
 - Principles and theories of data visualization
-### Demo (60 min)
+### Working Session (30 min)
 - How to create a [data-driven isotype/pictogram](https://observablehq.com/d/929667581b308364)
     - using emoji
     - using custom icons and with coordinates
-### Working Session (60 min)
-- Create your own data-driven pictogram/isotype chart
 
 <!-- Today we are going to talk about the principles of data visualization. We will revisit some of the rule of thumb and concepts we came across earlier. 
 
@@ -34,13 +51,16 @@ Last week I asked you to prepare some summary statistics, and provided you some 
 
 
 ---
-layout: statement
+layout: image-right
+image: 'https://m.media-amazon.com/images/I/81ud7Ri9kFL._SY522_.jpg'
 ---
 
-**Excellence in statiscal graphics consists of complex ideas communicated with clarity, precision, and efficiency.**
+<quote>Excellence in statiscal graphics consists of complex ideas communicated with clarity, precision, and efficiency. <div>— Edward Tufte</div></quote>
 
-— Edward Tufte
+<!-- "The Visual Display of Quantitative Information" by Edward Tufte is a seminal work in data visualization. Here are the key concepts and principles from this influential book:
 
+Core Philosophy
+"Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space." -->
 
 --- 
 
@@ -256,9 +276,8 @@ erase redundant data-ink   -->
 layout: statement
 ---
 
-"In good information visualization, there are no rules, no guidelines, no templates, no standard technologies, no stylebooks… You must simply do whatever it takes."
+<quote>"In good information visualization, there are no rules, no guidelines, no templates, no standard technologies, no stylebooks… You must simply do whatever it takes. <span>Edward Tufte</span></quote>
 
-— Edward Tufte
 
 <!-- Although we just went through a lot of principles and theories mostly put forward or reinforced by Edward Tufted. I want to end with this quote of his.  Knowing you audience is important - if you are writing an academic paper, you would choose , but if it's for a more broader audience and none technical audience, creativity, good design and communication are also important for explanatory dataviz. Guidelines are meant to be followed not worshiped. Learn the rules like a pro, so you can break them like an artist. For example, the maximizing the data ink ratio. However, in any case, some principles should always be followed - a dataviz should never distort the data. -->
 
@@ -267,26 +286,82 @@ layout: statement
 ## Learn the rules like a pro, so you can break them like an artist
 
 <div class="grid grid-cols-4 gap-1 pt-20">
-    <a href="https://pudding.cool/2017/05/song-repetition/"><img src="/images/week4/case1.png" style="height: 200px"></a>
-    <a href="https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html"><img src="/images/week4/case2.png" style="height: 200px"></a>
     <a href="https://www.nytimes.com/interactive/2014/09/14/sports/baseball/jeter-swings.html"><img src="/images/week4/case3.png" style="height: 200px"></a>
     <a href="https://www.nytimes.com/interactive/2016/11/29/us/trump-unauthorized-immigrants.html"><img src="/images/week4/case4.png" style="height: 200px"></a>
+    <a href="https://chapter55.digital.mass.gov/"><img src="/images/week3/chapter55-prescription-decline.gif" style="height: 200px"></a>
+    <a href="https://abcs.sites.digital.mass.gov/"><img src="/images/week3/dese.png" style="height: 200px"></a>
 </div>
 
 <!-- 
-Pudding, lempel-ziv compression: using interesting topics and easy to undertand language and interactive visualization to explan complex algorithm
-The Pudding is a journal of visual essays. It’s a new publication from Polygraph, a collective specializing in visualization.
-
-Time-based, Interative
-Parallax is a good friend
-apply game design methodology— drive engagement and opportunity for data collection
-https://fold.it/ 
-an online game in which players contribute to scientific research by solving puzzles. 
-In 2011, Foldit players identified the structure of a protein that helps HIV reproduce. This was a major accomplishment and will help researchers develop treatments for HIV.
-run from University of Washington and Northeastern University), anyone in the world can help to optimize an enzyme that we hypothesize could be capable of degrading a susceptible lactone ring in aflatoxin. 
+Motto: It is better to remember simplified images than to forget exact figures.
 
 Pushing the limit 
 Use data visualization to narrate  -->
+
+
+---
+layout: full
+---
+
+## Dot Matrix Chart
+
+<img src="http://datavizcatalogue.com/methods/images/top_images/dotmatrix.png" style="max-height: 100%" />
+
+- Functions: Comparisons,Distribution,Patterns,Proportions
+- Related Dataviz: Pictogram Chart
+- Example: [The ABCs of Success in High School and Beyond](https://abcs.sites.digital.mass.gov/)
+
+<!--
+
+Dot Matrix Charts display discreet data through a series of organised dots, each coloured to represent a particular category and grouped in a matrix. They are used to give a quick overview of the distribution and proportions of each category in a data set. Dot Matrix Charts are also used to compare distribution and proportion across other datasets, to discover patterns.When only one category is used in the dataset and all the dots are the same colour, a Dot Matrix Chart can be used to primarily show proportions.
+
+-->
+
+---
+layout: full
+---
+
+<img src="http://datavizcatalogue.com/methods/images/anatomy/dotmatrix.png" style="max-height: 100%" />
+
+
+
+<!--
+
+Dot Matrix Charts display discreet data through a series of organised dots, each coloured to represent a particular category and grouped in a matrix. They are used to give a quick overview of the distribution and proportions of each category in a data set. Dot Matrix Charts are also used to compare distribution and proportion across other datasets, to discover patterns.When only one category is used in the dataset and all the dots are the same colour, a Dot Matrix Chart can be used to primarily show proportions.
+
+-->
+
+---
+layout: full
+---
+
+## Pictogram Chart
+
+<img src="http://datavizcatalogue.com/methods/images/top_images/pictograph.png" style="max-height: 100%" />
+
+- Functions: Comparisons,Distribution
+- Related Dataviz: Bar Chart,Dot Matrix Chart
+- Example: [The MA Opioid Epidemic](Chhttps://chapter55.digital.mass.gov/#populations)
+
+<!--
+
+Also known as Pictograph Chart, Pictorial Chart, Pictorial Unit Chart, Picture Graph.Pictogram Charts use icons to give a more engaging overall view of small sets of discrete data. Typically, the icons represent the data’s subject or category, for example, data on population would use icons of people. Each icon can represent one unit or any number of units (e.g. each icon represents 10). Data sets are compared side-by-side in either columns or rows of icons, to compare each category to one another.The use of icons can sometimes help overcome differences in language, culture and education. Icons can also give a more representational view of the data. So for example, if your data is of 5 cars, you show 5 icons of cars in the chart.Two things to avoid when using Pictogram Charts are: Using them for large data sets, which makes values on the chart hard to count.Displaying partial icons, as this can add confusion to what they represent.   
+-->
+
+---
+layout: full
+---
+
+<img src="http://datavizcatalogue.com/methods/images/anatomy/pictogram.png" style="max-height: 100%" />
+
+
+
+<!--
+
+Also known as Pictograph Chart, Pictorial Chart, Pictorial Unit Chart, Picture Graph.Pictogram Charts use icons to give a more engaging overall view of small sets of discrete data. Typically, the icons represent the data’s subject or category, for example, data on population would use icons of people. Each icon can represent one unit or any number of units (e.g. each icon represents 10). Data sets are compared side-by-side in either columns or rows of icons, to compare each category to one another.The use of icons can sometimes help overcome differences in language, culture and education. Icons can also give a more representational view of the data. So for example, if your data is of 5 cars, you show 5 icons of cars in the chart.Two things to avoid when using Pictogram Charts are: Using them for large data sets, which makes values on the chart hard to count.Displaying partial icons, as this can add confusion to what they represent.   
+-->
+
+
 
 ---
 layout: section
@@ -298,10 +373,10 @@ layout: section
 - Fork this notebook and follow along
 
 
-
-- Next week: Create your own data-driven [pictogram/isotype](https://observablehq.com/@observablehq/plot-isotype-chart) chart
-    - Prepare summary data points
-    - [Find or create icons or emoji for your data](https://www.vis4.net/blog/2012/10/choose-your-icons-wisely/)
-    - Recommended Readings: 
-        - [Exploring Isotype Charts](https://nightingaledvs.com/exploring-isotype-charts-our-private-lives-lessons-of-isotype-part-2/)
-        - [ISOTYPE Visualization Research](http://steveharoz.com/research/isotype/)
+## Next week: 
+Tell a story with your own data-driven [pictogram/isotype](https://observablehq.com/@observablehq/plot-isotype-chart) chart
+- Prepare summary data points
+- [Find or create icons or emoji for your data](https://www.vis4.net/blog/2012/10/choose-your-icons-wisely/)
+- Recommended Readings: 
+    - [Exploring Isotype Charts](https://nightingaledvs.com/exploring-isotype-charts-our-private-lives-lessons-of-isotype-part-2/)
+    - [ISOTYPE Visualization Research](http://steveharoz.com/research/isotype/)

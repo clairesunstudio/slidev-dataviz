@@ -345,36 +345,6 @@ A Donut Chart is essentially a Pie Chart but with the area of the centre cut out
 layout: full
 ---
 
-## Sunburst Diagram
-
-<img src="http://datavizcatalogue.com/methods/images/top_images/PNG/sunburst_diagram.png" style="max-height: 100%" />
-
-- Functions: Hierarchy,Part-to-a-whole
-- Related Dataviz: Donut Chart,Pie Chart,Treemap
-
-<!--
-
-Also known as a Sunburst Chart, Ring Chart, Multi-level Pie Chart, Belt Chart, Radial Treemap.
--->
-
----
-layout: full
----
-
-<img src="http://datavizcatalogue.com/methods/images/anatomy/PNG/sunburst_diagram.png" style="max-height: 100%" />
-
-
-
-<!--
-
-This type of visualisation shows hierarchy through a series of rings, that are sliced for each category node.  Each ring corresponds to a level in the hierarchy, with the central circle representing the root node and the hierarchy moving outwards from it.  Rings are sliced up and divided based on their hierarchical relationship to the parent slice.  The angle of each slice is either divided equally under its parent node or can be made proportional to a value.  Colour can be used to highlight hierarchal groupings or specific categories. 
--->
-
-
----
-layout: full
----
-
 ## Treemap
 
 <img src="http://datavizcatalogue.com/methods/images/top_images/treemap.png" style="max-height: 100%" />
