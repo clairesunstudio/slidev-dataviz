@@ -1,20 +1,3 @@
-<style>
-  quote {
-    margin: 2rem 0;
-    padding-left: 1rem;
-    border-left: 1px solid #fff;
-    display: block;
-    line-height: 1.5;
-    max-width: 600px;
-
-    div {
-      text-align: right;
-      font-weight: 200;
-      font-size: 0.8em;
-    }
-  }
-</style>
-
 ---
 layout: intro
 ---
@@ -41,7 +24,7 @@ image: ./images/week3/observable-layers.png
 ### Concepts (45 min)
 - Principles and theories of data visualization
 ### Working Session (30 min)
-- How to create a [data-driven isotype/pictogram](https://observablehq.com/d/929667581b308364)
+- How to create a [data-driven isotype/pictogram](https://observablehq.com/@datavizstudio/isotype-pictogram-demo25?collection=@datavizstudio/the-art-of-data-visualization/2)
     - using emoji
     - using custom icons and with coordinates
 
@@ -369,14 +352,14 @@ layout: section
 
 ## Demo
 
-[Isotype / Pictogram Demo](https://observablehq.com/@datavizstudio/isotype-pictogram-demo)
+[Isotype / Pictogram Demo](https://observablehq.com/@datavizstudio/isotype-pictogram-demo25?collection=@datavizstudio/the-art-of-data-visualization/2)
 - Fork this notebook and follow along
 
 
 ## Next week: 
 Tell a story with your own data-driven [pictogram/isotype](https://observablehq.com/@observablehq/plot-isotype-chart) chart
 - Prepare summary data points
-- [Find or create icons or emoji for your data](https://www.vis4.net/blog/2012/10/choose-your-icons-wisely/)
+- Find or create icons or emoji for your data
 - Recommended Readings: 
     - [Exploring Isotype Charts](https://nightingaledvs.com/exploring-isotype-charts-our-private-lives-lessons-of-isotype-part-2/)
     - [ISOTYPE Visualization Research](http://steveharoz.com/research/isotype/)
