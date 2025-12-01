@@ -1,9 +1,9 @@
 ---
 layout: intro
 --- 
-# Week 6
+# Week 5
 ## Data Maps
-11/28/2023
+12/01/2025
 
 <Credit />
 
@@ -13,7 +13,7 @@ layout: intro
 
 ### Recap and Showcase (30 min)
 - Showcase the interactive bubble chart
-### Lecture (30 min)
+### Concepts (30 min)
 - Map Layers
 - Data Maps
 ### Demo + Activities (1.25 hour)

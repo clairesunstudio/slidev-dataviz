@@ -34,11 +34,12 @@ layout: two-cols
 
 <!-- Last week, we went over some basic principles and theories of dataviz, brought forward by Edward Tufte.
 
-In time-series displays of money, defalted and standardized units of monetary meansurement are nearly always better than nominal units.
-
 careful when using 2D and 3D graphics to represent 1D data 
 - when you scale marks or graphics along one axis, remember that the 2D graphics are scaled exponentially. 
 - Quantities shouldn't shown by enlarging the same picture or symbol but by repeating the same-sized symbol.
+
+In time-series displays of money, defalted and standardized units of monetary meansurement are nearly always better than nominal units.
+When doing population analysis, statisticians will often use a rate per sample size (example: rate per 100,000), rather than just a raw count.
 -->
 
 
@@ -57,7 +58,7 @@ careful when using 2D and 3D graphics to represent 1D data
 - Exercise: Recreate the [Gapminder visualization](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1) made famous by Hans Rosling. 
 
 ---
-layout: statement
+layout: section
 ---
 
 Visual Information-Seeking Mantra:
@@ -188,8 +189,11 @@ Explanatory Dataviz isn't just for showing data; it can be used to explain compl
 - This format cleverly involves the user in the story. It first asks you to explore your own assumptions by drawing a trend line, then it reveals the actual data, creating a powerful "aha!" moment that makes the final explanation more memorable.
 
 Interactivity - involves the user in the discovery paths
+https://www.nytimes.com/interactive/2017/04/14/upshot/drug-overdose-epidemic-you-draw-it.html
 -->
 
+---
+layout: section
 ---
 
 ## Demo & Activities
@@ -204,12 +208,13 @@ Follow along with the notebooks to learn how to implement interactivity.
 
 Choose one of the following paths for your assignment:
 
-1.  **Recreate & Enhance:** Choose one of the example charts we discussed and recreate its core interactive feature.
+1. Choose one of the example charts we discussed and recreate its core interactive feature.
     - [The Massachusetts Opioid Epidemic](https://chapter55.digital.mass.gov/) (Focus on tooltips for details-on-demand)
     - [The ABCs of Success](https://abcs.sites.digital.mass.gov/) (Focus on a dropdown to filter by district)
-2.  **Create & Invent:** Add interactivity to a visualization you've already built, or create a new one from scratch with a dataset that interests you.
 
-<br>
+2. Add interactivity to a visualization you've already built, or create a new one from scratch with a dataset that interests you.
+
+
 **Goal:** The main goal is to practice implementing interactivity. Use the **"Overview first, zoom and filter, then details-on-demand"** mantra to guide your storytelling.
 
-**Deliverable:** Submit a link to your Observable notebook. In a cell at the top, write a short paragraph explaining which interactive features you added and why.
+**Deliverable:** Add this to your notebook collection. In a cell at the top, write a short paragraph explaining which interactive features you added and why.
