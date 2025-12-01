@@ -1,3 +1,4 @@
+
 ---
 layout: intro
 --- 
@@ -18,10 +19,9 @@ layout: intro
 - Map Layers
 - Data Maps
 ### Demo + Activities (1.25 hour)
-- GeoJson
+- Map Data - GeoJson and TopoJson
 - Map Projections
 - Examples
-### Final Project (15 min)
 
 
 <!-- ### Recap and Warm-up (30 min)
@@ -47,6 +47,8 @@ layout: full
     </v-clicks>
 </div>
 
+<!-- This slide introduces the general concept of maps, showing both a digital, interactive map (Google Maps) and a static, stylized world map. This contrast sets the stage for discussing different types of maps and their purposes. -->
+
 --- 
 
 ## Map Layers
@@ -58,7 +60,7 @@ layout: full
     </v-clicks>
 </div>
 
-<!-- Maps has a long history.  -->
+<!-- This slide explains the concept of map layers, a fundamental idea in Geographic Information Systems (GIS). Maps are often composed of multiple transparent layers stacked on top of each other. Each layer represents a different type of information (e.g., roads, buildings, water bodies, data points). This layered approach allows for complex and rich visualizations. -->
 
 ---
 layout: section
@@ -79,6 +81,8 @@ A classic data story. By plotting cholera deaths as dots on a map of London, Sno
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Snow-cholera-map-1.jpg/800px-Snow-cholera-map-1.jpg" style="height: 300px" />
 </div>
 
+<!-- This slide presents a foundational example of data mapping: John Snow's cholera map. It's a powerful illustration of how spatial data can lead to critical insights. By mapping data points (deaths) onto a geographic location, Snow was able to identify a pattern that was not otherwise obvious. -->
+
 ---
 layout: center
 ---
@@ -94,6 +98,8 @@ Edward Tufte called this "the best statistical graphic ever drawn." It's a maste
 - The temperature during the brutal retreat
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png" class="mt-4" />
+
+<!-- This slide showcases another historical milestone in data visualization. Minard's map is a flow map that brilliantly combines different data dimensions (army size, location, direction, temperature) into a single, compelling narrative. It demonstrates the power of maps to tell complex stories. -->
 
 ---
 layout: two-cols
@@ -120,13 +126,15 @@ layout: two-cols
 <img src="https://static01.nyt.com/images/2021/02/14/us/politics/14-republican-map-promo/14-republican-map-promo-superJumbo.jpg" class="mt-4" />
 
 
-<!-- Data maps are usually described as "thematic maps" in cartography, because it displays spatial patterns and variations of a specific theme or topic, rather than just geographical features. It is designed to communicate information about a particular subject within a geographic area. Data maps use various visual elements, such as colors, symbols, and patterns, to represent data and help viewers understand spatial relationships and distributions. -->
+<!-- This slide clarifies the distinction between two primary types of maps. Reference maps focus on geographic accuracy for navigation and location identification. Thematic maps, or data maps, use geography as a canvas to visualize data and reveal spatial patterns and relationships. -->
 
 ---
 layout: section
 ---
 
 ## Common Types of Data Maps
+
+<!-- This section will introduce various types of data maps, each suited for different kinds of data and storytelling purposes. -->
 
 ---
 
@@ -138,6 +146,8 @@ layout: section
 
 <img src="https://static01.nyt.com/newsgraphics/2012/05/31/education/assets/map.png" class="mt-4" />
 
+<!-- This slide introduces the choropleth map. It's crucial to emphasize that choropleths are best for normalized data (like rates or densities) rather than raw counts, to avoid the distortion caused by the varying sizes of geographic areas. -->
+
 ---
 
 ## Use Case 2: Proportional Symbol Maps
@@ -147,6 +157,8 @@ layout: section
 **Example:** This map from The Guardian shows the number of deaths from terrorism. Larger circles mean more deaths, allowing for quick comparison without being misled by the size of the country.
 
 <img src="https://i.guim.co.uk/img/media/a452a3c34592a3f447b5d272d1a6d9165680b345/0_0_1366_1000/master/1366.jpg?width=700&quality=85&auto=format&fit=max&s=217e57c83c2136067b36e9278939b40c" class="mt-4" />
+
+<!-- This slide explains proportional symbol maps, which are an excellent alternative to choropleths for showing absolute values. The size of the symbol is directly proportional to the data, making comparisons more intuitive and less prone to misinterpretation based on region size. -->
 
 ---
 layout: full
@@ -161,11 +173,3 @@ src: ./dataviz-maps.md
 ## Demo
 
 - [Follow along Notebook - Data Maps](https://observablehq.com/@datavizstudio/data-maps)
-
----
-
-## Final Project
-
-- Visualize a dataset of your choice efficiently and expressively. Don't forget add context, labels, legends and interactivity!
-- If you can't find any interesting datasets, you can use one of the [sample data provided by Observable](https://observablehq.com/@observablehq/sample-datasets)
-- For more inspirations: [Plot Gallery](https://observablehq.com/@observablehq/plot-gallery)
