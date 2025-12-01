@@ -15,13 +15,12 @@ Also known as a Point Map, Dot Distribution Map, Dot Density Map.Dot Maps are a 
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/dot_map.svg" style="max-height: 100%" />
+<img src="/images/week6/Snow-cholera-map.jpeg" style="max-height: 100%" />
 
 
 
 <!--
-
-Also known as a Point Map, Dot Distribution Map, Dot Density Map.Dot Maps are a way of detecting spatial patterns or the distribution of data over a geographical region, by placing equally sized points over a geographical region.There are two types of Dot Map: one-to-one (one point represents a single count or object) and one-to-many (one point represents a particular unit, e.g. 1 point = 10 trees).  Dot Maps are ideal for seeing how things are distributed over a geographical region and can reveal patterns when the points cluster on the map.  Dot Maps are easy to grasp and are better at giving an overview of the data, but are not great for retrieving exact values. 
+A dot map variation of John Snow's cholera outbreak map. Each dot represents a case.
 -->
 
 
@@ -45,13 +44,12 @@ Also known as a Link Map or Ray Map.Connection Maps are drawn by connecting poin
 layout: full
 ---
 
-<img src="http://datavizcatalogue.com/methods/images/anatomy/SVG/connection_map.svg" style="max-height: 100%" />
+<img src="https://www.aaronkoblin.com/work/flightpatterns/4_1920.png" style="max-height: 100%" />
 
 
 
 <!--
-
-Also known as a Link Map or Ray Map.Connection Maps are drawn by connecting points placed on a map by straight or curved lines.While Connection Maps are great for showing connections and relationships geographically, they can also be used to display map routes through a single chain of links. Connection Maps can also be useful in revealing spatial patterns through the distribution of connections or by how concentrated connections are on a map. 
+https://www.aaronkoblin.com/work/flightpatterns/
 -->
 
 
@@ -69,6 +67,8 @@ layout: full
 <!--
 
 Flow Maps geographically show the movement of information or objects from one location to another and their amount. Typically Flow Maps are used to show the migration data of people, animals and products. The magnitude or amount of migration in a single flow line is represented by its thickness. This helps to show how migration is distributed geographically.Flow Maps are drawn from a point of origin and branch out of their “flow lines”. Arrows can be used to show direction, or if the movement is incoming or outgoing. Drawing flow lines without arrows can be used to represent trade going back-and-forth. Merging/bundling flow lines together and avoiding crossovers can help to reduce visual clutter on the map.
+
+Sankey Diagrams display flows and their quantities in proportion to one another. Typically, Sankey Diagrams are used to visually represent the transfer of energy, money, materials, or the flow of any isolated system or process.The thickness of the arrows and lines shows their magnitudes or quantities. Flow arrows or lines can combine or split apart at each stage of a process.Colour can be used to divide the diagram into different categories or to show the transition from one state of the process to another.Often, Sankey Diagrams are confused with Parallel Sets and Alluvial Diagrams, but this post clarifies the differences.
 
 -->
 
@@ -130,6 +130,7 @@ layout: full
 - Related Dataviz: Heatmap
 
 <!--
+The choropleth map. It's probably the most common type of data map. A choropleth map uses color to show a value in a specific geographic region, like a state or a county. This example from the New York Times shows the percentage of adults with a college degree in each county. The darker the shade, the higher the percentage. It's great for seeing regional patterns. But there's a big catch: you should always use normalized data, like rates or percentages, not raw numbers. If you used raw population numbers, big states like California and Texas would always be dark, just because they have more people, which isn't a very interesting story.
 
 Choropleth Maps display divided geographical areas or regions that are coloured, shaded or patterned in relation to a data variable. This provides a way to visualise values over a geographical area, which can show variation or patterns across the displayed location.The data variable uses colour progression to represent itself in each region of the map. Typically, this can be a blending from one colour to another, a single hue progression, transparent to opaque, light to dark or an entire colour spectrum.One downside to the use of colour is that you can't accurately read or compare values from the map. Another issue is that larger regions appear more emphasised then smaller ones, so the viewer's perception of the shaded values are affected.A common error when producing Choropleth Maps is to encode raw data values (such as population) rather than using normalized values (calculating population per square kilometre for example) to produce a density map.
 
@@ -180,6 +181,11 @@ Presenting GDP by country would be a good use case for a choropleth because the 
 
 
 <!-- 
+
+a viral X (formerly known as Twitter) post displayed the popularity of each movie in U.S. states. 
+
+Interestingly, the graphic looks very similar to the 2020 electoral map. The map shows Barbie trending more in Republican states, while Oppenheimer was more popular in Democratic states. Even the swing states of Wisconsin, Michigan, and Pennsylvania were evenly divided between the two blockbusters.
+
 - States' preferences for Barbie vs. Oppenheimer broke down along shockingly political lines following the blockbuster opening weekend 
 - While most southern states majorly preferred Barbie, Democratic strongholds leaned heavily toward the nuclear bomb biopic 
 - The results were so close to a real deal electoral college map that, as usual, the ultimate winner came down to key swing states like Mich., Wisc., and Penn. 
@@ -205,16 +211,42 @@ Presenting GDP by country would be a good use case for a choropleth because the 
 
 <!-- 
 
-Pros:
-– Can effectively be used to report area values at virtually any scale, from global to local – and the data can be thought about in many different ways at many different levels of analysis, from general overall patterns to the detection of details.
-– Helpful for finding intriguing hot spots, detecting relationships between the encoded variable and geographic location (and the many variables entangled with location), or letting people know how their area compares with others.
+A cartogram is a type of map where geographic regions are resized based on a data value, rather than their true physical land area. In other words:
+A cartogram distorts geography to make the data—not the land—drive the visual size.
+It is a data-driven map, not a geography-driven one.
 
-Cons:
-– Since the choropleth map uses an average number to represent defined areas, the viewer can not gain detailed information or perspective on any area’s internal conditions. This can be solved by making the map interactive
+Key Problems Each Solves (and Creates)
+Choropleth: Strengths & Weaknesses
+✔ Strengths
+    Shows geographic continuity—good for spatial reasoning.
+    Easy for audiences (familiar).
+    Color gradients show patterns over space extremely well.
+    Works great when data are normalized (rates/percentages).
 
-– Layering data onto a geographical space that we are familiar with, a problem with that is the areas are not uniform: principle - visual importance should be directly proportionate to data values. For example, for population data, ,equating the visual importance of each county with its geographic area rather than with the number of people living in there, giving sparsely populated areas great visual emphasis. This can be solved by using the method of grid-square mapping (dividing the map into equal sized units/squares and then color each one according to the data being encoded). A grid cartogram is a representation barely similar to a map, that distorts the forms and areas, and assigns to every subdivision one and only one unit of a grid. There are other types of cartogram that basically distorts the areas based on the data values. 
+✘ Common Issues
+    Area bias: large regions dominate visually (e.g., Montana, Texas).
+    Population distortion: sparsely populated regions may overshadow dense ones.
+    Sensitive to classification choices (quantile, equal interval, natural breaks).
+    Misleading when used with absolute values (huge no-no).
 
-The Dorling Cartogram is a technique for representing data for areas that eschews geography in preference for (normally) a geometric shape that represents the unit areas.
+Dorling Cartogram: Strengths & Weaknesses
+✔ Strengths
+    Removes geographic area bias.
+    Shows comparative importance very clearly.
+    Circles simplify irregular shapes, reducing visual noise.
+    Perfect for population-weighted storytelling.
+
+✘ Weaknesses
+    Distorts geography: some readers find them unfamiliar.
+    Relative placement is preserved only approximately.
+    Harder to read if spatial adjacency is important.
+    Not ideal for variables tied to environment or real land.
+
+A Dorling cartogram is a type of cartogram that replaces each geographic region (state, county, country) with a circle, and sizes each circle based on a data variable—usually population, votes, or cases.
+
+Key idea:
+Real geography is simplified into circles so that the size of each region reflects the data, not the land area.
+It was introduced by Danny Dorling (1996).
 -->
 
 
