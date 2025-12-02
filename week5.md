@@ -13,26 +13,14 @@ layout: intro
 ## Agenda
 
 ### Recap and Showcase (30 min)
-- Showcase the interactive bubble chart
+- Showcase the [interactive bubble chart](https://observablehq.com/@datavizstudio/colors-labels-and-interactivity25?collection=@datavizstudio/the-art-of-data-visualization/2)
 ### Concepts (45 min)
-- A Brief History of Maps
+- A Brief History of Data Maps
 - Map Layers
 - Data Maps
 ### Demo + Activities (1.25 hour)
 - Map Data - GeoJson and TopoJson
-- Map Projections
-- Examples
-
-
-<!-- ### Recap and Warm-up (30 min)
-- The Visual Information-Seeking Mantra + Examples
-- How to plot a matrix using Observable Plot - [Isotype Matrix Notebook](https://observablehq.com/@datavizstudio/person-isotype-matrix)
-### Demo + Exercises (2h)
-- Quantative and Categorical Colors
-- Tips and Pointers
-- Zoom and Filter
-- User Inputs
-- Exercise: Recreate the [Gapminder visualization](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1) made famous by Hans Rosling.  -->
+- Chorepleth Map Demos
 
 ---
 layout: full
@@ -60,7 +48,7 @@ layout: full
     </v-clicks>
 </div>
 
-<!-- To understand data maps, we first need to understand a key concept: layers. Think of a map not as a single image, but as a stack of transparent sheets. One sheet has the outlines of the countries. Another has the cities. A third has the roads. And on top of that, we can add our data layers. Maybe a layer for population density, or a layer showing the location of every Starbucks. This layered approach is the foundation of modern mapping and GIS, and it's what allows us to create rich, data-driven maps. -->
+<!-- To understand maps, we first need to understand a key concept: layers. Think of a map not as a single image, but as a stack of transparent sheets. One sheet has the outlines of the countries. Another has the cities. A third has the roads. And on top of that, we can add our data layers. Maybe a layer for population density, or a layer showing the location of every Starbucks. This layered approach is the foundation of modern mapping and GIS, and it's what allows us to create rich, data-driven maps. -->
 
 ---
 layout: section
@@ -170,7 +158,11 @@ src: ./dataviz-maps.md
 ---
 
 ---
+layout: intro
+---
 
 ## Demo
 
-- [Follow along Notebook - Data Maps](https://observablehq.com/@datavizstudio/data-maps)
+Follow-along notebooks:
+- [Map Vector Layer](https://observablehq.com/@datavizstudio/map-data-vector-layer-25)
+- [Data Maps](https://observablehq.com/@datavizstudio/map-data-vector-layer-25)
