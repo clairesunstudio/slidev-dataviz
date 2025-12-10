@@ -4,7 +4,7 @@ layout: intro
 ---
 
 # Week 6
-## Data Sonification: Hearing the Story
+## Data Sonification: Hearing Data
 12/08/2025
 
 <Credit />
@@ -30,7 +30,7 @@ layout: intro
 <!-- 
 Welcome, everyone, to our final topic of the course: Data Sonification.
 
-So far, we've spent all our time exploring how to represent data visually. We've familiarized ourselves with data dimensions and graphical dimensions, and the mapping between those. It's powerful to see data visually, it helps us identify outliers, trend, distribution at a glance —  patterns that are very difficult to uncover in a spreadsheet,  But what if I told you that you could also *listen* to data?
+So far, we've spent all our time exploring how to represent data visually. We've familiarized ourselves with data dimensions and graphical dimensions, and the mapping between those. It's powerful to see data visually, it helps us identify outliers, trend, distribution at a glance —  patterns that are very difficult to uncover in a spreadsheet.
 
 Today, we're diving into the world of sonification, which is all about mapping data to sound. It's a powerful technique/a different sensory modality for experiencing data that can reveal patterns you'd never see and tell stories in a completely different way. Compared to data visualization, a practice data sonifcation is still kinda niche, and experimental, butit's emerging - Its growth is noticeable across scientific research, education, accessibility contexts. We'll explore why it's useful, what it is, and listen to some cool examples from fields like astronomy and public health, and get our hands dirty.
 -->
@@ -148,14 +148,13 @@ Science is for everyone. It has to be available to everyone, because we are all 
 
 
 ---
-layout: two-cols
+layout: center
 ---
 
 # Auditory "Visual" Variables
 
 Just as we have visual variables, we have auditory ones. We can map data dimensions to these properties of sound.
 
-::right::
 
 | Auditory Property | Description | Example Mapping |
 |---|---|---|
@@ -164,6 +163,9 @@ Just as we have visual variables, we have auditory ones. We can map data dimensi
 | **Tempo** | The speed or rate of sounds. | Higher website traffic = faster tempo |
 | **Timbre** | The quality or "color" of a sound. | Different instruments for categories |
 | **Panning** | The position of a sound in stereo space. | Data from East = right speaker |
+
+
+[Observable Notebook Demo --> Introducing Tone.js](https://observablehq.com/d/82abaf25db447f7f?collection=@datavizstudio/the-art-of-data-visualization/2)
 
 <!--
 To make a sonification, we need a palette of auditory properties, just like we have a palette of visual properties for charts. These are the knobs we can turn to make our data audible.
@@ -185,51 +187,7 @@ By combining these, we can create rich, multi-layered data stories.
 
 
 ---
-layout: default
----
-
-# The Sound of a Pandemic
-
-Data journalists have also used sonification to tell powerful human stories.
-
-**Sonification of UK COVID-19 Deaths:**
-- **Data:** Daily death statistics in the UK.
-- **Mapping:**
-    - One day of data is compressed into 30 seconds of audio.
-    - Each individual death is represented by a single, soft piano note.
-    - The pitch of the notes varies to create a soundscape rather than a cacophony.
-
-The result is a haunting and deeply humanizing representation of the scale of the tragedy.
-
-
-<!--
-Sonification isn't just for science; it can be a powerful tool for data storytelling, especially when you want to evoke an emotional response.
-
-During the COVID-19 pandemic, we were all inundated with charts and numbers. It was easy to become numb to what those numbers actually represented: human lives.
-
-The data sonification podcast "Loud Numbers" created this piece to re-humanize the statistics. They took the daily death tolls from the UK and turned them into sound.
-
-The mapping is simple but incredibly effective. Each single death is one piano note. As the days go by in the audio, you hear the number of notes swell from a sparse scattering to a dense, overwhelming cascade of sound during the peaks of the waves.
-
-Listening to this is a very different experience from looking at a line chart. The sheer volume of notes makes the scale of the loss tangible and personal. It's a somber, haunting piece that demonstrates the unique emotional power of sonification. It forces you to confront the reality behind the data points.
--->
-
----
-layout: iframe
-url: https://player.vimeo.com/video/571217327?h=21098203b9
----
-
-
----
 layout: section
----
-
-# Beyond Raw Sound: Musical Mapping
-
-Moving from simple beeps and tones to sophisticated musical representations
-
----
-layout: two-cols
 ---
 
 # Musical Scale Mapping
@@ -244,22 +202,13 @@ layout: two-cols
 - Trading volume → Note duration  
 - Volatility → Chord complexity (single note vs. full chord)
 
-::right::
-
-```javascript
-// Pseudocode for musical mapping
-const cMajorScale = ['C4', 'D4', 'E4', 'F4', 'G4', 'A4', 'B4', 'C5'];
-
-stockData.forEach(day => {
-  const priceIndex = mapToRange(day.price, minPrice, maxPrice, 0, 7);
-  const note = cMajorScale[Math.floor(priceIndex)];
-  const duration = mapToRange(day.volume, minVol, maxVol, 0.1, 2.0);
-  
-  playNote(note, duration);
-});
-```
 
 <!--
+
+Beyond Raw Sound: Musical Mapping
+
+Moving from simple beeps and tones to sophisticated musical representations
+
 This is where sonification gets really interesting. Instead of just mapping data to raw sound properties like pitch and volume, we can map it to musical structures that our brains are already wired to understand.
 
 Piano key mapping is particularly powerful because it gives us discrete, recognizable notes rather than sliding tones. When you map your data to the keys of a piano, you're essentially creating a melody from your dataset.
@@ -329,9 +278,43 @@ This creates an intuitive emotional response to complex, multi-dimensional data.
 layout: section
 ---
 
-# Amazing Examples from the Real World
+# Amazing Real World Examples
 
 Let's hear some incredible sonifications in action
+
+
+---
+layout: center
+---
+
+# What does DNS sound like?
+
+**DNA Sonification:**
+- Map genetic sequences to musical notes
+- A, T, G, C nucleotides → Different pitches or instruments
+- Gene expression levels → Volume/tempo
+- Mutations → Dissonant notes or rhythm changes
+
+[An auditory display tool for DNA sequence analysis](https://link.springer.com/article/10.1186/s12859-017-1632-x) 
+— Mark D. Temple, School of Science and Health, Western Sydney University
+
+
+<!--
+Biology generates some of the most beautiful and meaningful sonifications because living systems are inherently rhythmic and musical.
+
+DNA sonification assigns different musical notes to the four bases - A, T, G, and C. When you play a gene as music, healthy genes often create harmonious melodies, while disease-causing mutations introduce jarring, discordant notes that interrupt the natural flow.
+
+Protein folding creates even more complex music. As proteins fold into their functional shapes, the process can be mapped to musical development - starting simple and building complexity. Properly folded proteins sound harmonious, while misfolded proteins associated with diseases like Alzheimer's create tense, unresolved musical structures.
+
+Perhaps most surprising is that healthy heartbeats, when sonified, create beautiful, fractal-like musical patterns. Diseased hearts lose this musicality and sound chaotic and irregular.
+
+Let's listen to some soundbites
+-->
+
+---
+layout: iframe
+url: https://www.youtube-nocookie.com/embed/yPwpBbscqcY?si=Sz9Xdsy1dFU6mqUc
+---
 
 ---
 layout: center
@@ -366,38 +349,7 @@ layout: iframe
 url: https://www.youtube-nocookie.com/embed/QyDcTbR-kEA?si=5zRHrvwYUPTVuQMx
 ---
 
----
-layout: center
----
 
-# What does DNS sound like?
-
-**DNA Sonification:**
-- Map genetic sequences to musical notes
-- A, T, G, C nucleotides → Different pitches or instruments
-- Gene expression levels → Volume/tempo
-- Mutations → Dissonant notes or rhythm changes
-
-[An auditory display tool for DNA sequence analysis](https://link.springer.com/article/10.1186/s12859-017-1632-x) 
-— Mark D. Temple, School of Science and Health, Western Sydney University
-
-
-<!--
-Biology generates some of the most beautiful and meaningful sonifications because living systems are inherently rhythmic and musical.
-
-DNA sonification assigns different musical notes to the four bases - A, T, G, and C. When you play a gene as music, healthy genes often create harmonious melodies, while disease-causing mutations introduce jarring, discordant notes that interrupt the natural flow.
-
-Protein folding creates even more complex music. As proteins fold into their functional shapes, the process can be mapped to musical development - starting simple and building complexity. Properly folded proteins sound harmonious, while misfolded proteins associated with diseases like Alzheimer's create tense, unresolved musical structures.
-
-Perhaps most surprising is that healthy heartbeats, when sonified, create beautiful, fractal-like musical patterns. Diseased hearts lose this musicality and sound chaotic and irregular.
-
-Let's listen to some soundbites
--->
-
----
-layout: iframe
-url: https://www.youtube-nocookie.com/embed/yPwpBbscqcY?si=Sz9Xdsy1dFU6mqUc
----
 
 ---
 layout: two-cols
@@ -448,6 +400,39 @@ The position of the sound in your headphones corresponds to its position in the 
 
 When you listen to it, you can hear the dense, bright core of the galaxy as a crescendo of all three instruments. It's a beautiful and surprisingly effective way to experience the cosmos.
 -->
+
+---
+layout: center
+---
+
+# The Sound of a Pandemic
+
+Data journalists have also used sonification to tell powerful human stories.
+
+**Sonification of UK COVID-19 Deaths:**
+- **Data:** Daily death statistics in the UK.
+- **Mapping:**
+    - One day of data is compressed into 30 seconds of audio.
+    - Each individual death is represented by a single, soft piano note.
+    - The pitch of the notes varies to create a soundscape rather than a cacophony.
+
+
+<!--
+Sonification isn't just for science; it can be a powerful tool for data storytelling, especially when you want to evoke an emotional response.
+
+During the COVID-19 pandemic, we were all inundated with charts and numbers. It was easy to become numb to what those numbers actually represented: human lives.
+
+The data sonification podcast "Loud Numbers" created this piece to re-humanize the statistics. They took the daily death tolls from the UK and turned them into sound.
+
+The mapping is simple but incredibly effective. Each single death is one piano note. As the days go by in the audio, you hear the number of notes swell from a sparse scattering to a dense, overwhelming cascade of sound during the peaks of the waves.
+
+Listening to this is a very different experience from looking at a line chart. The sheer volume of notes makes the scale of the loss tangible and personal. It's a somber, haunting piece that demonstrates the unique emotional power of sonification. It forces you to confront the reality behind the data points.
+-->
+
+---
+layout: iframe
+url: https://player.vimeo.com/video/571217327?h=21098203b9
+---
 
 
 ---
